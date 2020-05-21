@@ -1,2 +1,4 @@
-# cr-prohject
-Reconfigurable Computing Final Project
+# CR Project
+## Reconfigurable Computing Final Project
+
+Square Root vectorial operation hardware implementation.
