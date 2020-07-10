@@ -22,13 +22,25 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+use STD.textio.all;
+use IEEE.std_logic_textio.all;
+
+library UNISIM;
+use UNISIM.VComponents.all;
+
 entity SquareRootBasicBlockTb is
     generic (
-		WORD_SIZE	: integer	:= 16
-	);
+        WORD_SIZE   : integer   := 16
+    );
 end SquareRootBasicBlockTb;
 
-architecture Behavioral of SquareRootBasicBlockTb is
+architecture Stimulus of SquareRootBasicBlockTb is
 signal  s_di, s_ri, s_qi, s_do, s_ro, s_qo : std_logic_vector(WORD_SIZE - 1 downto 0);
 
 component SquareRootBasicBlock is
@@ -43,7 +55,7 @@ component SquareRootBasicBlock is
         ro : out std_logic_vector(WORD_SIZE-1 downto 0);
         qo : out std_logic_vector(WORD_SIZE-1 downto 0)
     );
-	end component;
+    end component;
 
 begin
 
@@ -62,17 +74,46 @@ SquareRootBasic : SquareRootBasicBlock
 
 process
 begin
-        -- Initial values 0 4 8 10 100 128 127   
-        -- 00000000  
-        
-        
-        s_di <= x"00000000";
-        s_ri <= x"00000000";
-        s_qi <= x"00000000"; 
+        s_di <= x"4000";
+        s_ri <= x"0000";
+        s_qi <= x"0000"; 
         wait for 10 ns;
-        assert (s_sqrt = std_logic_vector(to_unsigned(0, 32))) report "Error on SQRT Value for word 00000000" severity error;
-        assert (s_sqrt = std_logic_vector(to_unsigned(0, 32))) report "Error on Remainer Value for word 00000000" severity error;
+        assert (s_do = x"0000") report "Error on SQRT Value for word 4000" severity error;
+        assert (s_ro = x"0000") report "Error on SQRT Value for word 4000" severity error;
+        assert (s_qo = x"0001") report "Error on SQRT Value for word 4000" severity error;
+
+        s_di <= x"8000";
+        s_ri <= x"0001";
+        s_qi <= x"0001"; 
+        wait for 10 ns;
+        assert (s_do = x"0000") report "Error on SQRT Value for word 8000" severity error;
+        assert (s_ro = x"0001") report "Error on SQRT Value for word 8000" severity error;
+        assert (s_qo = x"0003") report "Error on SQRT Value for word 8000" severity error;
         
+        s_di <= x"FC00";
+        s_ri <= x"0000";
+        s_qi <= x"0001"; 
+        wait for 10 ns;
+        assert (s_do = x"F000") report "Error on SQRT Value for word FC00" severity error;
+        assert (s_ro = x"0003") report "Error on SQRT Value for word FC00" severity error;
+        assert (s_qo = x"0002") report "Error on SQRT Value for word FC00" severity error;
+        
+        s_di <= x"0000";
+        s_ri <= x"0004";
+        s_qi <= x"0002"; 
+        wait for 10 ns;
+        assert (s_do = x"0000") report "Error on SQRT Value for word 0000" severity error;
+        assert (s_ro = x"0007") report "Error on SQRT Value for word 0000" severity error;
+        assert (s_qo = x"0005") report "Error on SQRT Value for word 0000" severity error;
+        
+        s_di <= x"0124";
+        s_ri <= x"0000";
+        s_qi <= x"0000"; 
+        wait for 10 ns;
+        assert (s_do = x"0490") report "Error on SQRT Value for word 0000" severity error;
+        assert (s_ro = x"0000") report "Error on SQRT Value for word 0000" severity error;
+        assert (s_qo = x"0000") report "Error on SQRT Value for word 0000" severity error;
+                
         wait;
     end process;
 
