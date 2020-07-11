@@ -2,10 +2,10 @@
 <Root MajorVersion="0" MinorVersion="39">
   <CompositeFile CompositeFileTopName="mb_design" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1593791517"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1593791517"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1593791517"/>
-    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1593791517"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1594506400"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1594506400"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1594506400"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1594506400"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip\mb_design_xbar_0\mb_design_xbar_0.xci" Type="IP">
         <Instance HierarchyPath="microblaze_0_axi_periph/xbar"/>
@@ -176,7 +176,7 @@
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip\mb_design_axi_dma_0_0\mb_design_axi_dma_0_0.xci" Type="IP">
-        <Instance HierarchyPath="axi_dma_0"/>
+        <Instance HierarchyPath="axi_dma_input_remainer_values"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="1590655464" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>
@@ -191,14 +191,12 @@
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="synth\mb_design.vhd" Type="VHDL">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+      <File Name="ip\mb_design_axi_dma_1_0\mb_design_axi_dma_1_0.xci" Type="IP">
+        <Instance HierarchyPath="axi_dma_sqrt_value"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>
-      </File>
-      <File Name="sim\mb_design.vhd" Type="VHDL">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
-        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip\mb_design_SquareRootCop_0_0\mb_design_SquareRootCop_0_0.xci" Type="IP">
@@ -287,6 +285,16 @@
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="synth\mb_design.vhd" Type="VHDL">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="sim\mb_design.vhd" Type="VHDL">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="mb_design.bmm" Type="BMM">

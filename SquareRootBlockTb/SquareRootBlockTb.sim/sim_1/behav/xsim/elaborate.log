@@ -4,20 +4,4 @@ Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto be929b24a1
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling package std.standard
-Compiling package std.textio
-Compiling package ieee.std_logic_1164
-Compiling package ieee.std_logic_arith
-Compiling package ieee.std_logic_unsigned
-Compiling package ieee.std_logic_textio
-Compiling package ieee.numeric_std
-Compiling package unisim.vcomponents
-Compiling architecture structural of entity xil_defaultlib.comparatorLessThan [\comparatorLessThan(word_size=16...]
-Compiling architecture behavioral of entity xil_defaultlib.mux2NtoN [\mux2NtoN(word_size=16)\]
-Compiling architecture structural of entity xil_defaultlib.SquareRootBasicBlock [\SquareRootBasicBlock(word_size=...]
-Compiling architecture structural of entity xil_defaultlib.SquareRoot [\SquareRoot(data_width=16)\]
-Compiling architecture stimulus of entity xil_defaultlib.squareroottb
-Built simulation snapshot SquareRootTb_behav
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

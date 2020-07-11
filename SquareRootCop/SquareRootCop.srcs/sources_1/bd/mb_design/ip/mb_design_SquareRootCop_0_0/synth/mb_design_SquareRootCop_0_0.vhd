@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:user:SquareRootCop:1.0
--- IP Revision: 1
+-- IP Revision: 2
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
@@ -55,41 +55,27 @@ USE ieee.numeric_std.ALL;
 
 ENTITY mb_design_SquareRootCop_0_0 IS
   PORT (
+    s00_axis_aclk : IN STD_LOGIC;
+    s00_axis_aresetn : IN STD_LOGIC;
+    s00_axis_tready : OUT STD_LOGIC;
     s00_axis_tdata : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
     s00_axis_tstrb : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
     s00_axis_tlast : IN STD_LOGIC;
     s00_axis_tvalid : IN STD_LOGIC;
-    s00_axis_tready : OUT STD_LOGIC;
-    s00_axis_aclk : IN STD_LOGIC;
-    s00_axis_aresetn : IN STD_LOGIC;
+    m00_axis_aclk : IN STD_LOGIC;
+    m00_axis_aresetn : IN STD_LOGIC;
+    m00_axis_tvalid : OUT STD_LOGIC;
     m00_axis_tdata : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
     m00_axis_tstrb : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
     m00_axis_tlast : OUT STD_LOGIC;
-    m00_axis_tvalid : OUT STD_LOGIC;
     m00_axis_tready : IN STD_LOGIC;
-    m00_axis_aclk : IN STD_LOGIC;
-    m00_axis_aresetn : IN STD_LOGIC;
-    s00_axi_awaddr : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-    s00_axi_awprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
-    s00_axi_awvalid : IN STD_LOGIC;
-    s00_axi_awready : OUT STD_LOGIC;
-    s00_axi_wdata : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
-    s00_axi_wstrb : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-    s00_axi_wvalid : IN STD_LOGIC;
-    s00_axi_wready : OUT STD_LOGIC;
-    s00_axi_bresp : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
-    s00_axi_bvalid : OUT STD_LOGIC;
-    s00_axi_bready : IN STD_LOGIC;
-    s00_axi_araddr : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-    s00_axi_arprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
-    s00_axi_arvalid : IN STD_LOGIC;
-    s00_axi_arready : OUT STD_LOGIC;
-    s00_axi_rdata : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
-    s00_axi_rresp : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
-    s00_axi_rvalid : OUT STD_LOGIC;
-    s00_axi_rready : IN STD_LOGIC;
-    s00_axi_aclk : IN STD_LOGIC;
-    s00_axi_aresetn : IN STD_LOGIC
+    m01_axis_aclk : IN STD_LOGIC;
+    m01_axis_aresetn : IN STD_LOGIC;
+    m01_axis_tvalid : OUT STD_LOGIC;
+    m01_axis_tdata : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+    m01_axis_tstrb : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+    m01_axis_tlast : OUT STD_LOGIC;
+    m01_axis_tready : IN STD_LOGIC
   );
 END mb_design_SquareRootCop_0_0;
 
@@ -98,48 +84,34 @@ ARCHITECTURE mb_design_SquareRootCop_0_0_arch OF mb_design_SquareRootCop_0_0 IS
   ATTRIBUTE DowngradeIPIdentifiedWarnings OF mb_design_SquareRootCop_0_0_arch: ARCHITECTURE IS "yes";
   COMPONENT SquareRootCop_v1_0 IS
     GENERIC (
-      C_S00_AXIS_TDATA_WIDTH : INTEGER; -- AXI4Stream sink: Data Width
       C_M00_AXIS_TDATA_WIDTH : INTEGER; -- Width of S_AXIS address bus. The slave accepts the read and write addresses of width C_M_AXIS_TDATA_WIDTH.
       C_M00_AXIS_START_COUNT : INTEGER; -- Start count is the number of clock cycles the master will wait before initiating/issuing any transaction.
-      C_S00_AXI_DATA_WIDTH : INTEGER; -- Width of S_AXI data bus
-      C_S00_AXI_ADDR_WIDTH : INTEGER -- Width of S_AXI address bus
+      C_M01_AXIS_TDATA_WIDTH : INTEGER; -- Width of S_AXIS address bus. The slave accepts the read and write addresses of width C_M_AXIS_TDATA_WIDTH.
+      C_M01_AXIS_START_COUNT : INTEGER; -- Start count is the number of clock cycles the master will wait before initiating/issuing any transaction.
+      C_S00_AXIS_TDATA_WIDTH : INTEGER -- AXI4Stream sink: Data Width
     );
     PORT (
+      s00_axis_aclk : IN STD_LOGIC;
+      s00_axis_aresetn : IN STD_LOGIC;
+      s00_axis_tready : OUT STD_LOGIC;
       s00_axis_tdata : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
       s00_axis_tstrb : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
       s00_axis_tlast : IN STD_LOGIC;
       s00_axis_tvalid : IN STD_LOGIC;
-      s00_axis_tready : OUT STD_LOGIC;
-      s00_axis_aclk : IN STD_LOGIC;
-      s00_axis_aresetn : IN STD_LOGIC;
+      m00_axis_aclk : IN STD_LOGIC;
+      m00_axis_aresetn : IN STD_LOGIC;
+      m00_axis_tvalid : OUT STD_LOGIC;
       m00_axis_tdata : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
       m00_axis_tstrb : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
       m00_axis_tlast : OUT STD_LOGIC;
-      m00_axis_tvalid : OUT STD_LOGIC;
       m00_axis_tready : IN STD_LOGIC;
-      m00_axis_aclk : IN STD_LOGIC;
-      m00_axis_aresetn : IN STD_LOGIC;
-      s00_axi_awaddr : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-      s00_axi_awprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
-      s00_axi_awvalid : IN STD_LOGIC;
-      s00_axi_awready : OUT STD_LOGIC;
-      s00_axi_wdata : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
-      s00_axi_wstrb : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-      s00_axi_wvalid : IN STD_LOGIC;
-      s00_axi_wready : OUT STD_LOGIC;
-      s00_axi_bresp : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
-      s00_axi_bvalid : OUT STD_LOGIC;
-      s00_axi_bready : IN STD_LOGIC;
-      s00_axi_araddr : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-      s00_axi_arprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
-      s00_axi_arvalid : IN STD_LOGIC;
-      s00_axi_arready : OUT STD_LOGIC;
-      s00_axi_rdata : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
-      s00_axi_rresp : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
-      s00_axi_rvalid : OUT STD_LOGIC;
-      s00_axi_rready : IN STD_LOGIC;
-      s00_axi_aclk : IN STD_LOGIC;
-      s00_axi_aresetn : IN STD_LOGIC
+      m01_axis_aclk : IN STD_LOGIC;
+      m01_axis_aresetn : IN STD_LOGIC;
+      m01_axis_tvalid : OUT STD_LOGIC;
+      m01_axis_tdata : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+      m01_axis_tstrb : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+      m01_axis_tlast : OUT STD_LOGIC;
+      m01_axis_tready : IN STD_LOGIC
     );
   END COMPONENT SquareRootCop_v1_0;
   ATTRIBUTE X_CORE_INFO : STRING;
@@ -147,98 +119,69 @@ ARCHITECTURE mb_design_SquareRootCop_0_0_arch OF mb_design_SquareRootCop_0_0 IS
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF mb_design_SquareRootCop_0_0_arch : ARCHITECTURE IS "mb_design_SquareRootCop_0_0,SquareRootCop_v1_0,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF mb_design_SquareRootCop_0_0_arch: ARCHITECTURE IS "mb_design_SquareRootCop_0_0,SquareRootCop_v1_0,{x_ipProduct=Vivado 2019.2,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=SquareRootCop,x_ipVersion=1.0,x_ipCoreRevision=1,x_ipLanguage=VHDL,x_ipSimLanguage=VHDL,C_S00_AXIS_TDATA_WIDTH=32,C_M00_AXIS_TDATA_WIDTH=32,C_M00_AXIS_START_COUNT=32,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=4}";
+  ATTRIBUTE CORE_GENERATION_INFO OF mb_design_SquareRootCop_0_0_arch: ARCHITECTURE IS "mb_design_SquareRootCop_0_0,SquareRootCop_v1_0,{x_ipProduct=Vivado 2019.2,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=SquareRootCop,x_ipVersion=1.0,x_ipCoreRevision=2,x_ipLanguage=VHDL,x_ipSimLanguage=VHDL,C_M00_AXIS_TDATA_WIDTH=32,C_M00_AXIS_START_COUNT=32,C_M01_AXIS_TDATA_WIDTH=32,C_M01_AXIS_START_COUNT=32,C_S00_AXIS_TDATA_WIDTH=32}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_PARAMETER : STRING;
-  ATTRIBUTE X_INTERFACE_PARAMETER OF s00_axi_aresetn: SIGNAL IS "XIL_INTERFACENAME S00_AXI_RST, POLARITY ACTIVE_LOW, INSERT_VIP 0";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 S00_AXI_RST RST";
-  ATTRIBUTE X_INTERFACE_PARAMETER OF s00_axi_aclk: SIGNAL IS "XIL_INTERFACENAME S00_AXI_CLK, ASSOCIATED_BUSIF S00_AXI, ASSOCIATED_RESET s00_axi_aresetn, FREQ_HZ 100000000, PHASE 0.0, CLK_DOMAIN /clk_wiz_1_clk_out1, INSERT_VIP 0";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 S00_AXI_CLK CLK";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_rready: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI RREADY";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_rvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI RVALID";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_rresp: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI RRESP";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_rdata: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI RDATA";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_arready: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI ARREADY";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_arvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI ARVALID";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_arprot: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI ARPROT";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_araddr: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI ARADDR";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_bready: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI BREADY";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_bvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI BVALID";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_bresp: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI BRESP";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_wready: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI WREADY";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_wvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI WVALID";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_wstrb: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI WSTRB";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_wdata: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI WDATA";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_awready: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI AWREADY";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_awvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI AWVALID";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_awprot: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI AWPROT";
-  ATTRIBUTE X_INTERFACE_PARAMETER OF s00_axi_awaddr: SIGNAL IS "XIL_INTERFACENAME S00_AXI, WIZ_DATA_WIDTH 32, WIZ_NUM_REG 4, SUPPORTS_NARROW_BURST 0, DATA_WIDTH 32, PROTOCOL AXI4LITE, FREQ_HZ 100000000, ID_WIDTH 0, ADDR_WIDTH 4, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 1, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, NUM_READ_OUTSTANDING 2, NUM_WRITE_OUTSTANDING 2, MAX_BURST_LENGTH 1, PHASE 0.0, CLK_DOMAIN /clk_wiz_1_clk_out1, NUM_" & 
-"READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axi_awaddr: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI AWADDR";
+  ATTRIBUTE X_INTERFACE_INFO OF m01_axis_tready: SIGNAL IS "xilinx.com:interface:axis:1.0 M01_AXIS TREADY";
+  ATTRIBUTE X_INTERFACE_INFO OF m01_axis_tlast: SIGNAL IS "xilinx.com:interface:axis:1.0 M01_AXIS TLAST";
+  ATTRIBUTE X_INTERFACE_INFO OF m01_axis_tstrb: SIGNAL IS "xilinx.com:interface:axis:1.0 M01_AXIS TSTRB";
+  ATTRIBUTE X_INTERFACE_INFO OF m01_axis_tdata: SIGNAL IS "xilinx.com:interface:axis:1.0 M01_AXIS TDATA";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF m01_axis_tvalid: SIGNAL IS "XIL_INTERFACENAME M01_AXIS, WIZ_DATA_WIDTH 32, TDATA_NUM_BYTES 4, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 1, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 100000000, PHASE 0.0, CLK_DOMAIN /clk_wiz_1_clk_out1, LAYERED_METADATA undef, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_INFO OF m01_axis_tvalid: SIGNAL IS "xilinx.com:interface:axis:1.0 M01_AXIS TVALID";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF m01_axis_aresetn: SIGNAL IS "XIL_INTERFACENAME M01_AXIS_RST, POLARITY ACTIVE_LOW, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_INFO OF m01_axis_aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 M01_AXIS_RST RST";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF m01_axis_aclk: SIGNAL IS "XIL_INTERFACENAME M01_AXIS_CLK, ASSOCIATED_BUSIF M01_AXIS, ASSOCIATED_RESET m01_axis_aresetn, FREQ_HZ 100000000, PHASE 0.0, CLK_DOMAIN /clk_wiz_1_clk_out1, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_INFO OF m01_axis_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 M01_AXIS_CLK CLK";
+  ATTRIBUTE X_INTERFACE_INFO OF m00_axis_tready: SIGNAL IS "xilinx.com:interface:axis:1.0 M00_AXIS TREADY";
+  ATTRIBUTE X_INTERFACE_INFO OF m00_axis_tlast: SIGNAL IS "xilinx.com:interface:axis:1.0 M00_AXIS TLAST";
+  ATTRIBUTE X_INTERFACE_INFO OF m00_axis_tstrb: SIGNAL IS "xilinx.com:interface:axis:1.0 M00_AXIS TSTRB";
+  ATTRIBUTE X_INTERFACE_INFO OF m00_axis_tdata: SIGNAL IS "xilinx.com:interface:axis:1.0 M00_AXIS TDATA";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF m00_axis_tvalid: SIGNAL IS "XIL_INTERFACENAME M00_AXIS, WIZ_DATA_WIDTH 32, TDATA_NUM_BYTES 4, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 1, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 100000000, PHASE 0.0, CLK_DOMAIN /clk_wiz_1_clk_out1, LAYERED_METADATA undef, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_INFO OF m00_axis_tvalid: SIGNAL IS "xilinx.com:interface:axis:1.0 M00_AXIS TVALID";
   ATTRIBUTE X_INTERFACE_PARAMETER OF m00_axis_aresetn: SIGNAL IS "XIL_INTERFACENAME M00_AXIS_RST, POLARITY ACTIVE_LOW, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF m00_axis_aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 M00_AXIS_RST RST";
   ATTRIBUTE X_INTERFACE_PARAMETER OF m00_axis_aclk: SIGNAL IS "XIL_INTERFACENAME M00_AXIS_CLK, ASSOCIATED_BUSIF M00_AXIS, ASSOCIATED_RESET m00_axis_aresetn, FREQ_HZ 100000000, PHASE 0.0, CLK_DOMAIN /clk_wiz_1_clk_out1, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF m00_axis_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 M00_AXIS_CLK CLK";
-  ATTRIBUTE X_INTERFACE_INFO OF m00_axis_tready: SIGNAL IS "xilinx.com:interface:axis:1.0 M00_AXIS TREADY";
-  ATTRIBUTE X_INTERFACE_INFO OF m00_axis_tvalid: SIGNAL IS "xilinx.com:interface:axis:1.0 M00_AXIS TVALID";
-  ATTRIBUTE X_INTERFACE_INFO OF m00_axis_tlast: SIGNAL IS "xilinx.com:interface:axis:1.0 M00_AXIS TLAST";
-  ATTRIBUTE X_INTERFACE_INFO OF m00_axis_tstrb: SIGNAL IS "xilinx.com:interface:axis:1.0 M00_AXIS TSTRB";
-  ATTRIBUTE X_INTERFACE_PARAMETER OF m00_axis_tdata: SIGNAL IS "XIL_INTERFACENAME M00_AXIS, WIZ_DATA_WIDTH 32, TDATA_NUM_BYTES 4, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 1, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 100000000, PHASE 0.0, CLK_DOMAIN /clk_wiz_1_clk_out1, LAYERED_METADATA undef, INSERT_VIP 0";
-  ATTRIBUTE X_INTERFACE_INFO OF m00_axis_tdata: SIGNAL IS "xilinx.com:interface:axis:1.0 M00_AXIS TDATA";
+  ATTRIBUTE X_INTERFACE_INFO OF s00_axis_tvalid: SIGNAL IS "xilinx.com:interface:axis:1.0 S00_AXIS TVALID";
+  ATTRIBUTE X_INTERFACE_INFO OF s00_axis_tlast: SIGNAL IS "xilinx.com:interface:axis:1.0 S00_AXIS TLAST";
+  ATTRIBUTE X_INTERFACE_INFO OF s00_axis_tstrb: SIGNAL IS "xilinx.com:interface:axis:1.0 S00_AXIS TSTRB";
+  ATTRIBUTE X_INTERFACE_INFO OF s00_axis_tdata: SIGNAL IS "xilinx.com:interface:axis:1.0 S00_AXIS TDATA";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF s00_axis_tready: SIGNAL IS "XIL_INTERFACENAME S00_AXIS, WIZ_DATA_WIDTH 32, TDATA_NUM_BYTES 4, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 1, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 100000000, PHASE 0.0, CLK_DOMAIN /clk_wiz_1_clk_out1, LAYERED_METADATA undef, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_INFO OF s00_axis_tready: SIGNAL IS "xilinx.com:interface:axis:1.0 S00_AXIS TREADY";
   ATTRIBUTE X_INTERFACE_PARAMETER OF s00_axis_aresetn: SIGNAL IS "XIL_INTERFACENAME S00_AXIS_RST, POLARITY ACTIVE_LOW, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF s00_axis_aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 S00_AXIS_RST RST";
   ATTRIBUTE X_INTERFACE_PARAMETER OF s00_axis_aclk: SIGNAL IS "XIL_INTERFACENAME S00_AXIS_CLK, ASSOCIATED_BUSIF S00_AXIS, ASSOCIATED_RESET s00_axis_aresetn, FREQ_HZ 100000000, PHASE 0.0, CLK_DOMAIN /clk_wiz_1_clk_out1, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF s00_axis_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 S00_AXIS_CLK CLK";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axis_tready: SIGNAL IS "xilinx.com:interface:axis:1.0 S00_AXIS TREADY";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axis_tvalid: SIGNAL IS "xilinx.com:interface:axis:1.0 S00_AXIS TVALID";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axis_tlast: SIGNAL IS "xilinx.com:interface:axis:1.0 S00_AXIS TLAST";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axis_tstrb: SIGNAL IS "xilinx.com:interface:axis:1.0 S00_AXIS TSTRB";
-  ATTRIBUTE X_INTERFACE_PARAMETER OF s00_axis_tdata: SIGNAL IS "XIL_INTERFACENAME S00_AXIS, WIZ_DATA_WIDTH 32, TDATA_NUM_BYTES 4, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 1, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 100000000, PHASE 0.0, CLK_DOMAIN /clk_wiz_1_clk_out1, LAYERED_METADATA undef, INSERT_VIP 0";
-  ATTRIBUTE X_INTERFACE_INFO OF s00_axis_tdata: SIGNAL IS "xilinx.com:interface:axis:1.0 S00_AXIS TDATA";
 BEGIN
   U0 : SquareRootCop_v1_0
     GENERIC MAP (
-      C_S00_AXIS_TDATA_WIDTH => 32,
       C_M00_AXIS_TDATA_WIDTH => 32,
       C_M00_AXIS_START_COUNT => 32,
-      C_S00_AXI_DATA_WIDTH => 32,
-      C_S00_AXI_ADDR_WIDTH => 4
+      C_M01_AXIS_TDATA_WIDTH => 32,
+      C_M01_AXIS_START_COUNT => 32,
+      C_S00_AXIS_TDATA_WIDTH => 32
     )
     PORT MAP (
+      s00_axis_aclk => s00_axis_aclk,
+      s00_axis_aresetn => s00_axis_aresetn,
+      s00_axis_tready => s00_axis_tready,
       s00_axis_tdata => s00_axis_tdata,
       s00_axis_tstrb => s00_axis_tstrb,
       s00_axis_tlast => s00_axis_tlast,
       s00_axis_tvalid => s00_axis_tvalid,
-      s00_axis_tready => s00_axis_tready,
-      s00_axis_aclk => s00_axis_aclk,
-      s00_axis_aresetn => s00_axis_aresetn,
+      m00_axis_aclk => m00_axis_aclk,
+      m00_axis_aresetn => m00_axis_aresetn,
+      m00_axis_tvalid => m00_axis_tvalid,
       m00_axis_tdata => m00_axis_tdata,
       m00_axis_tstrb => m00_axis_tstrb,
       m00_axis_tlast => m00_axis_tlast,
-      m00_axis_tvalid => m00_axis_tvalid,
       m00_axis_tready => m00_axis_tready,
-      m00_axis_aclk => m00_axis_aclk,
-      m00_axis_aresetn => m00_axis_aresetn,
-      s00_axi_awaddr => s00_axi_awaddr,
-      s00_axi_awprot => s00_axi_awprot,
-      s00_axi_awvalid => s00_axi_awvalid,
-      s00_axi_awready => s00_axi_awready,
-      s00_axi_wdata => s00_axi_wdata,
-      s00_axi_wstrb => s00_axi_wstrb,
-      s00_axi_wvalid => s00_axi_wvalid,
-      s00_axi_wready => s00_axi_wready,
-      s00_axi_bresp => s00_axi_bresp,
-      s00_axi_bvalid => s00_axi_bvalid,
-      s00_axi_bready => s00_axi_bready,
-      s00_axi_araddr => s00_axi_araddr,
-      s00_axi_arprot => s00_axi_arprot,
-      s00_axi_arvalid => s00_axi_arvalid,
-      s00_axi_arready => s00_axi_arready,
-      s00_axi_rdata => s00_axi_rdata,
-      s00_axi_rresp => s00_axi_rresp,
-      s00_axi_rvalid => s00_axi_rvalid,
-      s00_axi_rready => s00_axi_rready,
-      s00_axi_aclk => s00_axi_aclk,
-      s00_axi_aresetn => s00_axi_aresetn
+      m01_axis_aclk => m01_axis_aclk,
+      m01_axis_aresetn => m01_axis_aresetn,
+      m01_axis_tvalid => m01_axis_tvalid,
+      m01_axis_tdata => m01_axis_tdata,
+      m01_axis_tstrb => m01_axis_tstrb,
+      m01_axis_tlast => m01_axis_tlast,
+      m01_axis_tready => m01_axis_tready
     );
 END mb_design_SquareRootCop_0_0_arch;

@@ -52,7 +52,7 @@ vcom -work xpm -93 \
 "C:/Xilinx/Vivado/2019.2/data/ip/xpm/xpm_VCOMP.vhd" \
 
 vcom -work xil_defaultlib -93 \
-"../../../bd/mb_design/ip/mb_design_xbar_0/mb_design_xbar_0_sim_netlist.vhdl" \
+"c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_xbar_0/mb_design_xbar_0_sim_netlist.vhdl" \
 
 vcom -work axi_lite_ipif_v3_0_4 -93 \
 "../../../../SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd" \
@@ -152,19 +152,24 @@ vcom -work xil_defaultlib -93 \
 "../../../bd/mb_design/ip/mb_design_axi_emc_0_0/sim/mb_design_axi_emc_0_0.vhd" \
 "../../../bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0_sim_netlist.vhdl" \
 "../../../bd/mb_design/ip/mb_design_axis_data_fifo_0_0/mb_design_axis_data_fifo_0_0_sim_netlist.vhdl" \
-"../../../bd/mb_design/ipshared/f720/hdl/ReverseEndianessCop_v2_0_M00_AXIS.vhd" \
-"../../../bd/mb_design/ipshared/f720/hdl/ReverseEndianessCop_v2_0_S00_AXIS.vhd" \
-"../../../bd/mb_design/ipshared/f720/hdl/ReverseEndianessCop_v2_0.vhd" \
-"../../../bd/mb_design/ip/mb_design_ReverseEndianessCop_0_0/sim/mb_design_ReverseEndianessCop_0_0.vhd" \
-"../../../bd/mb_design/ip/mb_design_auto_pc_8/mb_design_auto_pc_8_sim_netlist.vhdl" \
-"../../../bd/mb_design/ip/mb_design_auto_pc_0/mb_design_auto_pc_0_sim_netlist.vhdl" \
-"../../../bd/mb_design/ip/mb_design_auto_pc_1/mb_design_auto_pc_1_sim_netlist.vhdl" \
-"../../../bd/mb_design/ip/mb_design_auto_pc_2/mb_design_auto_pc_2_sim_netlist.vhdl" \
-"../../../bd/mb_design/ip/mb_design_auto_pc_3/mb_design_auto_pc_3_sim_netlist.vhdl" \
-"../../../bd/mb_design/ip/mb_design_auto_pc_4/mb_design_auto_pc_4_sim_netlist.vhdl" \
-"../../../bd/mb_design/ip/mb_design_auto_pc_5/mb_design_auto_pc_5_sim_netlist.vhdl" \
-"../../../bd/mb_design/ip/mb_design_auto_pc_6/mb_design_auto_pc_6_sim_netlist.vhdl" \
-"../../../bd/mb_design/ip/mb_design_auto_pc_7/mb_design_auto_pc_7_sim_netlist.vhdl" \
+"c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_axi_dma_1_0/mb_design_axi_dma_1_0_sim_netlist.vhdl" \
+"../../../bd/mb_design/ipshared/4e43/hdl/SquareRoot.vhd" \
+"../../../bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd" \
+"../../../bd/mb_design/ipshared/4e43/hdl/SquareRootCop_v1_0_M00_AXIS.vhd" \
+"../../../bd/mb_design/ipshared/4e43/hdl/SquareRootCop_v1_0_M01_AXIS.vhd" \
+"../../../bd/mb_design/ipshared/4e43/hdl/SquareRootCop_v1_0_S00_AXIS.vhd" \
+"../../../bd/mb_design/ipshared/4e43/hdl/SquareRootCop_v1_0.vhd" \
+"../../../bd/mb_design/ip/mb_design_SquareRootCop_0_0/sim/mb_design_SquareRootCop_0_0.vhd" \
+"c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_9/mb_design_auto_pc_9_sim_netlist.vhdl" \
+"c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_0/mb_design_auto_pc_0_sim_netlist.vhdl" \
+"c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_1/mb_design_auto_pc_1_sim_netlist.vhdl" \
+"c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_2/mb_design_auto_pc_2_sim_netlist.vhdl" \
+"c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_3/mb_design_auto_pc_3_sim_netlist.vhdl" \
+"c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_4/mb_design_auto_pc_4_sim_netlist.vhdl" \
+"c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_5/mb_design_auto_pc_5_sim_netlist.vhdl" \
+"c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_6/mb_design_auto_pc_6_sim_netlist.vhdl" \
+"c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_7/mb_design_auto_pc_7_sim_netlist.vhdl" \
+"c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_8/mb_design_auto_pc_8_sim_netlist.vhdl" \
 "../../../bd/mb_design/sim/mb_design.vhd" \
 
 vlog -work xil_defaultlib \
