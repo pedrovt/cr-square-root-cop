@@ -1,0 +1,4 @@
+Running: xsim.dir/SquareRootBasicBlockTb_behav/xsimk.exe -simmode gui -wdb SquareRootBasicBlockTb_behav.wdb -simrunnum 0 -socket 53229
+Design successfully loaded
+Design Loading Memory Usage: 6336 KB (Peak: 6336 KB)
+Design Loading CPU Usage: 15 ms
