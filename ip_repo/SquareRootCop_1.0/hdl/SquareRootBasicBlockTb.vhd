@@ -113,7 +113,7 @@ begin
         assert (s_do = x"0490") report "Error on SQRT Value for word 0000" severity error;
         assert (s_ro = x"0000") report "Error on SQRT Value for word 0000" severity error;
         assert (s_qo = x"0000") report "Error on SQRT Value for word 0000" severity error;
-                
+        
         wait;
     end process;
 

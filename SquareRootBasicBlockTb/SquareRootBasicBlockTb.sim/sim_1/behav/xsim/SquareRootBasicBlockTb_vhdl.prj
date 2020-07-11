@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../ip_repo/SquareRootCop_1.0/hdl/SquareRootBasicBlock.vhd" \
+"../../../../../ip_repo/SquareRootCop_1.0/hdl/SquareRootBasicBlockTb.vhd" \
+
+# Do not sort compile order
+nosort
