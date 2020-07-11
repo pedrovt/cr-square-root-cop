@@ -1,0 +1,1 @@
+-wto "be929b24a1ae4b259b8e38f4140539f5" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "SquareRootTb_behav" "xil_defaultlib.SquareRootTb" -log "elaborate.log" 

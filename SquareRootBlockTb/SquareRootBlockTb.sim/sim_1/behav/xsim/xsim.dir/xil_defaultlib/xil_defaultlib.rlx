@@ -1,0 +1,7 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0/hdl/SquareRoot.vhd,1593800824,vhdl,,,,squareroot,,,,,,,,
+C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0/hdl/SquareRootBasicBlock.vhd,1593801060,vhdl,,,,comparatorlessthan;mux2nton;squarerootbasicblock,,,,,,,,
+C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0/hdl/SquareRootTb.vhd,1594478250,vhdl,,,,squareroottb,,,,,,,,

@@ -2,3 +2,6 @@ Running: xsim.dir/SquareRootBasicBlockTb_behav/xsimk.exe -simmode gui -wdb Squar
 Design successfully loaded
 Design Loading Memory Usage: 6336 KB (Peak: 6336 KB)
 Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 6916 KB (Peak: 6916 KB)
+Simulation CPU Usage: 31 ms

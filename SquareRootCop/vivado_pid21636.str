@@ -1287,3 +1287,2490 @@ selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); /
 // Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
 // HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 105 MB. Current time: 7/11/20, 1:14:32 PM BST
 // TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 104 MB. Current time: 7/11/20, 1:44:33 PM BST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 96 MB. Current time: 7/11/20, 2:14:34 PM BST
+// Elapsed time: 4634 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cr)
+selectMenuItem(PAResourceCommand.PACommandNames_NEW_PROJECT, "New..."); // ai (cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// f (cr): New Project: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, f)
+// Elapsed time: 10 seconds
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "SquareRootBlockTb"); // ac (Q, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("BACK", "< Back"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (E, f)
+setFileChooser("C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0/hdl/SquareRoot.vhd");
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (E, f)
+dismissFileChooser();
+setFileChooser("C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0/hdl/SquareRootBasicBlock.vhd");
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (E, f)
+setFileChooser("C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0/hdl/SquareRootTb.vhd");
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VSourceFile ; 3 ; SquareRootTb.vhd ; xil_defaultlib ; Synthesis & Simulation ; C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0/hdl", 2, "Synthesis & Simulation", 4); // bQ (O, f)
+editTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "Simulation only", 2, "HDL Source For", 4); // bQ (O, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectTab(PAResourceOtoP.PartChooser_TABBED_PANE, (HResource) null, "Boards", 1); // i (T, f)
+selectTab(PAResourceOtoP.PartChooser_TABBED_PANE, "PAResourceOtoP.PartChooser_TABBED_PANE", (HResource) null, "Boards", 1, false, true); // i (T, f) - Double Click
+setText("PAResourceAtoD.BoardChooser_BOARD_TABLE_SEARCH_FIELD", "nex"); // OverlayTextField (I, f)
+selectTable(PAResourceAtoD.BoardChooser_BOARD_TABLE, "Nexys4 ; Nexys4 ; digilentinc.com ; 1.1 ; xc7a100tcsg324-1 ; 324 ; B.1 ; 210 ; 63400 ; 126800 ; 135 ; 0 ; 240 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 6 ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 0, "Nexys4", 0); // d (O, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+// bB (f):  Create Project : addNotify
+selectButton("OptionPane.button", "No"); // JButton (A, H)
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project SquareRootBlockTb C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb -part xc7a100tcsg324-1 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  2700 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1250.570 ; gain = 0.000 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property board_part digilentinc.com:nexys4:part0:1.1 [current_project] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_BITABEN_BOARDDATA_REFRESH
+// TclEventType: BOARD_MODIFIED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property target_language VHDL [current_project] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property simulator_language VHDL [current_project] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse {C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0/hdl/SquareRoot.vhd C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0/hdl/SquareRootBasicBlock.vhd} 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 -norecurse C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0/hdl/SquareRootTb.vhd 
+// Elapsed time: 10 seconds
+selectButton("FINISH", "Finish"); // JButton (j, f)
+// 'g' command handler elapsed time: 58 seconds
+dismissDialog("Create Project"); // bB (f)
+dismissDialog("New Project"); // f (cr)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// Elapsed time: 11 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SquareRootTb(Behavioral) (SquareRootTb.vhd)]", 6, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SquareRootTb(Behavioral) (SquareRootTb.vhd)]", 6, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SquareRootTb(Behavioral) (SquareRootTb.vhd)]", 6, false); // B (F, cr)
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // C (N, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // u (O, cr)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // u (O, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 107 MB. Current time: 7/11/20, 2:33:11 PM BST
+selectTab((HResource) null, (HResource) null, "Sources", 1); // aL (aI, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SquareRootBasicBlockTb(Stimulus) (SquareRootBasicBlockTb.vhd)]", 5, true); // B (F, cr) - Node
+// Tcl Message: current_project SquareRootBasicBlockTb 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SquareRootBasicBlockTb(Stimulus) (SquareRootBasicBlockTb.vhd)]", 5, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectCodeEditor("SquareRootBasicBlockTb.vhd", 307, 296); // ch (w, cr)
+typeControlKey((HResource) null, "SquareRootBasicBlockTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 389, 195); // ch (w, cr)
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 196, 215); // ch (w, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SquareRoot(Structural) (SquareRoot.vhd)]", 1, true); // B (F, cr) - Node
+// Tcl Message: current_project SquareRootBlockTb 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SquareRoot(Structural) (SquareRoot.vhd), gen_sqrt_blocks[0].NORMAL_ITER.SquareRootBasic : SquareRootBasicBlock(Structural) (SquareRootBasicBlock.vhd)]", 2, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRootTb.vhd", 1); // i (h, cr)
+selectCodeEditor("SquareRootTb.vhd", 276, 134); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("SquareRootTb.vhd", 252, 87); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectCodeEditor("SquareRootTb.vhd", 223, 229); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 202, 231); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 233, 221); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("SquareRootTb.vhd", 215, 270); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 129, 277); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 138, 278); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 19 seconds
+selectCodeEditor("SquareRootTb.vhd", 190, 288); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectCodeEditor("SquareRootTb.vhd", 110, 144); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 110, 144, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 271, 271); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 271, 271, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRoot.vhd", 2); // i (h, cr)
+selectCodeEditor("SquareRoot.vhd", 131, 356); // ch (w, cr)
+typeControlKey((HResource) null, "SquareRoot.vhd", 'c'); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRootTb.vhd", 1); // i (h, cr)
+selectCodeEditor("SquareRootTb.vhd", 176, 453); // ch (w, cr)
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 60, 304); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 60, 303, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 60, 302); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 62, 314); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 62, 314, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 107, 68); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 345, 351); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 283, 348); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 351, 352, true, false, false, false, false); // ch (w, cr) - Shift Key
+selectCodeEditor("SquareRootTb.vhd", 0, 30); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 177, 276); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 181, 275, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 181, 275); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 181, 275); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 161, 275); // ch (w, cr)
+// Elapsed time: 24 seconds
+selectCodeEditor("SquareRootTb.vhd", 407, 173); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 48, 60); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 88, 228); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 0, 171); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 3, 410); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 64, 400); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 240, 370); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 59, 410); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 69, 447); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 69, 447, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 144, 410); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 78, 410); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 78, 410, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 46, 464); // ch (w, cr)
+selectCodeEditor("SquareRootBasicBlockTb.vhd", 158, 407); // ch (w, cr)
+selectCodeEditor("SquareRootBasicBlockTb.vhd", 164, 387); // ch (w, cr)
+typeControlKey((HResource) null, "SquareRootBasicBlockTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 81, 415); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 32, 412); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 32, 412, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 32, 412); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 31, 412); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 31, 412); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 54, 412); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 163, 443); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("SquareRootTb.vhd", 119, 372); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("SquareRootTb.vhd", 235, 28); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 235, 28, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 174, 90); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 173, 90, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 232, 365); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 232, 365, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 232, 365); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 206, 371); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 206, 371, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 273, 378, false, true, false, false, false); // ch (w, cr) - Control Key
+selectCodeEditor("SquareRootTb.vhd", 273, 378, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 124, 131); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 148, 130); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 148, 130, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 103, 402); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 103, 402, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 137, 65); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 136, 65, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 72, 349); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 72, 349, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 107, 85); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 107, 85, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 64, 381); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 80, 357); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 75, 367); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 75, 367, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 75, 367); // ch (w, cr)
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+typeControlKey(null, null, 'z');
+selectCodeEditor("SquareRootTb.vhd", 68, 373); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 67, 373, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 75, 373); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 75, 373, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 100, 370); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 104, 369, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey(null, null, 'z');
+selectCodeEditor("SquareRootTb.vhd", 112, 371); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 104, 370); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 157, 113); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 157, 113, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 70, 385); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 70, 385, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 128, 369); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 175, 390); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 125, 354); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 73, 384); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 74, 383, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 73, 409); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 73, 409, false, false, false, false, true); // ch (w, cr) - Double Click
+// Elapsed time: 26 seconds
+selectCodeEditor("SquareRootTb.vhd", 123, 53); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 605, 39); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 598, 48); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 598, 48, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 423, 186); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 423, 186, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 418, 207); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 417, 207, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 416, 236); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 416, 246); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 415, 246, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+// Elapsed time: 10 seconds
+selectCodeEditor("SquareRootTb.vhd", 229, 438); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 229, 438, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 200, 51); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 200, 51, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 242, 480); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 261, 465); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 261, 465, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 264, 54); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 265, 55, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 278, 46); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 278, 46, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 471, 51, true, false, false, false, false); // ch (w, cr) - Shift Key
+selectCodeEditor("SquareRootTb.vhd", 254, 324); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 254, 324, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 695, 112); // ch (w, cr)
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+// Elapsed time: 13 seconds
+selectCodeEditor("SquareRootTb.vhd", 59, 334); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 325, 314); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("SquareRootTb.vhd", 237, 245); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 237, 245, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 73, 404); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 73, 404, false, false, false, false, true); // ch (w, cr) - Double Click
+// TclEventType: DG_GRAPH_STALE
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("SquareRootTb.vhd", 52, 252); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+selectCodeEditor("SquareRootTb.vhd", 240, 92); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 240, 92, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 132, 272); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 132, 271, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 142, 270); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 142, 270, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 84, 105); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 83, 106, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 268, 107); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 268, 107, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 140, 288); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 140, 288, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 154, 288); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 154, 288, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 242, 136); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 242, 136, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 146, 319); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 146, 319, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 210, 314); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 213, 309); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 185, 274); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 500, 278); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 500, 278, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 494, 287); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 494, 287, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 493, 287); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 492, 287, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 515, 292, true, false, false, false, false); // ch (w, cr) - Shift Key
+selectCodeEditor("SquareRootTb.vhd", 569, 273); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 568, 273, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 579, 283); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 604, 289); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 723, 287); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 723, 287, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 686, 271); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 762, 295); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 683, 311); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 687, 309, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 688, 309); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 283, 125); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 283, 125, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 481, 314); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 508, 312); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 477, 308); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 476, 308, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 489, 315); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 489, 315, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 56, 225); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 786, 383); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 46, 211, true, false, false, false, false); // ch (w, cr) - Shift Key
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 20 seconds
+selectCodeEditor("SquareRootTb.vhd", 491, 427); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 491, 427, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 450, 380); // ch (w, cr)
+// Elapsed time: 209 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+selectCodeEditor("SquareRootTb.vhd", 56, 557); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 56, 557, false, false, false, false, true); // ch (w, cr) - Double Click
+// Elapsed time: 67 seconds
+selectCodeEditor("SquareRootTb.vhd", 143, 604, false, false, false, true, false); // ch (w, cr) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ai (ao, Popup.HeavyWeightWindow)
+selectCodeEditor("SquareRootTb.vhd", 194, 437); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 86, 617); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 56, 553); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 56, 553, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 57, 552); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 588, 637); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 589, 637, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 589, 637); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 589, 637); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 589, 637); // ch (w, cr)
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // E (H, cr)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+selectCodeEditor("SquareRootTb.vhd", 253, 519); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 252, 520, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 52, 551); // ch (w, cr)
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 91, 657); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 91, 657, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 147, 644); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 147, 644, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey(null, null, 'z');
+selectCodeEditor("SquareRootTb.vhd", 83, 657); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 83, 657, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 113, 643); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 113, 643, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 71, 657); // ch (w, cr)
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 80, 265); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 77, 392); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 77, 515); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 82, 627); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 82, 627, false, false, false, false, true); // ch (w, cr) - Double Click
+// Elapsed time: 17 seconds
+selectCodeEditor("SquareRootTb.vhd", 200, 150); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 200, 150, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 200, 150); // ch (w, cr)
+// Elapsed time: 27 seconds
+selectCodeEditor("SquareRootTb.vhd", 191, 151); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("SquareRootTb.vhd", 190, 329); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 190, 329, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 190, 448); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 190, 448, false, false, false, false, true); // ch (w, cr) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("SquareRootTb.vhd", 199, 577); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 199, 577, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 202, 690); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 202, 690, false, false, false, false, true); // ch (w, cr) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("SquareRootTb.vhd", 315, 128); // ch (w, cr)
+// Elapsed time: 54 seconds
+selectCodeEditor("SquareRootTb.vhd", 334, 327); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 313, 327); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 313, 327, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 369, 349); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 318, 331); // ch (w, cr)
+// Elapsed time: 19 seconds
+selectCodeEditor("SquareRootTb.vhd", 319, 611); // ch (w, cr)
+// Elapsed time: 35 seconds
+selectCodeEditor("SquareRootTb.vhd", 205, 45); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 205, 45, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 648, 92); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 648, 92, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 665, 90); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 665, 90, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 662, 91); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 662, 91, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 720, 109); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 720, 109, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 671, 129); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 671, 129, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 664, 130); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 664, 130, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 676, 128); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 676, 128, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 195, 174); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 195, 174, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 641, 211); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 640, 211, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 716, 230); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 716, 230, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 670, 247); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 670, 247, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 196, 285); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 196, 285, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 644, 327); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 644, 327, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 720, 353); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 720, 354, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 670, 372); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 669, 372, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 677, 369); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 677, 369, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 189, 405); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 189, 405, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 643, 445); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 643, 445, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 723, 471); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 723, 471, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 719, 474); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 719, 474, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 671, 493); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 671, 493, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 194, 527); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 194, 527, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 202, 537); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 202, 537, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 641, 567); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 641, 567, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 719, 601); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 718, 589); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 718, 589, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 673, 605); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 672, 605, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("SquareRootTb.vhd", 309, 94); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 311, 111); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 310, 129); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 310, 129, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 311, 114); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 311, 114, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 300, 114); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 300, 109); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 299, 108); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 271, 111); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 271, 111, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 271, 111); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 275, 111); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 275, 111); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 294, 107); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 302, 106); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("SquareRootTb.vhd", 304, 128); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 304, 128, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 313, 127); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 39 seconds
+selectCodeEditor("SquareRootTb.vhd", 309, 326); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 308, 326, false, false, false, false, true); // ch (w, cr) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 66 seconds
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // C (N, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bB (cr):  Starting Design Runs : addNotify
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: [Sat Jul 11 14:51:09 2020] Launched synth_1... Run output will be captured here: C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.runs/synth_1/runme.log [Sat Jul 11 14:51:09 2020] Launched impl_1... Run output will be captured here: C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+dismissDialog("Starting Design Runs"); // bB (cr)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// aj (cr): Implementation Completed: addNotify
+// Elapsed time: 145 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (aj)
+selectCodeEditor("SquareRootTb.vhd", 796, 421); // ch (w, cr)
+dismissDialog("Implementation Completed"); // aj (cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cr):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'SquareRootTb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj SquareRootTb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto be929b24a1ae4b259b8e38f4140539f5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SquareRootTb_behav xil_defaultlib.SquareRootTb -log elaborate.log" 
+// Tcl Message: Built simulation snapshot SquareRootTb_behav 
+// Tcl Message:  ****** Webtalk v2019.2 (64-bit)   **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019   **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.  source C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim/xsim.dir/SquareRootTb_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Common 17-186] 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim/xsim.dir/SquareRootTb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat Jul 11 14:53:56 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html. INFO: [Common 17-206] Exiting Webtalk at Sat Jul 11 14:53:56 2020... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1250.570 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "SquareRootTb_behav -key {Behavioral:sim_1:Functional:SquareRootTb} -tclbatch {SquareRootTb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2019.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Elapsed time: 14 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 119 MB. Current time: 7/11/20, 2:53:59 PM BST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// Tcl Message: source SquareRootTb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'SquareRootTb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 1250.570 ; gain = 0.000 
+// 'd' command handler elapsed time: 15 seconds
+dismissDialog("Run Simulation"); // e (cr)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 126 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 121 MB. Current time: 7/11/20, 2:56:06 PM BST
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // E (f, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 121 MB. Current time: 7/11/20, 2:56:10 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 121 MB. Current time: 7/11/20, 2:56:12 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 121 MB. Current time: 7/11/20, 2:56:13 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 121 MB. Current time: 7/11/20, 2:56:13 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 121 MB. Current time: 7/11/20, 2:56:14 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 17 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_TCL_CONSOLE, "Tcl Console"); // aA
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 119 MB. Current time: 7/11/20, 2:56:25 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRoot.vhd", 1); // i (h, cr)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRoot.vhd", 1, false, true); // i (h, cr) - Double Click
+// Waveform: addNotify
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRootTb.vhd", 0); // i (h, cr)
+selectCodeEditor("SquareRootTb.vhd", 285, 350); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 284, 350, false, false, false, false, true); // ch (w, cr) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// bB (cr):  Close : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton (A, G)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1250.570 ; gain = 0.000 
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Close"); // bB (cr)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'SquareRootTb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj SquareRootTb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0/hdl/SquareRootTb.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'SquareRootTb' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto be929b24a1ae4b259b8e38f4140539f5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SquareRootTb_behav xil_defaultlib.SquareRootTb -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "SquareRootTb_behav -key {Behavioral:sim_1:Functional:SquareRootTb} -tclbatch {SquareRootTb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2019.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// Tcl Message: source SquareRootTb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 160 MB. Current time: 7/11/20, 2:57:11 PM BST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: Error: Error on IS_SQUARE_NUM Value for word 007F Time: 40 ns  Iteration: 0  Process: /SquareRootTb/line__69  File: C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0/hdl/SquareRootTb.vhd 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'SquareRootTb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1250.570 ; gain = 0.000 
+// 'd' command handler elapsed time: 17 seconds
+dismissDialog("Run Simulation"); // e (cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 122 MB. Current time: 7/11/20, 2:57:13 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// [GUI Memory]: 180 MB (+2195kb) [01:54:40]
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 379, 201); // dT (af, cr)
+// Elapsed time: 14 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 24, 213); // dT (af, cr)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 24, 213, false, false, false, false, true); // dT (af, cr) - Double Click
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 189, 213); // dT (af, cr)
+// Elapsed time: 10 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 316, 234); // dT (af, cr)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 316, 234, false, false, false, false, true); // dT (af, cr) - Double Click
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 316, 234); // dT (af, cr)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 372, 233); // dT (af, cr)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 345, 233); // dT (af, cr)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 345, 233, false, false, false, false, true); // dT (af, cr) - Double Click
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 406, 226); // dT (af, cr)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 459, 256); // dT (af, cr)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 429, 256); // dT (af, cr)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 340, 255); // dT (af, cr)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 105, 234); // dT (af, cr)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 90, 240); // dT (af, cr)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 90, 240, false, false, false, false, true); // dT (af, cr) - Double Click
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 171, 268); // dT (af, cr)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 88, 177); // dT (af, cr)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 3, 195); // dT (af, cr)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 410, 190); // dT (af, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRoot.vhd", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRootTb.vhd", 0); // i (h, cr)
+selectCodeEditor("SquareRootTb.vhd", 180, 293); // ch (w, cr)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRoot.vhd", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 7", 2); // i (h, cr)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 7", 2, false, true); // i (h, cr) - Double Click
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 160 MB. Current time: 7/11/20, 2:58:07 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 124 MB. Current time: 7/11/20, 2:58:10 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 125 MB. Current time: 7/11/20, 2:58:10 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 125 MB. Current time: 7/11/20, 2:58:10 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 125 MB. Current time: 7/11/20, 2:58:10 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 124 MB. Current time: 7/11/20, 2:58:10 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 126 MB. Current time: 7/11/20, 2:58:10 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 125 MB. Current time: 7/11/20, 2:58:10 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 124 MB. Current time: 7/11/20, 2:58:11 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, s_is_square_num]", 3, false); // a (r, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 124 MB. Current time: 7/11/20, 2:58:13 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 124 MB. Current time: 7/11/20, 2:58:16 PM BST
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, s_is_square_num]", 3, false); // a (r, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 124 MB. Current time: 7/11/20, 2:58:17 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 124 MB. Current time: 7/11/20, 2:58:19 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 719, 80); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 719, 80, false, false, false, false, true); // n (o, cr) - Double Click
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 133 MB. Current time: 7/11/20, 2:58:20 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 124 MB. Current time: 7/11/20, 2:58:21 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 124 MB. Current time: 7/11/20, 2:58:21 PM BST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 333, 60); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 121 MB. Current time: 7/11/20, 3:05:39 PM BST
+// Elapsed time: 437 seconds
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // E (H, cr)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 121 MB. Current time: 7/11/20, 3:05:44 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 121 MB. Current time: 7/11/20, 3:05:45 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 14 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // aa (q, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 121 MB. Current time: 7/11/20, 3:05:59 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 129 MB. Current time: 7/11/20, 3:06:00 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 121 MB. Current time: 7/11/20, 3:06:00 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 121 MB. Current time: 7/11/20, 3:06:12 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 121 MB. Current time: 7/11/20, 3:06:12 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 126 MB. Current time: 7/11/20, 3:06:12 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 123 MB. Current time: 7/11/20, 3:06:13 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 121 MB. Current time: 7/11/20, 3:06:13 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 121 MB. Current time: 7/11/20, 3:06:16 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 121 MB. Current time: 7/11/20, 3:06:17 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 121 MB. Current time: 7/11/20, 3:06:39 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 121 MB. Current time: 7/11/20, 3:06:40 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 121 MB. Current time: 7/11/20, 3:06:40 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 121 MB. Current time: 7/11/20, 3:06:41 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 121 MB. Current time: 7/11/20, 3:06:41 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 124 MB. Current time: 7/11/20, 3:06:55 PM BST
+// Elapsed time: 60 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRoot.vhd", 1); // i (h, cr)
+// Elapsed time: 25 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRootTb.vhd", 0); // i (h, cr)
+selectCodeEditor("SquareRootTb.vhd", 47, 531); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 858, 606); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 904, 675); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 59, 537); // ch (w, cr)
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 71, 646); // ch (w, cr)
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 71, 643); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 25 seconds
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // C (N, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false, false, false, false, false, true); // u (O, cr) - Double Click
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// bB (cr):  Close : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton (A, G)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Close"); // bB (cr)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'SquareRootTb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj SquareRootTb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0/hdl/SquareRootTb.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'SquareRootTb' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto be929b24a1ae4b259b8e38f4140539f5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SquareRootTb_behav xil_defaultlib.SquareRootTb -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Built simulation snapshot SquareRootTb_behav 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "SquareRootTb_behav -key {Behavioral:sim_1:Functional:SquareRootTb} -tclbatch {SquareRootTb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2019.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// Tcl Message: source SquareRootTb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 126 MB. Current time: 7/11/20, 3:08:08 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'SquareRootTb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1256.133 ; gain = 0.000 
+// 'd' command handler elapsed time: 12 seconds
+dismissDialog("Run Simulation"); // e (cr)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRootTb.vhd", 0); // i (h, cr)
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // E (H, cr)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 158 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRoot.vhd", 1); // i (h, cr)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRoot.vhd", 1, false, true); // i (h, cr) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 8", 2); // i (h, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 128 MB. Current time: 7/11/20, 3:15:53 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 130 MB. Current time: 7/11/20, 3:15:53 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 128 MB. Current time: 7/11/20, 3:15:54 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 130 MB. Current time: 7/11/20, 3:15:54 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 128 MB. Current time: 7/11/20, 3:15:54 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 128 MB. Current time: 7/11/20, 3:15:55 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 128 MB. Current time: 7/11/20, 3:15:55 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 133 MB. Current time: 7/11/20, 3:15:56 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 130 MB. Current time: 7/11/20, 3:15:56 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 128 MB. Current time: 7/11/20, 3:15:57 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 129 MB. Current time: 7/11/20, 3:15:57 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 130 MB. Current time: 7/11/20, 3:15:57 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 130 MB. Current time: 7/11/20, 3:15:57 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 129 MB. Current time: 7/11/20, 3:15:58 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 128 MB. Current time: 7/11/20, 3:16:00 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 128 MB. Current time: 7/11/20, 3:16:01 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 128 MB. Current time: 7/11/20, 3:16:02 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 128 MB. Current time: 7/11/20, 3:16:03 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 310 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 254, 382); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 254, 382, false, false, false, false, true); // n (o, cr) - Double Click
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 128 MB. Current time: 7/11/20, 3:16:04 PM BST
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aa (q, cr)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_RUN, "Run"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_RUN, "Run"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_RUN, "Run"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // aa (q, cr)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aa (q, cr)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // af (cr)
+selectMenuItem(RDIResourceCommand.RDICommands_SETTINGS, "Settings..."); // ai (cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// I (cr): Settings: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1315 ms.
+// Elapsed time: 11 seconds
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Simulation]", 1, false); // L (E, I)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_SIMULATION, "Simulation", 2); // i (Q, I)
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (I)
+// [GUI Memory]: 203 MB (+14508kb) [02:13:57]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property -name {xsim.simulate.runtime} -value {60ns} -objects [get_filesets sim_1] 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+dismissDialog("Settings"); // I (cr)
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // C (N, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 73 MB. Current time: 7/11/20, 3:16:33 PM BST
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+// [GUI Memory]: 215 MB (+2009kb) [02:14:00]
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 4); // u (O, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// bB (cr):  Close : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton (A, G)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Close"); // bB (cr)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'SquareRootTb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj SquareRootTb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto be929b24a1ae4b259b8e38f4140539f5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SquareRootTb_behav xil_defaultlib.SquareRootTb -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Vivado Simulator 2019.2 Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto be929b24a1ae4b259b8e38f4140539f5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SquareRootTb_behav xil_defaultlib.SquareRootTb -log elaborate.log  Using 2 slave threads. Starting static elaboration Completed static elaboration INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "SquareRootTb_behav -key {Behavioral:sim_1:Functional:SquareRootTb} -tclbatch {SquareRootTb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2019.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 144 MB. Current time: 7/11/20, 3:16:45 PM BST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source SquareRootTb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 60ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'SquareRootTb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 60ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1428.273 ; gain = 0.195 
+// 'd' command handler elapsed time: 11 seconds
+dismissDialog("Run Simulation"); // e (cr)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 82 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 146 MB. Current time: 7/11/20, 3:18:10 PM BST
+// Waveform: addNotify
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // E (H, cr)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 144 MB. Current time: 7/11/20, 3:18:12 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 146 MB. Current time: 7/11/20, 3:18:13 PM BST
+// Waveform: addNotify
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 146 MB. Current time: 7/11/20, 3:18:15 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+// Waveform: addNotify
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 144 MB. Current time: 7/11/20, 3:18:16 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // E (f, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 146 MB. Current time: 7/11/20, 3:18:19 PM BST
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // E (f, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 18 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 520, 780); // n (o, cr)
+// Elapsed time: 134 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 963, 309); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 146 MB. Current time: 7/11/20, 3:20:53 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 50 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 260, 368); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 285, 2); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 146 MB. Current time: 7/11/20, 3:21:46 PM BST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 146 MB. Current time: 7/11/20, 3:21:46 PM BST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1260, 49); // n (o, cr)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1279, 44); // n (o, cr)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1221, 10); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 146 MB. Current time: 7/11/20, 3:21:48 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 146 MB. Current time: 7/11/20, 3:21:49 PM BST
+// Elapsed time: 402 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRoot.vhd", 1); // i (h, cr)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRoot.vhd", 1, false, true); // i (h, cr) - Double Click
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1221, 10); // n (o, cr)Waveform: addNotify
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRootTb.vhd", 0); // i (h, cr)
+selectCodeEditor("SquareRootTb.vhd", 53, 314); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 831, 393); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 869, 395); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 883, 393); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 925, 389); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 57, 315, true, false, false, false, false); // ch (w, cr) - Shift Key
+selectCodeEditor("SquareRootTb.vhd", 56, 314, true, false, false, false, true); // ch (w, cr) - Shift Key - Double Click
+selectCodeEditor("SquareRootTb.vhd", 896, 380, true, false, false, false, false); // ch (w, cr) - Shift Key
+selectCodeEditor("SquareRootTb.vhd", 895, 380, true, false, false, false, true); // ch (w, cr) - Shift Key - Double Click
+selectCodeEditor("SquareRootTb.vhd", 896, 388); // ch (w, cr)
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("SquareRootTb.vhd", 204, 429); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 215, 428); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 215, 428, false, false, false, false, true); // ch (w, cr) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 15 seconds
+selectCodeEditor("SquareRootTb.vhd", 320, 353); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 200, 307); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 199, 307, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 660, 352); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 660, 352, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 660, 352); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 654, 349); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 653, 349, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 653, 349); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 654, 349); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 654, 349, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 699, 365); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 699, 365, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 699, 365); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 692, 371); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 692, 372, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 692, 372); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 692, 372); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 692, 368); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 692, 368, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 680, 386); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 680, 386, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 320, 349); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 320, 349, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 319, 388); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectCodeEditor("SquareRootTb.vhd", 770, 357); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 36 seconds
+selectCodeEditor("SquareRootTb.vhd", 63, 345); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 63, 348, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 70, 350); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 791, 378); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 795, 378, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 795, 378); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 795, 378); // ch (w, cr)
+typeControlKey(null, null, 'z');
+selectCodeEditor("SquareRootTb.vhd", 932, 412); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 900, 389); // ch (w, cr)
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 317, 471); // ch (w, cr)
+// Elapsed time: 74 seconds
+selectCodeEditor("SquareRootTb.vhd", 185, 430); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 185, 430, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 191, 428); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 191, 428, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'c'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 656, 471); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 656, 471, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 654, 470); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 654, 470, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 687, 495); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 687, 495, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 687, 495); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 691, 497); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 691, 497, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 691, 497); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 691, 488); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 691, 488, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 691, 488); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 704, 488); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 704, 488, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 686, 505); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 685, 505, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "SquareRootTb.vhd", 'v'); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("SquareRootTb.vhd", 212, 433); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 212, 433, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 168, 431); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 201, 431); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 201, 431, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 857, 509); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 58, 365); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 58, 365, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 825, 390); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 563, 498); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 288, 425); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 313, 451); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 313, 451, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 318, 450); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 318, 450, false, false, false, false, true); // ch (w, cr) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // C (N, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// bB (cr):  Close : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton (A, G)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Close"); // bB (cr)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'SquareRootTb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj SquareRootTb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0/hdl/SquareRootTb.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'SquareRootTb' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto be929b24a1ae4b259b8e38f4140539f5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SquareRootTb_behav xil_defaultlib.SquareRootTb -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "SquareRootTb_behav -key {Behavioral:sim_1:Functional:SquareRootTb} -tclbatch {SquareRootTb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2019.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 148 MB. Current time: 7/11/20, 3:32:33 PM BST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: source SquareRootTb.tcl 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 60ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'SquareRootTb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 60ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1428.273 ; gain = 0.000 
+// 'd' command handler elapsed time: 11 seconds
+dismissDialog("Run Simulation"); // e (cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 148 MB. Current time: 7/11/20, 3:32:35 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 147 MB. Current time: 7/11/20, 3:32:41 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 147 MB. Current time: 7/11/20, 3:32:43 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 147 MB. Current time: 7/11/20, 3:32:46 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 147 MB. Current time: 7/11/20, 3:32:47 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 147 MB. Current time: 7/11/20, 3:32:48 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 147 MB. Current time: 7/11/20, 3:32:58 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 147 MB. Current time: 7/11/20, 3:33:00 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 147 MB. Current time: 7/11/20, 3:33:00 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 147 MB. Current time: 7/11/20, 3:33:01 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 30 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRootTb.vhd", 0); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 10", 2); // i (h, cr)
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // E (H, cr)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 147 MB. Current time: 7/11/20, 3:33:16 PM BST
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRootTb.vhd", 0); // i (h, cr)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRootTb.vhd", 0, false, true); // i (h, cr) - Double Click
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 10", 2); // i (h, cr)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 10", 2, false, true); // i (h, cr) - Double Click
+// Waveform: addNotify
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 148 MB. Current time: 7/11/20, 3:33:30 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 148 MB. Current time: 7/11/20, 3:33:33 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 147 MB. Current time: 7/11/20, 3:33:33 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRootTb.vhd", 0); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 10", 2); // i (h, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_SIMULATION_WAVEFORM, "Simulation Waveform"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_SIMULATION_WAVEFORM, "Simulation Waveform"); // af (cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aa (q, cr)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // aa (q, cr)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_SIMULATION_WAVEFORM, "Simulation Waveform"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_SIMULATION_WAVEFORM, "Simulation Waveform"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // af (cr)
+selectMenuItem(RDIResourceCommand.RDICommands_SETTINGS, "Settings..."); // ai (cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// I (cr): Settings: addNotify
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (I)
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property -name {xsim.simulate.runtime} -value {70ns} -objects [get_filesets sim_1] 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+dismissDialog("Settings"); // I (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cr)
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // C (N, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 148 MB. Current time: 7/11/20, 3:34:18 PM BST
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// bB (cr):  Close : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton (A, G)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Close"); // bB (cr)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'SquareRootTb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj SquareRootTb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto be929b24a1ae4b259b8e38f4140539f5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SquareRootTb_behav xil_defaultlib.SquareRootTb -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Vivado Simulator 2019.2 Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto be929b24a1ae4b259b8e38f4140539f5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SquareRootTb_behav xil_defaultlib.SquareRootTb -log elaborate.log  Using 2 slave threads. Starting static elaboration Completed static elaboration INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "SquareRootTb_behav -key {Behavioral:sim_1:Functional:SquareRootTb} -tclbatch {SquareRootTb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2019.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 153 MB. Current time: 7/11/20, 3:34:30 PM BST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source SquareRootTb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 70ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'SquareRootTb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 70ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1556.402 ; gain = 0.000 
+// 'd' command handler elapsed time: 11 seconds
+dismissDialog("Run Simulation"); // e (cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 153 MB. Current time: 7/11/20, 3:34:38 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 152 MB. Current time: 7/11/20, 3:34:42 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 11 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 206, 410); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 151 MB. Current time: 7/11/20, 3:34:43 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 151 MB. Current time: 7/11/20, 3:34:44 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 157 MB. Current time: 7/11/20, 3:34:44 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 151 MB. Current time: 7/11/20, 3:34:45 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 151 MB. Current time: 7/11/20, 3:34:45 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 151 MB. Current time: 7/11/20, 3:34:46 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 151 MB. Current time: 7/11/20, 3:34:47 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 155 MB. Current time: 7/11/20, 3:34:50 PM BST
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // E (H, cr)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 155 MB. Current time: 7/11/20, 3:34:52 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 173 MB. Current time: 7/11/20, 3:34:53 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 154 MB. Current time: 7/11/20, 3:34:53 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 161 MB. Current time: 7/11/20, 3:34:53 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 398, 8); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 155 MB. Current time: 7/11/20, 3:34:57 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 154 MB. Current time: 7/11/20, 3:34:57 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 155 MB. Current time: 7/11/20, 3:34:58 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 155 MB. Current time: 7/11/20, 3:35:00 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 154 MB. Current time: 7/11/20, 3:35:53 PM BST
+// Elapsed time: 85 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRoot.vhd", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRootTb.vhd", 0); // i (h, cr)
+selectCodeEditor("SquareRootTb.vhd", 213, 251); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // C (N, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// bB (cr):  Close : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton (A, G)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Close"); // bB (cr)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'SquareRootTb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj SquareRootTb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0/hdl/SquareRootTb.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'SquareRootTb' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto be929b24a1ae4b259b8e38f4140539f5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SquareRootTb_behav xil_defaultlib.SquareRootTb -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "SquareRootTb_behav -key {Behavioral:sim_1:Functional:SquareRootTb} -tclbatch {SquareRootTb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2019.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 182 MB. Current time: 7/11/20, 3:36:48 PM BST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source SquareRootTb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 70ns 
+// Tcl Message: Error: Error on IS_SQUARE_NUM Value for word 000A Time: 20 ns  Iteration: 0  Process: /SquareRootTb/line__69  File: C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0/hdl/SquareRootTb.vhd Error: Error on REMAINER Value for word 000A Time: 20 ns  Iteration: 0  Process: /SquareRootTb/line__69  File: C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0/hdl/SquareRootTb.vhd 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'SquareRootTb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 70ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1556.402 ; gain = 0.000 
+// 'd' command handler elapsed time: 11 seconds
+dismissDialog("Run Simulation"); // e (cr)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRootTb.vhd", 0); // i (h, cr)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRootTb.vhd", 0, false, true); // i (h, cr) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 12", 2); // i (h, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 160 MB. Current time: 7/11/20, 3:37:00 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 167 MB. Current time: 7/11/20, 3:37:01 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 161 MB. Current time: 7/11/20, 3:37:01 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 159 MB. Current time: 7/11/20, 3:37:02 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 161 MB. Current time: 7/11/20, 3:37:02 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 160 MB. Current time: 7/11/20, 3:37:02 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 159 MB. Current time: 7/11/20, 3:37:02 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 159 MB. Current time: 7/11/20, 3:37:03 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 159 MB. Current time: 7/11/20, 3:37:04 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 160 MB. Current time: 7/11/20, 3:37:04 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 160 MB. Current time: 7/11/20, 3:37:04 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 159 MB. Current time: 7/11/20, 3:37:04 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 159 MB. Current time: 7/11/20, 3:37:05 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 159 MB. Current time: 7/11/20, 3:37:06 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 159 MB. Current time: 7/11/20, 3:37:07 PM BST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 10 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 285, 93); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 158 MB. Current time: 7/11/20, 3:37:09 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SquareRootTb.vhd", 0); // i (h, cr)
+selectCodeEditor("SquareRootTb.vhd", 845, 567); // ch (w, cr)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("SquareRootTb.vhd", 305, 730); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 304, 730, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("SquareRootTb.vhd", 262, 736); // ch (w, cr)
+selectCodeEditor("SquareRootTb.vhd", 308, 727); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// bB (cr):  Close : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton (A, G)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Close"); // bB (cr)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'SquareRootTb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj SquareRootTb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0/hdl/SquareRootTb.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'SquareRootTb' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto be929b24a1ae4b259b8e38f4140539f5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SquareRootTb_behav xil_defaultlib.SquareRootTb -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "SquareRootTb_behav -key {Behavioral:sim_1:Functional:SquareRootTb} -tclbatch {SquareRootTb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2019.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source SquareRootTb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 161 MB. Current time: 7/11/20, 3:37:48 PM BST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 70ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'SquareRootTb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 70ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1556.402 ; gain = 0.000 
+// 'd' command handler elapsed time: 11 seconds
+dismissDialog("Run Simulation"); // e (cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // E (H, cr)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 161 MB. Current time: 7/11/20, 3:37:53 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 161 MB. Current time: 7/11/20, 3:37:55 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 162 MB. Current time: 7/11/20, 3:37:55 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 162 MB. Current time: 7/11/20, 3:37:55 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 162 MB. Current time: 7/11/20, 3:37:55 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 161 MB. Current time: 7/11/20, 3:37:55 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 923, 627); // n (o, cr)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 901, 627); // n (o, cr)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 868, 627); // n (o, cr)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 669, 626); // n (o, cr)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 669, 626, false, false, false, false, true); // n (o, cr) - Double Click
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 669, 626); // n (o, cr)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 669, 626); // n (o, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 161 MB. Current time: 7/11/20, 3:37:58 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 161 MB. Current time: 7/11/20, 3:37:59 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 170 MB. Current time: 7/11/20, 3:38:00 PM BST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 161 MB. Current time: 7/11/20, 3:38:01 PM BST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+closeMainWindow("SquareRootBlockTb - [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.xpr] - Vivado 2019.2"); // cr
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// bB (cr):  Close : addNotify
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// bB (cr):  Close Project : addNotify
+// TclEventType: PROJECT_CLOSE
+dismissDialog("Close"); // bB (cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 133 MB. Current time: 7/11/20, 3:38:07 PM BST
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // bB (cr)
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 26 seconds
+closeMainWindow("SquareRootBasicBlockTb - [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBasicBlockTb/SquareRootBasicBlockTb.xpr] - Vivado 2019.2"); // cr
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// bB (cr):  Close : addNotify
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// bB (cr):  Close Project : addNotify
+// TclEventType: PROJECT_CLOSE
+dismissDialog("Close"); // bB (cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 114 MB. Current time: 7/11/20, 3:38:36 PM BST
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // bB (cr)
