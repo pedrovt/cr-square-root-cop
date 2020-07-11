@@ -7,6 +7,7 @@
 */
 
 #include <assert.h>
+#include <stdbool.h>
 #include <stdio.h>
 #include <time.h>
 
@@ -32,13 +33,14 @@ int main() {
     
     clock_t start = clock();
     for (i = 0; i < TEST_VALUES_AMOUNT; i++) {
-        dOut[i] = (dIn[i]<<2) & 0xFFFF;
         rtemp = ((rIn[i]<<2) & 0xFFFC) | ((dIn[i]>>14) & 0x0003);
         qtemp = ((qIn[i]<<2) & 0xFFFC) | 0x0001;
         condition = rtemp < qtemp;
+
+        dOut[i] = (dIn[i]<<2) & 0xFFFF;
         if(condition) {
             rOut[i] = rtemp;
-            qOut[i] = qIn[i]<<1
+            qOut[i] = qIn[i]<<1;
         }
         else {
             rOut[i] = rtemp - qtemp;
@@ -54,11 +56,19 @@ int main() {
         assert(qExpected[i] == qOut[i]);
     }
 
-    timeSpent += (double)(stop-start)/CLOCKS_PER_SECOND;
+    timeSpent += (double)(stop-start)/CLOCKS_PER_SEC;
     /*
         Code for timeSpent based on:
         https://www.techiedelight.com/find-execution-time-c-program/
     */
+
+    printf("     Expected | Output\n");
+    for (i = 0; i < TEST_VALUES_AMOUNT; i++) {
+        printf("d[%d] %8d | %d\n", i, dExpected[i], dOut[i]);
+        printf("r[%d] %8d | %d\n", i, rExpected[i], rOut[i]);
+        printf("q[%d] %8d | %d\n", i, qExpected[i], qOut[i]);
+    }
+    printf("\nTime spent: %.2es\n", timeSpent);
 
     return 0;
 }
