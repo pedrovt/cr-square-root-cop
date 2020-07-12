@@ -1511,3 +1511,304 @@ TRACE::2020-07-12.19:32:34::SCWMssOS::Checking the sw design at  C:/Users/Pedro/
 TRACE::2020-07-12.19:32:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss|system||
 
 TRACE::2020-07-12.19:32:34::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-12.22:01:27::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:27::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:27::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:31::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw
+TRACE::2020-07-12.22:01:31::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:31::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-07-12.22:01:31::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-07-12.22:01:31::SCWPlatform::Opened new HwDB with name mb_design_wrapper
+TRACE::2020-07-12.22:01:31::SCWReader::Active system found as  SquareRootCop
+TRACE::2020-07-12.22:01:31::SCWReader::Handling sysconfig SquareRootCop
+TRACE::2020-07-12.22:01:31::SCWDomain::checking for install qemu data   : 
+TRACE::2020-07-12.22:01:31::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:31::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:31::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:31::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw
+TRACE::2020-07-12.22:01:31::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:31::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-07-12.22:01:31::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2020-07-12.22:01:31::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2020-07-12.22:01:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-12.22:01:31::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:31::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:31::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:31::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw
+TRACE::2020-07-12.22:01:31::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:31::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-07-12.22:01:31::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2020-07-12.22:01:31::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2020-07-12.22:01:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-12.22:01:31::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:31::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:31::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:31::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw
+TRACE::2020-07-12.22:01:31::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:31::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-07-12.22:01:31::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2020-07-12.22:01:31::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2020-07-12.22:01:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-12.22:01:31::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-12.22:01:31::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-07-12.22:01:31::SCWMssOS::No sw design opened at  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-12.22:01:31::SCWMssOS::mss exists loading the mss file  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-12.22:01:31::SCWMssOS::Opened the sw design from mss  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-12.22:01:31::SCWMssOS::Adding the swdes entry C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2020-07-12.22:01:31::SCWMssOS::updating the scw layer about changes
+TRACE::2020-07-12.22:01:31::SCWMssOS::Opened the sw design.  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-12.22:01:31::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-07-12.22:01:31::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-07-12.22:01:31::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:31::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:31::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:31::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw
+TRACE::2020-07-12.22:01:31::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:31::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-07-12.22:01:31::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2020-07-12.22:01:31::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2020-07-12.22:01:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-12.22:01:31::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-12.22:01:31::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-07-12.22:01:31::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-12.22:01:31::SCWReader::No isolation master present  
+TRACE::2020-07-12.22:01:38::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/tempdsa/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/tempdsa/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform:: Platform location is C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/tempdsa
+TRACE::2020-07-12.22:01:38::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/tempdsa/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-07-12.22:01:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-12.22:01:38::SCWMssOS::Doing hw sync for the mss in domain: standalone_domain
+TRACE::2020-07-12.22:01:38::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw
+TRACE::2020-07-12.22:01:38::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-07-12.22:01:38::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2020-07-12.22:01:38::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2020-07-12.22:01:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-12.22:01:38::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw
+TRACE::2020-07-12.22:01:38::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-07-12.22:01:38::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2020-07-12.22:01:38::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2020-07-12.22:01:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-12.22:01:38::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-12.22:01:38::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-07-12.22:01:38::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-12.22:01:38::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/tempdsa/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/tempdsa/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/tempdsa/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/tempdsa
+TRACE::2020-07-12.22:01:38::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/tempdsa/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-07-12.22:01:38::SCWPlatform::update - Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-07-12.22:01:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-12.22:01:38::SCWMssOS::Completed hw sync for the mss in domain: standalone_domain
+TRACE::2020-07-12.22:01:38::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw
+TRACE::2020-07-12.22:01:38::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-07-12.22:01:38::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-07-12.22:01:38::SCWPlatform::Opened new HwDB with name mb_design_wrapper_1
+TRACE::2020-07-12.22:01:38::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw
+TRACE::2020-07-12.22:01:38::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:38::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-07-12.22:01:38::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2020-07-12.22:01:38::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2020-07-12.22:01:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-12.22:01:38::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-12.22:01:38::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-07-12.22:01:38::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-12.22:01:38::SCWWriter::formatted JSON is {
+	"platformName":	"SquareRootCop",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"SquareRootCop",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.xsa",
+	"platIntHandOff":	"<platformDir>/hw/SquareRootCop.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"SquareRootCop",
+	"systems":	[{
+			"systemName":	"SquareRootCop",
+			"systemDesc":	"SquareRootCop",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"SquareRootCop",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"57c7ba99c8d34af0c7eb165ae366eee2",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2020-07-12.22:01:48::SCWPlatform::Started generating the artifacts platform SquareRootCop
+TRACE::2020-07-12.22:01:48::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-07-12.22:01:48::SCWPlatform::Started generating the artifacts for system configuration SquareRootCop
+LOG::2020-07-12.22:01:48::SCWSystem::Checking the domain standalone_domain
+LOG::2020-07-12.22:01:48::SCWSystem::Not a boot domain 
+LOG::2020-07-12.22:01:48::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-07-12.22:01:48::SCWDomain::Generating domain artifcats
+TRACE::2020-07-12.22:01:48::SCWMssOS::Generating standalone artifcats
+TRACE::2020-07-12.22:01:48::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-07-12.22:01:48::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:48::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:48::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:48::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw
+TRACE::2020-07-12.22:01:48::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:48::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-07-12.22:01:48::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2020-07-12.22:01:48::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2020-07-12.22:01:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-12.22:01:48::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-12.22:01:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-07-12.22:01:48::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-12.22:01:48::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp
+TRACE::2020-07-12.22:01:48::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-12.22:01:48::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-07-12.22:01:48::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-07-12.22:01:48::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2020-07-12.22:01:48::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-07-12.22:01:48::SCWMssOS::Copying to export directory.
+TRACE::2020-07-12.22:01:48::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-07-12.22:01:48::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-07-12.22:01:48::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-07-12.22:01:48::SCWSystem::Completed Processing the sysconfig SquareRootCop
+LOG::2020-07-12.22:01:48::SCWPlatform::Completed generating the artifacts for system configuration SquareRootCop
+TRACE::2020-07-12.22:01:48::SCWPlatform::Started preparing the platform 
+TRACE::2020-07-12.22:01:48::SCWSystem::Writing the bif file for system config SquareRootCop
+TRACE::2020-07-12.22:01:48::SCWSystem::dir created 
+TRACE::2020-07-12.22:01:48::SCWSystem::Writing the bif 
+TRACE::2020-07-12.22:01:48::SCWPlatform::Started writing the spfm file 
+TRACE::2020-07-12.22:01:48::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-07-12.22:01:48::SCWPlatform::Completed generating the platform
+TRACE::2020-07-12.22:01:48::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:48::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:48::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:48::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw
+TRACE::2020-07-12.22:01:48::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:48::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-07-12.22:01:48::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2020-07-12.22:01:48::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2020-07-12.22:01:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-12.22:01:48::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-12.22:01:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-07-12.22:01:48::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-12.22:01:48::SCWWriter::formatted JSON is {
+	"platformName":	"SquareRootCop",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"SquareRootCop",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.xsa",
+	"platIntHandOff":	"<platformDir>/hw/SquareRootCop.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"SquareRootCop",
+	"systems":	[{
+			"systemName":	"SquareRootCop",
+			"systemDesc":	"SquareRootCop",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"SquareRootCop",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"57c7ba99c8d34af0c7eb165ae366eee2",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-07-12.22:01:48::SCWPlatform::updated the xpfm file.
+TRACE::2020-07-12.22:01:48::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:48::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:48::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:48::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw
+TRACE::2020-07-12.22:01:48::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/hw/SquareRootCop.xsa
+TRACE::2020-07-12.22:01:48::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-07-12.22:01:48::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2020-07-12.22:01:48::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2020-07-12.22:01:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-12.22:01:49::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-12.22:01:49::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-07-12.22:01:49::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/microblaze_0/standalone_domain/bsp/system.mss

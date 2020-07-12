@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Sun Jul 12 19:11:49 2020
+| Date         : Sun Jul 12 21:46:31 2020
 | Host         : ASUS-PC running 64-bit major release  (build 9200)
 | Command      : report_utilization -file mb_design_SquareRootCop_0_0_utilization_synth.rpt -pb mb_design_SquareRootCop_0_0_utilization_synth.pb
 | Design       : mb_design_SquareRootCop_0_0
@@ -27,18 +27,20 @@ Table of Contents
 1. Slice Logic
 --------------
 
-+-------------------------+------+-------+-----------+-------+
-|        Site Type        | Used | Fixed | Available | Util% |
-+-------------------------+------+-------+-----------+-------+
-| Slice LUTs*             |  995 |     0 |     63400 |  1.57 |
-|   LUT as Logic          |  995 |     0 |     63400 |  1.57 |
-|   LUT as Memory         |    0 |     0 |     19000 |  0.00 |
-| Slice Registers         |   70 |     0 |    126800 |  0.06 |
-|   Register as Flip Flop |   70 |     0 |    126800 |  0.06 |
-|   Register as Latch     |    0 |     0 |    126800 |  0.00 |
-| F7 Muxes                |    0 |     0 |     31700 |  0.00 |
-| F8 Muxes                |    0 |     0 |     15850 |  0.00 |
-+-------------------------+------+-------+-----------+-------+
++----------------------------+------+-------+-----------+-------+
+|          Site Type         | Used | Fixed | Available | Util% |
++----------------------------+------+-------+-----------+-------+
+| Slice LUTs*                | 1117 |     0 |     63400 |  1.76 |
+|   LUT as Logic             | 1091 |     0 |     63400 |  1.72 |
+|   LUT as Memory            |   26 |     0 |     19000 |  0.14 |
+|     LUT as Distributed RAM |    0 |     0 |           |       |
+|     LUT as Shift Register  |   26 |     0 |           |       |
+| Slice Registers            |  644 |     0 |    126800 |  0.51 |
+|   Register as Flip Flop    |  644 |     0 |    126800 |  0.51 |
+|   Register as Latch        |    0 |     0 |    126800 |  0.00 |
+| F7 Muxes                   |    0 |     0 |     31700 |  0.00 |
+| F8 Muxes                   |    0 |     0 |     15850 |  0.00 |
++----------------------------+------+-------+-----------+-------+
 * Warning! The Final LUT count, after physical optimizations and full implementation, is typically lower. Run opt_design after synthesis, if not already completed, for a more realistic count.
 
 
@@ -57,7 +59,7 @@ Table of Contents
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
-| 70    |          Yes |       Reset |            - |
+| 644   |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -146,14 +148,15 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| LUT5     |  482 |                 LUT |
-| LUT3     |  288 |                 LUT |
-| LUT6     |  226 |                 LUT |
+| FDRE     |  644 |        Flop & Latch |
+| LUT3     |  412 |                 LUT |
+| LUT2     |  341 |                 LUT |
+| LUT1     |  307 |                 LUT |
 | CARRY4   |  180 |          CarryLogic |
-| LUT4     |  172 |                 LUT |
-| LUT2     |  124 |                 LUT |
-| FDRE     |   70 |        Flop & Latch |
-| LUT1     |   57 |                 LUT |
+| LUT4     |  114 |                 LUT |
+| SRL16E   |   26 |  Distributed Memory |
+| LUT5     |   19 |                 LUT |
+| LUT6     |    6 |                 LUT |
 +----------+------+---------------------+
 
 

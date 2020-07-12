@@ -1,6 +1,0 @@
-+--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
-|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
-+--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
-| clk_out1_mb_design_clk_wiz_1_0 |clk_out1_mb_design_clk_wiz_1_0 |     mb_design_i/microblaze_0_axi_periph/xbar/inst/gen_sasd.crossbar_sasd_0/splitter_aw/m_ready_d_reg[0]/D|
-| clk_out1_mb_design_clk_wiz_1_0 |clk_out1_mb_design_clk_wiz_1_0 |mb_design_i/microblaze_0_axi_periph/xbar/inst/gen_sasd.crossbar_sasd_0/addr_arbiter_inst/gen_arbiter.m_valid_i_reg/D|
-+--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

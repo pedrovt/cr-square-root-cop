@@ -5,3 +5,6 @@ timestamp=[2020-07-12 00:15:59], mode=PLATFORM_GENERATION, duration=0:00:20.244,
 timestamp=[2020-07-12 15:20:04], mode=WORKBENCH_START, duration=0:00:19.377, duration_ms=19377, data={}
 timestamp=[2020-07-12 15:20:06], mode=WORKBENCH_UI_INIT, duration=0:00:01.551, duration_ms=1551, data={editors_count=6, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,SquareRootCop,SquareRootCopApp,SquareRootCopApp_system}
 timestamp=[2020-07-12 19:32:34], mode=PLATFORM_GENERATION, duration=0:00:35.065, duration_ms=35065, data={name=SquareRootCop}
+timestamp=[2020-07-12 22:00:26], mode=WORKBENCH_START, duration=0:00:19.505, duration_ms=19505, data={}
+timestamp=[2020-07-12 22:00:28], mode=WORKBENCH_UI_INIT, duration=0:00:01.925, duration_ms=1925, data={editors_count=6, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,SquareRootCop,SquareRootCopApp,SquareRootCopApp_system}
+timestamp=[2020-07-12 22:01:49], mode=PLATFORM_GENERATION, duration=0:00:03.902, duration_ms=3902, data={name=SquareRootCop}
