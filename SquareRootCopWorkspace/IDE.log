@@ -401,3 +401,78 @@ con
 ----------------End of Script----------------
 
 17:04:51 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Project\CR-Project\SquareRootCopWorkspace\.sdk\launch_scripts\single_application_debug\debugger_squarerootcopapp-default.tcl'
+19:31:50 INFO  : Hardware specification for platform project 'SquareRootCop' is updated.
+19:33:17 INFO  : Checking for BSP changes to sync application flags for project 'SquareRootCopApp'...
+19:33:18 INFO  : Updating application flags with new BSP settings...
+19:33:19 INFO  : Successfully updated application flags for project SquareRootCopApp.
+19:33:26 INFO  : Disconnected from the channel tcfchan#4.
+19:33:26 WARN  : channel "tcfchan#4" closed
+19:33:27 INFO  : The hardware specfication used by project 'SquareRootCopApp' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+19:33:27 INFO  : The hardware specfication used by project 'SquareRootCopApp' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+19:33:27 INFO  : The file 'C:\Users\Pedro\Dropbox\UA\CR\Project\CR-Project\SquareRootCopWorkspace\SquareRootCopApp\_ide\bitstream\SquareRootCop.bit' stored in project is removed.
+19:33:27 INFO  : The file 'C:\Users\Pedro\Dropbox\UA\CR\Project\CR-Project\SquareRootCopWorkspace\SquareRootCopApp\_ide\bitstream\SquareRootCop.mmi' stored in project is removed.
+19:33:27 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\Pedro\Dropbox\UA\CR\Project\CR-Project\SquareRootCopWorkspace\SquareRootCopApp\_ide\bitstream' in project 'SquareRootCopApp'.
+19:33:27 INFO  : The file 'C:\Users\Pedro\Dropbox\UA\CR\Project\CR-Project\SquareRootCopWorkspace\SquareRootCopApp\_ide\bitstream\SquareRootCop.bit' stored in project is removed.
+19:33:27 INFO  : The file 'C:\Users\Pedro\Dropbox\UA\CR\Project\CR-Project\SquareRootCopWorkspace\SquareRootCopApp\_ide\bitstream\SquareRootCop.mmi' stored in project is removed.
+19:33:28 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\Pedro\Dropbox\UA\CR\Project\CR-Project\SquareRootCopWorkspace\SquareRootCopApp\_ide\bitstream' in project 'SquareRootCopApp'.
+19:33:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:33:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:33:31 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+19:33:31 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+19:33:31 INFO  : 'jtag frequency' command is executed.
+19:33:31 INFO  : 'jtag frequency' command is executed.
+19:33:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+19:33:34 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit"
+19:33:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+19:33:36 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit"
+19:33:36 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:33:36 INFO  : Context for processor 'microblaze_0' is selected.
+19:33:36 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:33:36 INFO  : System reset is completed.
+19:33:36 INFO  : Context for processor 'microblaze_0' is selected.
+19:33:39 INFO  : 'after 3000' command is executed.
+19:33:39 INFO  : System reset is completed.
+19:33:39 INFO  : Context for processor 'microblaze_0' is selected.
+19:33:42 INFO  : 'after 3000' command is executed.
+19:33:42 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf' is downloaded to processor 'microblaze_0'.
+19:33:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf
+----------------End of Script----------------
+
+19:33:42 INFO  : Context for processor 'microblaze_0' is selected.
+19:33:42 INFO  : Memory regions updated for context MicroBlaze #0
+19:33:42 INFO  : Memory regions updated for context MicroBlaze #0
+19:33:43 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf' is downloaded to processor 'microblaze_0'.
+19:33:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf
+----------------End of Script----------------
+
+19:33:43 INFO  : Context for processor 'microblaze_0' is selected.
+19:33:43 INFO  : 'con' command is executed.
+19:33:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+19:33:43 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Project\CR-Project\SquareRootCopWorkspace\.sdk\launch_scripts\single_application_debug\debugger_squarerootcopapp-default.tcl'
+19:33:43 INFO  : Memory regions updated for context MicroBlaze #0
+19:33:43 INFO  : Memory regions updated for context MicroBlaze #0
+19:33:43 INFO  : Context for processor 'microblaze_0' is selected.
+19:33:43 ERROR : Already running
+19:33:43 INFO  : Disconnected from the channel tcfchan#6.

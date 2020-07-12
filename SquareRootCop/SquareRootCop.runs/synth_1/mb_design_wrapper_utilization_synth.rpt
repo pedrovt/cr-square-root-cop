@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Sat Jul 11 23:36:25 2020
+| Date         : Sun Jul 12 19:13:24 2020
 | Host         : ASUS-PC running 64-bit major release  (build 9200)
 | Command      : report_utilization -file mb_design_wrapper_utilization_synth.rpt -pb mb_design_wrapper_utilization_synth.pb
 | Design       : mb_design_wrapper
@@ -170,6 +170,7 @@ Table of Contents
 | mb_design_dlmb_v10_1              |    1 |
 | mb_design_dlmb_bram_if_cntlr_1    |    1 |
 | mb_design_clk_wiz_1_0             |    1 |
+| mb_design_axis_data_fifo_1_0      |    1 |
 | mb_design_axis_data_fifo_0_0      |    1 |
 | mb_design_axi_uartlite_0_0        |    1 |
 | mb_design_axi_timer_0_0           |    1 |
@@ -178,9 +179,7 @@ Table of Contents
 | mb_design_axi_gpio_1_0            |    1 |
 | mb_design_axi_gpio_0_0            |    1 |
 | mb_design_axi_emc_0_0             |    1 |
-| mb_design_axi_dma_1_0             |    1 |
 | mb_design_axi_dma_0_0             |    1 |
-| mb_design_auto_pc_9               |    1 |
 | mb_design_auto_pc_8               |    1 |
 | mb_design_auto_pc_7               |    1 |
 | mb_design_auto_pc_6               |    1 |

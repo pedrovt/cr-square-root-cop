@@ -13,6 +13,8 @@ INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0'.
 WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0' already exists; ignoring attempt to add it again.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
 WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
 Current IP cache path is c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.cache/ip 
@@ -22,105 +24,89 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 23308 
+INFO: Helper process launched with PID 24608 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 840.070 ; gain = 234.281
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 840.145 ; gain = 234.422
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'mb_design_SquareRootCop_0_0' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_SquareRootCop_0_0/synth/mb_design_SquareRootCop_0_0.vhd:82]
-	Parameter C_M00_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
-	Parameter C_M00_AXIS_START_COUNT bound to: 32 - type: integer 
-	Parameter C_M01_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
-	Parameter C_M01_AXIS_START_COUNT bound to: 32 - type: integer 
-	Parameter C_S00_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'SquareRootCop_v1_0' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootCop_v1_0.vhd:5' bound to instance 'U0' of component 'SquareRootCop_v1_0' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_SquareRootCop_0_0/synth/mb_design_SquareRootCop_0_0.vhd:156]
-INFO: [Synth 8-638] synthesizing module 'SquareRootCop_v1_0' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootCop_v1_0.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'mb_design_SquareRootCop_0_0' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_SquareRootCop_0_0/synth/mb_design_SquareRootCop_0_0.vhd:75]
 	Parameter C_S00_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_M00_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
-	Parameter C_M00_AXIS_START_COUNT bound to: 32 - type: integer 
-	Parameter C_M01_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
-	Parameter C_M01_AXIS_START_COUNT bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'SquareRootCop_v1_0' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootCop_v1_0.vhd:5' bound to instance 'U0' of component 'SquareRootCop_v1_0' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_SquareRootCop_0_0/synth/mb_design_SquareRootCop_0_0.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'SquareRootCop_v1_0' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootCop_v1_0.vhd:46]
+	Parameter C_S00_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M00_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'SquareRootCop_v1_0_S00_AXIS' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootCop_v1_0_S00_AXIS.vhd:5' bound to instance 'SquareRootCop_v1_0_S00_AXIS_inst' of component 'SquareRootCop_v1_0_S00_AXIS' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootCop_v1_0.vhd:146]
-INFO: [Synth 8-638] synthesizing module 'SquareRootCop_v1_0_S00_AXIS' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootCop_v1_0_S00_AXIS.vhd:43]
+INFO: [Synth 8-3491] module 'SquareRootCop_v1_0_S00_AXIS' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootCop_v1_0_S00_AXIS.vhd:5' bound to instance 'SquareRootCop_v1_0_S00_AXIS_inst' of component 'SquareRootCop_v1_0_S00_AXIS' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootCop_v1_0.vhd:104]
+INFO: [Synth 8-638] synthesizing module 'SquareRootCop_v1_0_S00_AXIS' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootCop_v1_0_S00_AXIS.vhd:42]
 	Parameter C_S_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
 	Parameter DATA_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'SquareRoot' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRoot.vhd:25' bound to instance 'SquareRootBlock' of component 'SquareRoot' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootCop_v1_0_S00_AXIS.vhd:63]
-INFO: [Synth 8-638] synthesizing module 'SquareRoot' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRoot.vhd:37]
+INFO: [Synth 8-3491] module 'SquareRoot' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRoot.vhd:25' bound to instance 'SquareRootBlock' of component 'SquareRoot' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootCop_v1_0_S00_AXIS.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'SquareRoot' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRoot.vhd:37]
 	Parameter DATA_WIDTH bound to: 32 - type: integer 
 	Parameter WORD_SIZE bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRoot.vhd:69]
-INFO: [Synth 8-638] synthesizing module 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:40]
+INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRoot.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:40]
 	Parameter WORD_SIZE bound to: 32 - type: integer 
 	Parameter WORD_SIZE bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'comparatorLessThan' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:124' bound to instance 'comp1' of component 'comparatorLessThan' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:70]
-INFO: [Synth 8-638] synthesizing module 'comparatorLessThan' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:134]
+INFO: [Synth 8-3491] module 'comparatorLessThan' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:124' bound to instance 'comp1' of component 'comparatorLessThan' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'comparatorLessThan' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:134]
 	Parameter WORD_SIZE bound to: 32 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'comparatorLessThan' (1#1) [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:134]
+INFO: [Synth 8-256] done synthesizing module 'comparatorLessThan' (1#1) [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:134]
 	Parameter WORD_SIZE bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'mux2NtoN' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:155' bound to instance 'mux1' of component 'mux2NtoN' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:80]
-INFO: [Synth 8-638] synthesizing module 'mux2NtoN' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:166]
+INFO: [Synth 8-3491] module 'mux2NtoN' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:155' bound to instance 'mux1' of component 'mux2NtoN' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'mux2NtoN' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:166]
 	Parameter WORD_SIZE bound to: 32 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'mux2NtoN' (2#1) [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:166]
+INFO: [Synth 8-256] done synthesizing module 'mux2NtoN' (2#1) [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:166]
 	Parameter WORD_SIZE bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'mux2NtoN' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:155' bound to instance 'mux2' of component 'mux2NtoN' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:91]
-INFO: [Synth 8-256] done synthesizing module 'SquareRootBasicBlock' (3#1) [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:40]
+INFO: [Synth 8-3491] module 'mux2NtoN' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:155' bound to instance 'mux2' of component 'mux2NtoN' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:91]
+INFO: [Synth 8-256] done synthesizing module 'SquareRootBasicBlock' (3#1) [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:40]
 	Parameter WORD_SIZE bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRoot.vhd:69]
+INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRoot.vhd:69]
 	Parameter WORD_SIZE bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRoot.vhd:69]
+INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRoot.vhd:69]
 	Parameter WORD_SIZE bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRoot.vhd:69]
+INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRoot.vhd:69]
 	Parameter WORD_SIZE bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRoot.vhd:69]
+INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRoot.vhd:69]
 	Parameter WORD_SIZE bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRoot.vhd:69]
+INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRoot.vhd:69]
 	Parameter WORD_SIZE bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRoot.vhd:69]
+INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRoot.vhd:69]
 	Parameter WORD_SIZE bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRoot.vhd:69]
+INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRoot.vhd:69]
 	Parameter WORD_SIZE bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRoot.vhd:69]
+INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRoot.vhd:69]
 	Parameter WORD_SIZE bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRoot.vhd:69]
+INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRoot.vhd:69]
 	Parameter WORD_SIZE bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRoot.vhd:69]
+INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRoot.vhd:69]
 	Parameter WORD_SIZE bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRoot.vhd:69]
+INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRoot.vhd:69]
 	Parameter WORD_SIZE bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRoot.vhd:69]
+INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRoot.vhd:69]
 	Parameter WORD_SIZE bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRoot.vhd:69]
+INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRoot.vhd:69]
 	Parameter WORD_SIZE bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRoot.vhd:69]
+INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRoot.vhd:69]
 	Parameter WORD_SIZE bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRoot.vhd:84]
-INFO: [Synth 8-256] done synthesizing module 'SquareRoot' (4#1) [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRoot.vhd:37]
-INFO: [Synth 8-256] done synthesizing module 'SquareRootCop_v1_0_S00_AXIS' (5#1) [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootCop_v1_0_S00_AXIS.vhd:43]
+INFO: [Synth 8-3491] module 'SquareRootBasicBlock' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootBasicBlock.vhd:26' bound to instance 'SquareRootBasic' of component 'SquareRootBasicBlock' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRoot.vhd:84]
+INFO: [Synth 8-256] done synthesizing module 'SquareRoot' (4#1) [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRoot.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'SquareRootCop_v1_0_S00_AXIS' (5#1) [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootCop_v1_0_S00_AXIS.vhd:42]
+	Parameter C_M_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'SquareRootCop_v1_0_M00_AXIS' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootCop_v1_0_M00_AXIS.vhd:5' bound to instance 'SquareRootCop_v1_0_M00_AXIS_inst' of component 'SquareRootCop_v1_0_M00_AXIS' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootCop_v1_0.vhd:124]
+INFO: [Synth 8-638] synthesizing module 'SquareRootCop_v1_0_M00_AXIS' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootCop_v1_0_M00_AXIS.vhd:44]
 	Parameter C_M_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_M_START_COUNT bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'SquareRootCop_v1_0_M00_AXIS' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootCop_v1_0_M00_AXIS.vhd:5' bound to instance 'SquareRootCop_v1_0_M00_AXIS_inst' of component 'SquareRootCop_v1_0_M00_AXIS' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootCop_v1_0.vhd:167]
-INFO: [Synth 8-638] synthesizing module 'SquareRootCop_v1_0_M00_AXIS' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootCop_v1_0_M00_AXIS.vhd:44]
-	Parameter C_M_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
-	Parameter C_M_START_COUNT bound to: 32 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'SquareRootCop_v1_0_M00_AXIS' (6#1) [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootCop_v1_0_M00_AXIS.vhd:44]
-	Parameter C_M_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
-	Parameter C_M_START_COUNT bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'SquareRootCop_v1_0_M01_AXIS' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootCop_v1_0_M01_AXIS.vhd:5' bound to instance 'SquareRootCop_v1_0_M01_AXIS_inst' of component 'SquareRootCop_v1_0_M01_AXIS' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootCop_v1_0.vhd:188]
-INFO: [Synth 8-638] synthesizing module 'SquareRootCop_v1_0_M01_AXIS' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootCop_v1_0_M01_AXIS.vhd:44]
-	Parameter C_M_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
-	Parameter C_M_START_COUNT bound to: 32 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'SquareRootCop_v1_0_M01_AXIS' (7#1) [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootCop_v1_0_M01_AXIS.vhd:44]
-INFO: [Synth 8-256] done synthesizing module 'SquareRootCop_v1_0' (8#1) [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/4e43/hdl/SquareRootCop_v1_0.vhd:60]
-INFO: [Synth 8-256] done synthesizing module 'mb_design_SquareRootCop_0_0' (9#1) [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_SquareRootCop_0_0/synth/mb_design_SquareRootCop_0_0.vhd:82]
-WARNING: [Synth 8-3331] design SquareRootCop_v1_0_M01_AXIS has unconnected port M_AXIS_ACLK
-WARNING: [Synth 8-3331] design SquareRootCop_v1_0_M01_AXIS has unconnected port M_AXIS_ARESETN
+INFO: [Synth 8-256] done synthesizing module 'SquareRootCop_v1_0_M00_AXIS' (6#1) [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootCop_v1_0_M00_AXIS.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'SquareRootCop_v1_0' (7#1) [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/d792/hdl/SquareRootCop_v1_0.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'mb_design_SquareRootCop_0_0' (8#1) [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_SquareRootCop_0_0/synth/mb_design_SquareRootCop_0_0.vhd:75]
 WARNING: [Synth 8-3331] design SquareRootCop_v1_0_M00_AXIS has unconnected port M_AXIS_ACLK
 WARNING: [Synth 8-3331] design SquareRootCop_v1_0_M00_AXIS has unconnected port M_AXIS_ARESETN
 WARNING: [Synth 8-3331] design SquareRootBasicBlock has unconnected port ri[31]
 WARNING: [Synth 8-3331] design SquareRootBasicBlock has unconnected port ri[30]
 WARNING: [Synth 8-3331] design SquareRootBasicBlock has unconnected port qi[31]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 918.344 ; gain = 312.555
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 918.805 ; gain = 313.082
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -133,43 +119,43 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 918.344 ; gain = 312.555
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 918.805 ; gain = 313.082
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 918.344 ; gain = 312.555
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 918.805 ; gain = 313.082
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.132 . Memory (MB): peak = 918.344 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.121 . Memory (MB): peak = 918.805 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1012.188 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1008.344 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.168 . Memory (MB): peak = 1014.168 ; gain = 1.980
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.131 . Memory (MB): peak = 1010.379 ; gain = 2.035
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 1014.168 ; gain = 408.379
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1010.379 ; gain = 404.656
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 1014.168 ; gain = 408.379
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1010.379 ; gain = 404.656
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 1014.168 ; gain = 408.379
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1010.379 ; gain = 404.656
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 1014.168 ; gain = 408.379
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1010.379 ; gain = 404.656
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -184,12 +170,13 @@ Detailed RTL Component Info :
 +---Adders : 
 	   3 Input     32 Bit       Adders := 16    
 +---Registers : 
-	               32 Bit    Registers := 3     
+	               32 Bit    Registers := 2     
 	                4 Bit    Registers := 1     
 	                1 Bit    Registers := 2     
 +---Muxes : 
-	   2 Input     32 Bit        Muxes := 32    
-	   2 Input      1 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 33    
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -208,11 +195,13 @@ Detailed RTL Component Info :
 Module SquareRootCop_v1_0_S00_AXIS 
 Detailed RTL Component Info : 
 +---Registers : 
-	               32 Bit    Registers := 3     
+	               32 Bit    Registers := 2     
 	                4 Bit    Registers := 1     
 	                1 Bit    Registers := 2     
 +---Muxes : 
-	   2 Input      1 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
@@ -234,26 +223,8 @@ WARNING: [Synth 8-3331] design SquareRootBasicBlock has unconnected port ri[30]
 WARNING: [Synth 8-3331] design SquareRootBasicBlock has unconnected port qi[31]
 WARNING: [Synth 8-3331] design mb_design_SquareRootCop_0_0 has unconnected port m00_axis_aclk
 WARNING: [Synth 8-3331] design mb_design_SquareRootCop_0_0 has unconnected port m00_axis_aresetn
-WARNING: [Synth 8-3331] design mb_design_SquareRootCop_0_0 has unconnected port m01_axis_aclk
-WARNING: [Synth 8-3331] design mb_design_SquareRootCop_0_0 has unconnected port m01_axis_aresetn
-INFO: [Synth 8-3886] merging instance 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[16]' (FDRE) to 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[17]'
-INFO: [Synth 8-3886] merging instance 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[17]' (FDRE) to 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[18]'
-INFO: [Synth 8-3886] merging instance 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[18]' (FDRE) to 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[19]'
-INFO: [Synth 8-3886] merging instance 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[19]' (FDRE) to 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[20]'
-INFO: [Synth 8-3886] merging instance 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[20]' (FDRE) to 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[21]'
-INFO: [Synth 8-3886] merging instance 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[21]' (FDRE) to 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[22]'
-INFO: [Synth 8-3886] merging instance 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[22]' (FDRE) to 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[23]'
-INFO: [Synth 8-3886] merging instance 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[23]' (FDRE) to 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[24]'
-INFO: [Synth 8-3886] merging instance 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[24]' (FDRE) to 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[25]'
-INFO: [Synth 8-3886] merging instance 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[25]' (FDRE) to 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[26]'
-INFO: [Synth 8-3886] merging instance 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[26]' (FDRE) to 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[27]'
-INFO: [Synth 8-3886] merging instance 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[27]' (FDRE) to 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[28]'
-INFO: [Synth 8-3886] merging instance 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[28]' (FDRE) to 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[29]'
-INFO: [Synth 8-3886] merging instance 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[29]' (FDRE) to 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[30]'
-INFO: [Synth 8-3886] merging instance 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[30]' (FDRE) to 'U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[31]'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/SquareRootCop_v1_0_S00_AXIS_inst/sqrt_reg[31] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 1014.168 ; gain = 408.379
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1010.379 ; gain = 404.656
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -265,13 +236,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:51 ; elapsed = 00:01:02 . Memory (MB): peak = 1014.168 ; gain = 408.379
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 1010.379 ; gain = 404.656
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:52 ; elapsed = 00:01:02 . Memory (MB): peak = 1014.168 ; gain = 408.379
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 1010.379 ; gain = 404.656
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -283,7 +254,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:53 ; elapsed = 00:01:03 . Memory (MB): peak = 1026.973 ; gain = 421.184
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 1032.406 ; gain = 426.684
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -307,13 +278,13 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:04 ; elapsed = 00:01:15 . Memory (MB): peak = 1040.727 ; gain = 434.938
+Finished IO Insertion : Time (s): cpu = 00:00:52 ; elapsed = 00:00:55 . Memory (MB): peak = 1038.211 ; gain = 432.488
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:04 ; elapsed = 00:01:15 . Memory (MB): peak = 1040.727 ; gain = 434.938
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:52 ; elapsed = 00:00:55 . Memory (MB): peak = 1038.211 ; gain = 432.488
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -332,25 +303,25 @@ Report Check Netlist:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:04 ; elapsed = 00:01:15 . Memory (MB): peak = 1040.727 ; gain = 434.938
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1038.211 ; gain = 432.488
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:04 ; elapsed = 00:01:16 . Memory (MB): peak = 1040.727 ; gain = 434.938
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1038.211 ; gain = 432.488
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:04 ; elapsed = 00:01:16 . Memory (MB): peak = 1040.727 ; gain = 434.938
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1038.211 ; gain = 432.488
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:04 ; elapsed = 00:01:16 . Memory (MB): peak = 1040.727 ; gain = 434.938
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1038.211 ; gain = 432.488
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -367,23 +338,23 @@ Report Cell Usage:
 |      |Cell   |Count |
 +------+-------+------+
 |1     |CARRY4 |   180|
-|2     |LUT1   |    51|
-|3     |LUT2   |   114|
-|4     |LUT3   |   317|
-|5     |LUT4   |   163|
-|6     |LUT5   |   495|
-|7     |LUT6   |   201|
-|8     |FDRE   |    86|
+|2     |LUT1   |    57|
+|3     |LUT2   |   124|
+|4     |LUT3   |   288|
+|5     |LUT4   |   172|
+|6     |LUT5   |   482|
+|7     |LUT6   |   226|
+|8     |FDRE   |    70|
 +------+-------+------+
 
 Report Instance Areas: 
 +------+----------------------------------------------------------+----------------------------+------+
 |      |Instance                                                  |Module                      |Cells |
 +------+----------------------------------------------------------+----------------------------+------+
-|1     |top                                                       |                            |  1607|
-|2     |  U0                                                      |SquareRootCop_v1_0          |  1607|
-|3     |    SquareRootCop_v1_0_S00_AXIS_inst                      |SquareRootCop_v1_0_S00_AXIS |  1607|
-|4     |      SquareRootBlock                                     |SquareRoot                  |  1481|
+|1     |top                                                       |                            |  1599|
+|2     |  U0                                                      |SquareRootCop_v1_0          |  1599|
+|3     |    SquareRootCop_v1_0_S00_AXIS_inst                      |SquareRootCop_v1_0_S00_AXIS |  1599|
+|4     |      SquareRootBlock                                     |SquareRoot                  |  1495|
 |5     |        \gen_sqrt_blocks[10].NORMAL_ITER.SquareRootBasic  |SquareRootBasicBlock        |     6|
 |6     |          comp1                                           |comparatorLessThan_28       |     6|
 |7     |        \gen_sqrt_blocks[11].NORMAL_ITER.SquareRootBasic  |SquareRootBasicBlock_0      |     6|
@@ -394,16 +365,16 @@ Report Instance Areas:
 |12    |          comp1                                           |comparatorLessThan_25       |     6|
 |13    |        \gen_sqrt_blocks[14].NORMAL_ITER.SquareRootBasic  |SquareRootBasicBlock_3      |     6|
 |14    |          comp1                                           |comparatorLessThan_24       |     6|
-|15    |        \gen_sqrt_blocks[15].LAST_ITER.SquareRootBasic    |SquareRootBasicBlock_4      |    14|
-|16    |          comp1                                           |comparatorLessThan_23       |    14|
-|17    |        \gen_sqrt_blocks[1].NORMAL_ITER.SquareRootBasic   |SquareRootBasicBlock_5      |  1387|
-|18    |          comp1                                           |comparatorLessThan_21       |   800|
-|19    |          mux1                                            |mux2NtoN_22                 |   587|
-|20    |        \gen_sqrt_blocks[2].NORMAL_ITER.SquareRootBasic   |SquareRootBasicBlock_6      |     6|
-|21    |          comp1                                           |comparatorLessThan_20       |     6|
-|22    |        \gen_sqrt_blocks[3].NORMAL_ITER.SquareRootBasic   |SquareRootBasicBlock_7      |     7|
-|23    |          comp1                                           |comparatorLessThan_19       |     6|
-|24    |          mux1                                            |mux2NtoN                    |     1|
+|15    |        \gen_sqrt_blocks[15].LAST_ITER.SquareRootBasic    |SquareRootBasicBlock_4      |    20|
+|16    |          comp1                                           |comparatorLessThan_22       |    18|
+|17    |          mux1                                            |mux2NtoN_23                 |     2|
+|18    |        \gen_sqrt_blocks[1].NORMAL_ITER.SquareRootBasic   |SquareRootBasicBlock_5      |  1394|
+|19    |          comp1                                           |comparatorLessThan_21       |   824|
+|20    |          mux1                                            |mux2NtoN                    |   570|
+|21    |        \gen_sqrt_blocks[2].NORMAL_ITER.SquareRootBasic   |SquareRootBasicBlock_6      |     6|
+|22    |          comp1                                           |comparatorLessThan_20       |     6|
+|23    |        \gen_sqrt_blocks[3].NORMAL_ITER.SquareRootBasic   |SquareRootBasicBlock_7      |     6|
+|24    |          comp1                                           |comparatorLessThan_19       |     6|
 |25    |        \gen_sqrt_blocks[4].NORMAL_ITER.SquareRootBasic   |SquareRootBasicBlock_8      |     6|
 |26    |          comp1                                           |comparatorLessThan_18       |     6|
 |27    |        \gen_sqrt_blocks[5].NORMAL_ITER.SquareRootBasic   |SquareRootBasicBlock_9      |     6|
@@ -412,41 +383,41 @@ Report Instance Areas:
 |30    |          comp1                                           |comparatorLessThan_16       |     6|
 |31    |        \gen_sqrt_blocks[7].NORMAL_ITER.SquareRootBasic   |SquareRootBasicBlock_11     |     6|
 |32    |          comp1                                           |comparatorLessThan_15       |     6|
-|33    |        \gen_sqrt_blocks[8].NORMAL_ITER.SquareRootBasic   |SquareRootBasicBlock_12     |     7|
-|34    |          comp1                                           |comparatorLessThan_14       |     7|
+|33    |        \gen_sqrt_blocks[8].NORMAL_ITER.SquareRootBasic   |SquareRootBasicBlock_12     |     9|
+|34    |          comp1                                           |comparatorLessThan_14       |     9|
 |35    |        \gen_sqrt_blocks[9].NORMAL_ITER.SquareRootBasic   |SquareRootBasicBlock_13     |     6|
 |36    |          comp1                                           |comparatorLessThan          |     6|
 +------+----------------------------------------------------------+----------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:04 ; elapsed = 00:01:16 . Memory (MB): peak = 1040.727 ; gain = 434.938
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1038.211 ; gain = 432.488
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:48 ; elapsed = 00:01:12 . Memory (MB): peak = 1040.727 ; gain = 339.113
-Synthesis Optimization Complete : Time (s): cpu = 00:01:05 ; elapsed = 00:01:16 . Memory (MB): peak = 1040.727 ; gain = 434.938
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:37 ; elapsed = 00:00:52 . Memory (MB): peak = 1038.211 ; gain = 340.914
+Synthesis Optimization Complete : Time (s): cpu = 00:00:53 ; elapsed = 00:00:56 . Memory (MB): peak = 1038.211 ; gain = 432.488
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.112 . Memory (MB): peak = 1053.840 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.116 . Memory (MB): peak = 1047.945 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 180 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1053.840 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1047.945 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-73 Infos, 17 Warnings, 0 Critical Warnings and 0 Errors encountered.
+55 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:17 ; elapsed = 00:01:31 . Memory (MB): peak = 1053.840 ; gain = 738.461
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1053.840 ; gain = 0.000
+synth_design: Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 1047.945 ; gain = 732.500
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1047.945 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/mb_design_SquareRootCop_0_0_synth_1/mb_design_SquareRootCop_0_0.dcp' has been generated.
 WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP mb_design_SquareRootCop_0_0, cache-ID = 5bea885e2b472062
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP mb_design_SquareRootCop_0_0, cache-ID = b848f9e78dd81720
 INFO: [Coretcl 2-1174] Renamed 35 cell refs.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1053.840 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1047.945 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/mb_design_SquareRootCop_0_0_synth_1/mb_design_SquareRootCop_0_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file mb_design_SquareRootCop_0_0_utilization_synth.rpt -pb mb_design_SquareRootCop_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat Jul 11 23:28:39 2020...
+INFO: [Common 17-206] Exiting Vivado at Sun Jul 12 19:11:50 2020...

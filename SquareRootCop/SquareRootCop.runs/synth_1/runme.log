@@ -13,19 +13,21 @@ INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0'.
 WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0' already exists; ignoring attempt to add it again.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
 WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
 Current IP cache path is c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.cache/ip 
-add_files: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 321.668 ; gain = 13.402
+add_files: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 320.945 ; gain = 12.859
 Command: synth_design -top mb_design_wrapper -part xc7a100tcsg324-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 19268 
+INFO: Helper process launched with PID 24988 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 871.379 ; gain = 234.934
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 869.473 ; gain = 234.242
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'mb_design_wrapper' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:37]
 INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36196' bound to instance 'cellular_ram_dq_iobuf_0' of component 'IOBUF' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:269]
@@ -74,107 +76,104 @@ INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2019.2/scripts
 INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36196' bound to instance 'led_16bits_tri_iobuf_7' of component 'IOBUF' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:528]
 INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36196' bound to instance 'led_16bits_tri_iobuf_8' of component 'IOBUF' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:535]
 INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36196' bound to instance 'led_16bits_tri_iobuf_9' of component 'IOBUF' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:542]
-INFO: [Synth 8-3491] module 'mb_design' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:6521' bound to instance 'mb_design_i' of component 'mb_design' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:549]
-INFO: [Synth 8-638] synthesizing module 'mb_design' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:6556]
-INFO: [Synth 8-3491] module 'mb_design_SquareRootCop_0_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_SquareRootCop_0_0_stub.vhdl:5' bound to instance 'SquareRootCop_0' of component 'mb_design_SquareRootCop_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7481]
-INFO: [Synth 8-638] synthesizing module 'mb_design_SquareRootCop_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_SquareRootCop_0_0_stub.vhdl:32]
-WARNING: [Synth 8-5640] Port 'axi_dma_tstvec' is missing in component declaration [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:6913]
-INFO: [Synth 8-3491] module 'mb_design_axi_dma_0_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_axi_dma_0_0_stub.vhdl:5' bound to instance 'axi_dma_input_remainer_values' of component 'mb_design_axi_dma_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7505]
-INFO: [Synth 8-638] synthesizing module 'mb_design_axi_dma_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_axi_dma_0_0_stub.vhdl:75]
-WARNING: [Synth 8-5640] Port 'axi_dma_tstvec' is missing in component declaration [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:6996]
-INFO: [Synth 8-3491] module 'mb_design_axi_dma_1_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_axi_dma_1_0_stub.vhdl:5' bound to instance 'axi_dma_sqrt_value' of component 'mb_design_axi_dma_1_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7571]
-INFO: [Synth 8-638] synthesizing module 'mb_design_axi_dma_1_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_axi_dma_1_0_stub.vhdl:54]
-INFO: [Synth 8-3491] module 'mb_design_axi_emc_0_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_axi_emc_0_0_stub.vhdl:5' bound to instance 'axi_emc_0' of component 'mb_design_axi_emc_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7616]
-INFO: [Synth 8-638] synthesizing module 'mb_design_axi_emc_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_axi_emc_0_0_stub.vhdl:62]
-INFO: [Synth 8-3491] module 'mb_design_axi_gpio_0_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_axi_gpio_0_0_stub.vhdl:5' bound to instance 'axi_gpio_buttons' of component 'mb_design_axi_gpio_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7671]
-INFO: [Synth 8-638] synthesizing module 'mb_design_axi_gpio_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_axi_gpio_0_0_stub.vhdl:32]
-INFO: [Synth 8-3491] module 'mb_design_axi_gpio_3_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_axi_gpio_3_0_stub.vhdl:5' bound to instance 'axi_gpio_display' of component 'mb_design_axi_gpio_3_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7695]
-INFO: [Synth 8-638] synthesizing module 'mb_design_axi_gpio_3_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_axi_gpio_3_0_stub.vhdl:36]
-INFO: [Synth 8-3491] module 'mb_design_axi_gpio_2_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_axi_gpio_2_0_stub.vhdl:5' bound to instance 'axi_gpio_leds' of component 'mb_design_axi_gpio_2_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7723]
-INFO: [Synth 8-638] synthesizing module 'mb_design_axi_gpio_2_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_axi_gpio_2_0_stub.vhdl:33]
-INFO: [Synth 8-3491] module 'mb_design_axi_gpio_1_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_axi_gpio_1_0_stub.vhdl:5' bound to instance 'axi_gpio_switches' of component 'mb_design_axi_gpio_1_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7748]
-INFO: [Synth 8-638] synthesizing module 'mb_design_axi_gpio_1_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_axi_gpio_1_0_stub.vhdl:32]
-INFO: [Synth 8-3491] module 'mb_design_axi_timer_0_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_axi_timer_0_0_stub.vhdl:5' bound to instance 'axi_timer_0' of component 'mb_design_axi_timer_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7772]
-INFO: [Synth 8-638] synthesizing module 'mb_design_axi_timer_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_axi_timer_0_0_stub.vhdl:37]
-INFO: [Synth 8-3491] module 'mb_design_axi_uartlite_0_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_axi_uartlite_0_0_stub.vhdl:5' bound to instance 'axi_uartlite_0' of component 'mb_design_axi_uartlite_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7801]
-INFO: [Synth 8-638] synthesizing module 'mb_design_axi_uartlite_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_axi_uartlite_0_0_stub.vhdl:33]
-INFO: [Synth 8-3491] module 'mb_design_axis_data_fifo_0_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_axis_data_fifo_0_0_stub.vhdl:5' bound to instance 'axis_data_fifo_0' of component 'mb_design_axis_data_fifo_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7826]
-INFO: [Synth 8-638] synthesizing module 'mb_design_axis_data_fifo_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_axis_data_fifo_0_0_stub.vhdl:23]
-INFO: [Synth 8-3491] module 'mb_design_clk_wiz_1_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_clk_wiz_1_0_stub.vhdl:5' bound to instance 'clk_wiz_1' of component 'mb_design_clk_wiz_1_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7841]
-INFO: [Synth 8-638] synthesizing module 'mb_design_clk_wiz_1_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_clk_wiz_1_0_stub.vhdl:15]
-INFO: [Synth 8-3491] module 'mb_design_fit_timer_0_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_fit_timer_0_0_stub.vhdl:5' bound to instance 'fit_timer_0' of component 'mb_design_fit_timer_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7848]
-INFO: [Synth 8-638] synthesizing module 'mb_design_fit_timer_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_fit_timer_0_0_stub.vhdl:14]
-INFO: [Synth 8-3491] module 'mb_design_mdm_1_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_mdm_1_0_stub.vhdl:5' bound to instance 'mdm_1' of component 'mb_design_mdm_1_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7854]
-INFO: [Synth 8-638] synthesizing module 'mb_design_mdm_1_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_mdm_1_0_stub.vhdl:21]
-INFO: [Synth 8-3491] module 'mb_design_microblaze_0_1' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_microblaze_0_1_stub.vhdl:5' bound to instance 'microblaze_0' of component 'mb_design_microblaze_0_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7867]
-INFO: [Synth 8-638] synthesizing module 'mb_design_microblaze_0_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_microblaze_0_1_stub.vhdl:63]
-INFO: [Synth 8-3491] module 'mb_design_microblaze_0_axi_intc_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_microblaze_0_axi_intc_0_stub.vhdl:5' bound to instance 'microblaze_0_axi_intc' of component 'mb_design_microblaze_0_axi_intc_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7953]
-INFO: [Synth 8-638] synthesizing module 'mb_design_microblaze_0_axi_intc_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_microblaze_0_axi_intc_0_stub.vhdl:36]
-INFO: [Synth 8-638] synthesizing module 'mb_design_microblaze_0_axi_periph_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:4263]
+INFO: [Synth 8-3491] module 'mb_design' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:6747' bound to instance 'mb_design_i' of component 'mb_design' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:549]
+INFO: [Synth 8-638] synthesizing module 'mb_design' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:6782]
+INFO: [Synth 8-3491] module 'mb_design_SquareRootCop_0_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_SquareRootCop_0_0_stub.vhdl:5' bound to instance 'SquareRootCop_0' of component 'mb_design_SquareRootCop_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7658]
+INFO: [Synth 8-638] synthesizing module 'mb_design_SquareRootCop_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_SquareRootCop_0_0_stub.vhdl:25]
+WARNING: [Synth 8-5640] Port 'axi_dma_tstvec' is missing in component declaration [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7139]
+INFO: [Synth 8-3491] module 'mb_design_axi_dma_0_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_axi_dma_0_0_stub.vhdl:5' bound to instance 'axi_dma_input_remainer_values' of component 'mb_design_axi_dma_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7675]
+INFO: [Synth 8-638] synthesizing module 'mb_design_axi_dma_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_axi_dma_0_0_stub.vhdl:75]
+INFO: [Synth 8-3491] module 'mb_design_axi_emc_0_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_axi_emc_0_0_stub.vhdl:5' bound to instance 'axi_emc_0' of component 'mb_design_axi_emc_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7741]
+INFO: [Synth 8-638] synthesizing module 'mb_design_axi_emc_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_axi_emc_0_0_stub.vhdl:62]
+INFO: [Synth 8-3491] module 'mb_design_axi_gpio_0_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_axi_gpio_0_0_stub.vhdl:5' bound to instance 'axi_gpio_buttons' of component 'mb_design_axi_gpio_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7796]
+INFO: [Synth 8-638] synthesizing module 'mb_design_axi_gpio_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_axi_gpio_0_0_stub.vhdl:32]
+INFO: [Synth 8-3491] module 'mb_design_axi_gpio_3_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_axi_gpio_3_0_stub.vhdl:5' bound to instance 'axi_gpio_display' of component 'mb_design_axi_gpio_3_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7820]
+INFO: [Synth 8-638] synthesizing module 'mb_design_axi_gpio_3_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_axi_gpio_3_0_stub.vhdl:36]
+INFO: [Synth 8-3491] module 'mb_design_axi_gpio_2_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_axi_gpio_2_0_stub.vhdl:5' bound to instance 'axi_gpio_leds' of component 'mb_design_axi_gpio_2_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7848]
+INFO: [Synth 8-638] synthesizing module 'mb_design_axi_gpio_2_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_axi_gpio_2_0_stub.vhdl:33]
+INFO: [Synth 8-3491] module 'mb_design_axi_gpio_1_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_axi_gpio_1_0_stub.vhdl:5' bound to instance 'axi_gpio_switches' of component 'mb_design_axi_gpio_1_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7873]
+INFO: [Synth 8-638] synthesizing module 'mb_design_axi_gpio_1_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_axi_gpio_1_0_stub.vhdl:32]
+INFO: [Synth 8-3491] module 'mb_design_axi_timer_0_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_axi_timer_0_0_stub.vhdl:5' bound to instance 'axi_timer_0' of component 'mb_design_axi_timer_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7897]
+INFO: [Synth 8-638] synthesizing module 'mb_design_axi_timer_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_axi_timer_0_0_stub.vhdl:37]
+INFO: [Synth 8-3491] module 'mb_design_axi_uartlite_0_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_axi_uartlite_0_0_stub.vhdl:5' bound to instance 'axi_uartlite_0' of component 'mb_design_axi_uartlite_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7926]
+INFO: [Synth 8-638] synthesizing module 'mb_design_axi_uartlite_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_axi_uartlite_0_0_stub.vhdl:33]
+INFO: [Synth 8-3491] module 'mb_design_axis_data_fifo_0_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_axis_data_fifo_0_0_stub.vhdl:5' bound to instance 'axis_data_fifo_0' of component 'mb_design_axis_data_fifo_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7951]
+INFO: [Synth 8-638] synthesizing module 'mb_design_axis_data_fifo_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_axis_data_fifo_0_0_stub.vhdl:23]
+INFO: [Synth 8-3491] module 'mb_design_axis_data_fifo_1_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_axis_data_fifo_1_0_stub.vhdl:5' bound to instance 'axis_data_fifo_1' of component 'mb_design_axis_data_fifo_1_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7966]
+INFO: [Synth 8-638] synthesizing module 'mb_design_axis_data_fifo_1_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_axis_data_fifo_1_0_stub.vhdl:23]
+INFO: [Synth 8-3491] module 'mb_design_clk_wiz_1_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_clk_wiz_1_0_stub.vhdl:5' bound to instance 'clk_wiz_1' of component 'mb_design_clk_wiz_1_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7981]
+INFO: [Synth 8-638] synthesizing module 'mb_design_clk_wiz_1_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_clk_wiz_1_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'mb_design_fit_timer_0_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_fit_timer_0_0_stub.vhdl:5' bound to instance 'fit_timer_0' of component 'mb_design_fit_timer_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7988]
+INFO: [Synth 8-638] synthesizing module 'mb_design_fit_timer_0_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_fit_timer_0_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'mb_design_mdm_1_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_mdm_1_0_stub.vhdl:5' bound to instance 'mdm_1' of component 'mb_design_mdm_1_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:7994]
+INFO: [Synth 8-638] synthesizing module 'mb_design_mdm_1_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_mdm_1_0_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'mb_design_microblaze_0_1' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_microblaze_0_1_stub.vhdl:5' bound to instance 'microblaze_0' of component 'mb_design_microblaze_0_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:8007]
+INFO: [Synth 8-638] synthesizing module 'mb_design_microblaze_0_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_microblaze_0_1_stub.vhdl:63]
+INFO: [Synth 8-3491] module 'mb_design_microblaze_0_axi_intc_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_microblaze_0_axi_intc_0_stub.vhdl:5' bound to instance 'microblaze_0_axi_intc' of component 'mb_design_microblaze_0_axi_intc_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:8093]
+INFO: [Synth 8-638] synthesizing module 'mb_design_microblaze_0_axi_intc_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_microblaze_0_axi_intc_0_stub.vhdl:36]
+INFO: [Synth 8-638] synthesizing module 'mb_design_microblaze_0_axi_periph_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:4208]
 INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_7XQVZK' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:75]
-INFO: [Synth 8-3491] module 'mb_design_auto_pc_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_auto_pc_0_stub.vhdl:5' bound to instance 'auto_pc' of component 'mb_design_auto_pc_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:247]
-INFO: [Synth 8-638] synthesizing module 'mb_design_auto_pc_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_auto_pc_0_stub.vhdl:67]
+INFO: [Synth 8-3491] module 'mb_design_auto_pc_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_auto_pc_0_stub.vhdl:5' bound to instance 'auto_pc' of component 'mb_design_auto_pc_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:247]
+INFO: [Synth 8-638] synthesizing module 'mb_design_auto_pc_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_auto_pc_0_stub.vhdl:67]
 INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_7XQVZK' (2#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:75]
 INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_1KGGRVS' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:372]
-INFO: [Synth 8-3491] module 'mb_design_auto_pc_1' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_auto_pc_1_stub.vhdl:5' bound to instance 'auto_pc' of component 'mb_design_auto_pc_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:544]
-INFO: [Synth 8-638] synthesizing module 'mb_design_auto_pc_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_auto_pc_1_stub.vhdl:67]
+INFO: [Synth 8-3491] module 'mb_design_auto_pc_1' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_auto_pc_1_stub.vhdl:5' bound to instance 'auto_pc' of component 'mb_design_auto_pc_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:544]
+INFO: [Synth 8-638] synthesizing module 'mb_design_auto_pc_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_auto_pc_1_stub.vhdl:67]
 INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_1KGGRVS' (3#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:372]
 INFO: [Synth 8-638] synthesizing module 'm02_couplers_imp_SWOCXT' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:669]
-INFO: [Synth 8-3491] module 'mb_design_auto_pc_2' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_auto_pc_2_stub.vhdl:5' bound to instance 'auto_pc' of component 'mb_design_auto_pc_2' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:841]
-INFO: [Synth 8-638] synthesizing module 'mb_design_auto_pc_2' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_auto_pc_2_stub.vhdl:67]
+INFO: [Synth 8-3491] module 'mb_design_auto_pc_2' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_auto_pc_2_stub.vhdl:5' bound to instance 'auto_pc' of component 'mb_design_auto_pc_2' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:841]
+INFO: [Synth 8-638] synthesizing module 'mb_design_auto_pc_2' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_auto_pc_2_stub.vhdl:67]
 INFO: [Synth 8-256] done synthesizing module 'm02_couplers_imp_SWOCXT' (4#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:669]
 INFO: [Synth 8-638] synthesizing module 'm03_couplers_imp_1H7VOBD' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:966]
-INFO: [Synth 8-3491] module 'mb_design_auto_pc_3' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_auto_pc_3_stub.vhdl:5' bound to instance 'auto_pc' of component 'mb_design_auto_pc_3' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:1138]
-INFO: [Synth 8-638] synthesizing module 'mb_design_auto_pc_3' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_auto_pc_3_stub.vhdl:67]
+INFO: [Synth 8-3491] module 'mb_design_auto_pc_3' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_auto_pc_3_stub.vhdl:5' bound to instance 'auto_pc' of component 'mb_design_auto_pc_3' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:1138]
+INFO: [Synth 8-638] synthesizing module 'mb_design_auto_pc_3' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_auto_pc_3_stub.vhdl:67]
 INFO: [Synth 8-256] done synthesizing module 'm03_couplers_imp_1H7VOBD' (5#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:966]
 INFO: [Synth 8-638] synthesizing module 'm04_couplers_imp_1W8QG7M' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:1263]
-INFO: [Synth 8-3491] module 'mb_design_auto_pc_4' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_auto_pc_4_stub.vhdl:5' bound to instance 'auto_pc' of component 'mb_design_auto_pc_4' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:1435]
-INFO: [Synth 8-638] synthesizing module 'mb_design_auto_pc_4' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_auto_pc_4_stub.vhdl:67]
+INFO: [Synth 8-3491] module 'mb_design_auto_pc_4' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_auto_pc_4_stub.vhdl:5' bound to instance 'auto_pc' of component 'mb_design_auto_pc_4' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:1435]
+INFO: [Synth 8-638] synthesizing module 'mb_design_auto_pc_4' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_auto_pc_4_stub.vhdl:67]
 INFO: [Synth 8-256] done synthesizing module 'm04_couplers_imp_1W8QG7M' (6#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:1263]
 INFO: [Synth 8-638] synthesizing module 'm05_couplers_imp_9GBDFU' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:1560]
-INFO: [Synth 8-3491] module 'mb_design_auto_pc_5' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_auto_pc_5_stub.vhdl:5' bound to instance 'auto_pc' of component 'mb_design_auto_pc_5' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:1732]
-INFO: [Synth 8-638] synthesizing module 'mb_design_auto_pc_5' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_auto_pc_5_stub.vhdl:67]
+INFO: [Synth 8-3491] module 'mb_design_auto_pc_5' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_auto_pc_5_stub.vhdl:5' bound to instance 'auto_pc' of component 'mb_design_auto_pc_5' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:1732]
+INFO: [Synth 8-638] synthesizing module 'mb_design_auto_pc_5' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_auto_pc_5_stub.vhdl:67]
 INFO: [Synth 8-256] done synthesizing module 'm05_couplers_imp_9GBDFU' (7#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:1560]
 INFO: [Synth 8-638] synthesizing module 'm06_couplers_imp_ZVBXPF' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:1857]
-INFO: [Synth 8-3491] module 'mb_design_auto_pc_6' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_auto_pc_6_stub.vhdl:5' bound to instance 'auto_pc' of component 'mb_design_auto_pc_6' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:2029]
-INFO: [Synth 8-638] synthesizing module 'mb_design_auto_pc_6' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_auto_pc_6_stub.vhdl:67]
+INFO: [Synth 8-3491] module 'mb_design_auto_pc_6' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_auto_pc_6_stub.vhdl:5' bound to instance 'auto_pc' of component 'mb_design_auto_pc_6' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:2029]
+INFO: [Synth 8-638] synthesizing module 'mb_design_auto_pc_6' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_auto_pc_6_stub.vhdl:67]
 INFO: [Synth 8-256] done synthesizing module 'm06_couplers_imp_ZVBXPF' (8#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:1857]
 INFO: [Synth 8-638] synthesizing module 'm07_couplers_imp_O1I4VV' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:2164]
 INFO: [Synth 8-256] done synthesizing module 'm07_couplers_imp_O1I4VV' (9#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:2164]
 INFO: [Synth 8-638] synthesizing module 'm08_couplers_imp_5W1MNP' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:2324]
-INFO: [Synth 8-3491] module 'mb_design_auto_pc_7' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_auto_pc_7_stub.vhdl:5' bound to instance 'auto_pc' of component 'mb_design_auto_pc_7' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:2495]
-INFO: [Synth 8-638] synthesizing module 'mb_design_auto_pc_7' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_auto_pc_7_stub.vhdl:67]
+INFO: [Synth 8-3491] module 'mb_design_auto_pc_7' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_auto_pc_7_stub.vhdl:5' bound to instance 'auto_pc' of component 'mb_design_auto_pc_7' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:2495]
+INFO: [Synth 8-638] synthesizing module 'mb_design_auto_pc_7' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_auto_pc_7_stub.vhdl:67]
 INFO: [Synth 8-256] done synthesizing module 'm08_couplers_imp_5W1MNP' (10#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:2324]
-INFO: [Synth 8-638] synthesizing module 'm09_couplers_imp_1I2A0TP' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:2619]
-INFO: [Synth 8-3491] module 'mb_design_auto_pc_8' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_auto_pc_8_stub.vhdl:5' bound to instance 'auto_pc' of component 'mb_design_auto_pc_8' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:2790]
-INFO: [Synth 8-638] synthesizing module 'mb_design_auto_pc_8' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_auto_pc_8_stub.vhdl:67]
-INFO: [Synth 8-256] done synthesizing module 'm09_couplers_imp_1I2A0TP' (11#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:2619]
-INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_10TEBL8' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3473]
-INFO: [Synth 8-3491] module 'mb_design_auto_pc_9' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_auto_pc_9_stub.vhdl:5' bound to instance 'auto_pc' of component 'mb_design_auto_pc_9' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3645]
-INFO: [Synth 8-638] synthesizing module 'mb_design_auto_pc_9' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_auto_pc_9_stub.vhdl:67]
-INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_10TEBL8' (12#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3473]
-INFO: [Synth 8-638] synthesizing module 's01_couplers_imp_N4AVSK' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3744]
-INFO: [Synth 8-256] done synthesizing module 's01_couplers_imp_N4AVSK' (13#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3744]
-INFO: [Synth 8-638] synthesizing module 's02_couplers_imp_1ULGU71' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3831]
-INFO: [Synth 8-256] done synthesizing module 's02_couplers_imp_1ULGU71' (14#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3831]
-INFO: [Synth 8-638] synthesizing module 's03_couplers_imp_B2KLTX' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3927]
-INFO: [Synth 8-256] done synthesizing module 's03_couplers_imp_B2KLTX' (15#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3927]
-INFO: [Synth 8-3491] module 'mb_design_xbar_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_xbar_0_stub.vhdl:5' bound to instance 'xbar' of component 'mb_design_xbar_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:6046]
-INFO: [Synth 8-638] synthesizing module 'mb_design_xbar_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_xbar_0_stub.vhdl:85]
-INFO: [Synth 8-256] done synthesizing module 'mb_design_microblaze_0_axi_periph_0' (16#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:4263]
-INFO: [Synth 8-638] synthesizing module 'microblaze_0_local_memory_imp_UIMIJC' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:2880]
-INFO: [Synth 8-3491] module 'mb_design_dlmb_bram_if_cntlr_1' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_dlmb_bram_if_cntlr_1_stub.vhdl:5' bound to instance 'dlmb_bram_if_cntlr' of component 'mb_design_dlmb_bram_if_cntlr_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3094]
-INFO: [Synth 8-638] synthesizing module 'mb_design_dlmb_bram_if_cntlr_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_dlmb_bram_if_cntlr_1_stub.vhdl:31]
-INFO: [Synth 8-3491] module 'mb_design_dlmb_v10_1' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_dlmb_v10_1_stub.vhdl:5' bound to instance 'dlmb_v10' of component 'mb_design_dlmb_v10_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3148]
-INFO: [Synth 8-638] synthesizing module 'mb_design_dlmb_v10_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_dlmb_v10_1_stub.vhdl:36]
-INFO: [Synth 8-3491] module 'mb_design_ilmb_bram_if_cntlr_1' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_ilmb_bram_if_cntlr_1_stub.vhdl:5' bound to instance 'ilmb_bram_if_cntlr' of component 'mb_design_ilmb_bram_if_cntlr_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3176]
-INFO: [Synth 8-638] synthesizing module 'mb_design_ilmb_bram_if_cntlr_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_ilmb_bram_if_cntlr_1_stub.vhdl:31]
-INFO: [Synth 8-3491] module 'mb_design_ilmb_v10_1' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_ilmb_v10_1_stub.vhdl:5' bound to instance 'ilmb_v10' of component 'mb_design_ilmb_v10_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3230]
-INFO: [Synth 8-638] synthesizing module 'mb_design_ilmb_v10_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_ilmb_v10_1_stub.vhdl:36]
-INFO: [Synth 8-3491] module 'mb_design_lmb_bram_1' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_lmb_bram_1_stub.vhdl:5' bound to instance 'lmb_bram' of component 'mb_design_lmb_bram_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3258]
-INFO: [Synth 8-638] synthesizing module 'mb_design_lmb_bram_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_lmb_bram_1_stub.vhdl:27]
-INFO: [Synth 8-256] done synthesizing module 'microblaze_0_local_memory_imp_UIMIJC' (17#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:2880]
-INFO: [Synth 8-3491] module 'mb_design_microblaze_0_xlconcat_0' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_microblaze_0_xlconcat_0/synth/mb_design_microblaze_0_xlconcat_0.v:58' bound to instance 'microblaze_0_xlconcat' of component 'mb_design_microblaze_0_xlconcat_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:8285]
+INFO: [Synth 8-638] synthesizing module 'm09_couplers_imp_1I2A0TP' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:2606]
+INFO: [Synth 8-256] done synthesizing module 'm09_couplers_imp_1I2A0TP' (11#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:2606]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_10TEBL8' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3289]
+INFO: [Synth 8-3491] module 'mb_design_auto_pc_8' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_auto_pc_8_stub.vhdl:5' bound to instance 'auto_pc' of component 'mb_design_auto_pc_8' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3461]
+INFO: [Synth 8-638] synthesizing module 'mb_design_auto_pc_8' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_auto_pc_8_stub.vhdl:67]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_10TEBL8' (12#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3289]
+INFO: [Synth 8-638] synthesizing module 's01_couplers_imp_N4AVSK' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3560]
+INFO: [Synth 8-256] done synthesizing module 's01_couplers_imp_N4AVSK' (13#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3560]
+INFO: [Synth 8-638] synthesizing module 's02_couplers_imp_1ULGU71' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3647]
+INFO: [Synth 8-256] done synthesizing module 's02_couplers_imp_1ULGU71' (14#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3647]
+INFO: [Synth 8-638] synthesizing module 's03_couplers_imp_B2KLTX' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3785]
+INFO: [Synth 8-256] done synthesizing module 's03_couplers_imp_B2KLTX' (15#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3785]
+INFO: [Synth 8-3491] module 'mb_design_xbar_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_xbar_0_stub.vhdl:5' bound to instance 'xbar' of component 'mb_design_xbar_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:6084]
+INFO: [Synth 8-638] synthesizing module 'mb_design_xbar_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_xbar_0_stub.vhdl:85]
+INFO: [Synth 8-256] done synthesizing module 'mb_design_microblaze_0_axi_periph_0' (16#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:4208]
+INFO: [Synth 8-638] synthesizing module 'microblaze_0_local_memory_imp_UIMIJC' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:2696]
+INFO: [Synth 8-3491] module 'mb_design_dlmb_bram_if_cntlr_1' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_dlmb_bram_if_cntlr_1_stub.vhdl:5' bound to instance 'dlmb_bram_if_cntlr' of component 'mb_design_dlmb_bram_if_cntlr_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:2910]
+INFO: [Synth 8-638] synthesizing module 'mb_design_dlmb_bram_if_cntlr_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_dlmb_bram_if_cntlr_1_stub.vhdl:31]
+INFO: [Synth 8-3491] module 'mb_design_dlmb_v10_1' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_dlmb_v10_1_stub.vhdl:5' bound to instance 'dlmb_v10' of component 'mb_design_dlmb_v10_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:2964]
+INFO: [Synth 8-638] synthesizing module 'mb_design_dlmb_v10_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_dlmb_v10_1_stub.vhdl:36]
+INFO: [Synth 8-3491] module 'mb_design_ilmb_bram_if_cntlr_1' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_ilmb_bram_if_cntlr_1_stub.vhdl:5' bound to instance 'ilmb_bram_if_cntlr' of component 'mb_design_ilmb_bram_if_cntlr_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:2992]
+INFO: [Synth 8-638] synthesizing module 'mb_design_ilmb_bram_if_cntlr_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_ilmb_bram_if_cntlr_1_stub.vhdl:31]
+INFO: [Synth 8-3491] module 'mb_design_ilmb_v10_1' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_ilmb_v10_1_stub.vhdl:5' bound to instance 'ilmb_v10' of component 'mb_design_ilmb_v10_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3046]
+INFO: [Synth 8-638] synthesizing module 'mb_design_ilmb_v10_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_ilmb_v10_1_stub.vhdl:36]
+INFO: [Synth 8-3491] module 'mb_design_lmb_bram_1' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_lmb_bram_1_stub.vhdl:5' bound to instance 'lmb_bram' of component 'mb_design_lmb_bram_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:3074]
+INFO: [Synth 8-638] synthesizing module 'mb_design_lmb_bram_1' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_lmb_bram_1_stub.vhdl:27]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_0_local_memory_imp_UIMIJC' (17#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:2696]
+INFO: [Synth 8-3491] module 'mb_design_microblaze_0_xlconcat_0' declared at 'c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_microblaze_0_xlconcat_0/synth/mb_design_microblaze_0_xlconcat_0.v:58' bound to instance 'microblaze_0_xlconcat' of component 'mb_design_microblaze_0_xlconcat_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:8449]
 INFO: [Synth 8-6157] synthesizing module 'mb_design_microblaze_0_xlconcat_0' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_microblaze_0_xlconcat_0/synth/mb_design_microblaze_0_xlconcat_0.v:58]
 INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_3_xlconcat' [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
 	Parameter IN0_WIDTH bound to: 1 - type: integer 
@@ -213,9 +212,9 @@ INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_3_xlconcat' [c:/Users/Pe
 	Parameter NUM_PORTS bound to: 7 - type: integer 
 INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_3_xlconcat' (18#1) [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
 INFO: [Synth 8-6155] done synthesizing module 'mb_design_microblaze_0_xlconcat_0' (19#1) [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_microblaze_0_xlconcat_0/synth/mb_design_microblaze_0_xlconcat_0.v:58]
-INFO: [Synth 8-3491] module 'mb_design_rst_clk_wiz_1_100M_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_rst_clk_wiz_1_100M_0_stub.vhdl:5' bound to instance 'rst_clk_wiz_1_100M' of component 'mb_design_rst_clk_wiz_1_100M_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:8296]
-INFO: [Synth 8-638] synthesizing module 'mb_design_rst_clk_wiz_1_100M_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-9508-ASUS-PC/realtime/mb_design_rst_clk_wiz_1_100M_0_stub.vhdl:21]
-INFO: [Synth 8-256] done synthesizing module 'mb_design' (20#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:6556]
+INFO: [Synth 8-3491] module 'mb_design_rst_clk_wiz_1_100M_0' declared at 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_rst_clk_wiz_1_100M_0_stub.vhdl:5' bound to instance 'rst_clk_wiz_1_100M' of component 'mb_design_rst_clk_wiz_1_100M_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:8460]
+INFO: [Synth 8-638] synthesizing module 'mb_design_rst_clk_wiz_1_100M_0' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/.Xil/Vivado-18424-ASUS-PC/realtime/mb_design_rst_clk_wiz_1_100M_0_stub.vhdl:21]
+INFO: [Synth 8-256] done synthesizing module 'mb_design' (20#1) [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/synth/mb_design.vhd:6782]
 INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36196' bound to instance 'seven_seg_led_an_tri_iobuf_0' of component 'IOBUF' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:710]
 INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36196' bound to instance 'seven_seg_led_an_tri_iobuf_1' of component 'IOBUF' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:717]
 INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36196' bound to instance 'seven_seg_led_an_tri_iobuf_2' of component 'IOBUF' [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:724]
@@ -266,6 +265,8 @@ WARNING: [Synth 8-3331] design s00_couplers_imp_10TEBL8 has unconnected port M_A
 WARNING: [Synth 8-3331] design s00_couplers_imp_10TEBL8 has unconnected port M_ARESETN
 WARNING: [Synth 8-3331] design m09_couplers_imp_1I2A0TP has unconnected port M_ACLK
 WARNING: [Synth 8-3331] design m09_couplers_imp_1I2A0TP has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m09_couplers_imp_1I2A0TP has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m09_couplers_imp_1I2A0TP has unconnected port S_ARESETN
 WARNING: [Synth 8-3331] design m08_couplers_imp_5W1MNP has unconnected port M_ACLK
 WARNING: [Synth 8-3331] design m08_couplers_imp_5W1MNP has unconnected port M_ARESETN
 WARNING: [Synth 8-3331] design m07_couplers_imp_O1I4VV has unconnected port M_ACLK
@@ -315,7 +316,7 @@ WARNING: [Synth 8-3331] design mb_design_microblaze_0_axi_periph_0 has unconnect
 WARNING: [Synth 8-3331] design mb_design_microblaze_0_axi_periph_0 has unconnected port S03_ACLK
 WARNING: [Synth 8-3331] design mb_design_microblaze_0_axi_periph_0 has unconnected port S03_ARESETN
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 960.711 ; gain = 324.266
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 958.137 ; gain = 322.906
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -328,12 +329,12 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 960.711 ; gain = 324.266
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 958.137 ; gain = 322.906
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 960.711 ; gain = 324.266
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 958.137 ; gain = 322.906
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.163 . Memory (MB): peak = 960.711 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.163 . Memory (MB): peak = 958.137 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 48 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -382,12 +383,12 @@ Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/
 Finished Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0_in_context.xdc] for cell 'mb_design_i/axi_dma_input_remainer_values'
 Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_axis_data_fifo_0_0/mb_design_axis_data_fifo_0_0/mb_design_axis_data_fifo_0_0_in_context.xdc] for cell 'mb_design_i/axis_data_fifo_0'
 Finished Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_axis_data_fifo_0_0/mb_design_axis_data_fifo_0_0/mb_design_axis_data_fifo_0_0_in_context.xdc] for cell 'mb_design_i/axis_data_fifo_0'
-Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_axi_dma_1_0/mb_design_axi_dma_1_0/mb_design_axi_dma_1_0_in_context.xdc] for cell 'mb_design_i/axi_dma_sqrt_value'
-Finished Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_axi_dma_1_0/mb_design_axi_dma_1_0/mb_design_axi_dma_1_0_in_context.xdc] for cell 'mb_design_i/axi_dma_sqrt_value'
 Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_SquareRootCop_0_0/mb_design_SquareRootCop_0_0/mb_design_SquareRootCop_0_0_in_context.xdc] for cell 'mb_design_i/SquareRootCop_0'
 Finished Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_SquareRootCop_0_0/mb_design_SquareRootCop_0_0/mb_design_SquareRootCop_0_0_in_context.xdc] for cell 'mb_design_i/SquareRootCop_0'
-Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_9/mb_design_auto_pc_9/mb_design_auto_pc_9_in_context.xdc] for cell 'mb_design_i/microblaze_0_axi_periph/s00_couplers/auto_pc'
-Finished Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_9/mb_design_auto_pc_9/mb_design_auto_pc_9_in_context.xdc] for cell 'mb_design_i/microblaze_0_axi_periph/s00_couplers/auto_pc'
+Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_axis_data_fifo_1_0/mb_design_axis_data_fifo_1_0/mb_design_axis_data_fifo_1_0_in_context.xdc] for cell 'mb_design_i/axis_data_fifo_1'
+Finished Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_axis_data_fifo_1_0/mb_design_axis_data_fifo_1_0/mb_design_axis_data_fifo_1_0_in_context.xdc] for cell 'mb_design_i/axis_data_fifo_1'
+Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_8/mb_design_auto_pc_8/mb_design_auto_pc_9_in_context.xdc] for cell 'mb_design_i/microblaze_0_axi_periph/s00_couplers/auto_pc'
+Finished Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_8/mb_design_auto_pc_8/mb_design_auto_pc_9_in_context.xdc] for cell 'mb_design_i/microblaze_0_axi_periph/s00_couplers/auto_pc'
 Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_0/mb_design_auto_pc_0/mb_design_auto_pc_0_in_context.xdc] for cell 'mb_design_i/microblaze_0_axi_periph/m00_couplers/auto_pc'
 Finished Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_0/mb_design_auto_pc_0/mb_design_auto_pc_0_in_context.xdc] for cell 'mb_design_i/microblaze_0_axi_periph/m00_couplers/auto_pc'
 Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_1/mb_design_auto_pc_1/mb_design_auto_pc_0_in_context.xdc] for cell 'mb_design_i/microblaze_0_axi_periph/m01_couplers/auto_pc'
@@ -404,28 +405,26 @@ Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/
 Finished Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_6/mb_design_auto_pc_6/mb_design_auto_pc_0_in_context.xdc] for cell 'mb_design_i/microblaze_0_axi_periph/m06_couplers/auto_pc'
 Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_7/mb_design_auto_pc_7/mb_design_auto_pc_0_in_context.xdc] for cell 'mb_design_i/microblaze_0_axi_periph/m08_couplers/auto_pc'
 Finished Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_7/mb_design_auto_pc_7/mb_design_auto_pc_0_in_context.xdc] for cell 'mb_design_i/microblaze_0_axi_periph/m08_couplers/auto_pc'
-Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_8/mb_design_auto_pc_8/mb_design_auto_pc_0_in_context.xdc] for cell 'mb_design_i/microblaze_0_axi_periph/m09_couplers/auto_pc'
-Finished Parsing XDC File [c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_8/mb_design_auto_pc_8/mb_design_auto_pc_0_in_context.xdc] for cell 'mb_design_i/microblaze_0_axi_periph/m09_couplers/auto_pc'
 Parsing XDC File [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/dont_touch.xdc]
 Finished Parsing XDC File [C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1036.840 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1030.184 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 48 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 48 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.149 . Memory (MB): peak = 1036.840 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.179 . Memory (MB): peak = 1030.184 ; gain = 0.000
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'mb_design_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1049.840 ; gain = 413.395
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1040.539 ; gain = 405.309
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1049.840 ; gain = 413.395
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1040.539 ; gain = 405.309
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -456,8 +455,8 @@ Applied set_property DONT_TOUCH = true for mb_design_i/microblaze_0_local_memory
 Applied set_property DONT_TOUCH = true for mb_design_i/axi_emc_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for mb_design_i/axi_dma_input_remainer_values. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for mb_design_i/axis_data_fifo_0. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for mb_design_i/axi_dma_sqrt_value. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for mb_design_i/SquareRootCop_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for mb_design_i/axis_data_fifo_1. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for mb_design_i/microblaze_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for mb_design_i/microblaze_0_axi_periph/m00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for mb_design_i/microblaze_0_axi_periph/m01_couplers/auto_pc. (constraint file  auto generated constraint, line ).
@@ -467,12 +466,11 @@ Applied set_property DONT_TOUCH = true for mb_design_i/microblaze_0_axi_periph/m
 Applied set_property DONT_TOUCH = true for mb_design_i/microblaze_0_axi_periph/m05_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for mb_design_i/microblaze_0_axi_periph/m06_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for mb_design_i/microblaze_0_axi_periph/m08_couplers/auto_pc. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for mb_design_i/microblaze_0_axi_periph/m09_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1049.840 ; gain = 413.395
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1040.539 ; gain = 405.309
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1049.840 ; gain = 413.395
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1040.539 ; gain = 405.309
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -516,11 +514,9 @@ WARNING: [Synth 8-3331] design mb_design_microblaze_0_axi_periph_0 has unconnect
 WARNING: [Synth 8-3331] design mb_design_microblaze_0_axi_periph_0 has unconnected port M03_ACLK
 WARNING: [Synth 8-3331] design mb_design_microblaze_0_axi_periph_0 has unconnected port M03_ARESETN
 WARNING: [Synth 8-3331] design mb_design_microblaze_0_axi_periph_0 has unconnected port M04_ACLK
-WARNING: [Synth 8-3331] design mb_design_microblaze_0_axi_periph_0 has unconnected port M04_ARESETN
-WARNING: [Synth 8-3331] design mb_design_microblaze_0_axi_periph_0 has unconnected port M05_ACLK
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1049.840 ; gain = 413.395
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1040.539 ; gain = 405.309
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -532,13 +528,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1049.840 ; gain = 413.395
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1040.539 ; gain = 405.309
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1049.840 ; gain = 413.395
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1040.539 ; gain = 405.309
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -550,7 +546,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1049.840 ; gain = 413.395
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1040.539 ; gain = 405.309
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -574,13 +570,13 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1049.840 ; gain = 413.395
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1040.539 ; gain = 405.309
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1049.840 ; gain = 413.395
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1040.539 ; gain = 405.309
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -599,25 +595,25 @@ Report Check Netlist:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1049.840 ; gain = 413.395
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1040.539 ; gain = 405.309
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1049.840 ; gain = 413.395
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1040.539 ; gain = 405.309
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1049.840 ; gain = 413.395
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1040.539 ; gain = 405.309
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1049.840 ; gain = 413.395
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1040.539 ; gain = 405.309
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -637,29 +633,28 @@ Report BlackBoxes:
 |8     |mb_design_auto_pc_6               |         1|
 |9     |mb_design_auto_pc_7               |         1|
 |10    |mb_design_auto_pc_8               |         1|
-|11    |mb_design_auto_pc_9               |         1|
-|12    |mb_design_SquareRootCop_0_0       |         1|
-|13    |mb_design_axi_dma_0_0             |         1|
-|14    |mb_design_axi_dma_1_0             |         1|
-|15    |mb_design_axi_emc_0_0             |         1|
-|16    |mb_design_axi_gpio_0_0            |         1|
-|17    |mb_design_axi_gpio_3_0            |         1|
-|18    |mb_design_axi_gpio_2_0            |         1|
-|19    |mb_design_axi_gpio_1_0            |         1|
-|20    |mb_design_axi_timer_0_0           |         1|
-|21    |mb_design_axi_uartlite_0_0        |         1|
-|22    |mb_design_axis_data_fifo_0_0      |         1|
-|23    |mb_design_clk_wiz_1_0             |         1|
-|24    |mb_design_fit_timer_0_0           |         1|
-|25    |mb_design_mdm_1_0                 |         1|
-|26    |mb_design_microblaze_0_1          |         1|
-|27    |mb_design_microblaze_0_axi_intc_0 |         1|
-|28    |mb_design_rst_clk_wiz_1_100M_0    |         1|
-|29    |mb_design_dlmb_bram_if_cntlr_1    |         1|
-|30    |mb_design_dlmb_v10_1              |         1|
-|31    |mb_design_ilmb_bram_if_cntlr_1    |         1|
-|32    |mb_design_ilmb_v10_1              |         1|
-|33    |mb_design_lmb_bram_1              |         1|
+|11    |mb_design_SquareRootCop_0_0       |         1|
+|12    |mb_design_axi_dma_0_0             |         1|
+|13    |mb_design_axi_emc_0_0             |         1|
+|14    |mb_design_axi_gpio_0_0            |         1|
+|15    |mb_design_axi_gpio_3_0            |         1|
+|16    |mb_design_axi_gpio_2_0            |         1|
+|17    |mb_design_axi_gpio_1_0            |         1|
+|18    |mb_design_axi_timer_0_0           |         1|
+|19    |mb_design_axi_uartlite_0_0        |         1|
+|20    |mb_design_axis_data_fifo_0_0      |         1|
+|21    |mb_design_axis_data_fifo_1_0      |         1|
+|22    |mb_design_clk_wiz_1_0             |         1|
+|23    |mb_design_fit_timer_0_0           |         1|
+|24    |mb_design_mdm_1_0                 |         1|
+|25    |mb_design_microblaze_0_1          |         1|
+|26    |mb_design_microblaze_0_axi_intc_0 |         1|
+|27    |mb_design_rst_clk_wiz_1_100M_0    |         1|
+|28    |mb_design_dlmb_bram_if_cntlr_1    |         1|
+|29    |mb_design_dlmb_v10_1              |         1|
+|30    |mb_design_ilmb_bram_if_cntlr_1    |         1|
+|31    |mb_design_ilmb_v10_1              |         1|
+|32    |mb_design_lmb_bram_1              |         1|
 +------+----------------------------------+----------+
 
 Report Cell Usage: 
@@ -676,41 +671,40 @@ Report Cell Usage:
 |8     |mb_design_auto_pc_6_bbox_22               |     1|
 |9     |mb_design_auto_pc_7_bbox_23               |     1|
 |10    |mb_design_auto_pc_8_bbox_24               |     1|
-|11    |mb_design_auto_pc_9_bbox_25               |     1|
-|12    |mb_design_axi_dma_0_0_bbox_1              |     1|
-|13    |mb_design_axi_dma_1_0_bbox_2              |     1|
-|14    |mb_design_axi_emc_0_0_bbox_3              |     1|
-|15    |mb_design_axi_gpio_0_0_bbox_4             |     1|
-|16    |mb_design_axi_gpio_1_0_bbox_7             |     1|
-|17    |mb_design_axi_gpio_2_0_bbox_6             |     1|
-|18    |mb_design_axi_gpio_3_0_bbox_5             |     1|
-|19    |mb_design_axi_timer_0_0_bbox_8            |     1|
-|20    |mb_design_axi_uartlite_0_0_bbox_9         |     1|
-|21    |mb_design_axis_data_fifo_0_0_bbox_10      |     1|
-|22    |mb_design_clk_wiz_1_0_bbox_11             |     1|
-|23    |mb_design_dlmb_bram_if_cntlr_1_bbox_27    |     1|
-|24    |mb_design_dlmb_v10_1_bbox_28              |     1|
-|25    |mb_design_fit_timer_0_0_bbox_12           |     1|
-|26    |mb_design_ilmb_bram_if_cntlr_1_bbox_29    |     1|
-|27    |mb_design_ilmb_v10_1_bbox_30              |     1|
-|28    |mb_design_lmb_bram_1_bbox_31              |     1|
-|29    |mb_design_mdm_1_0_bbox_13                 |     1|
-|30    |mb_design_microblaze_0_1_bbox_14          |     1|
-|31    |mb_design_microblaze_0_axi_intc_0_bbox_15 |     1|
-|32    |mb_design_rst_clk_wiz_1_100M_0_bbox_32    |     1|
-|33    |mb_design_xbar_0_bbox_26                  |     1|
-|34    |IBUF                                      |    24|
-|35    |IOBUF                                     |    48|
-|36    |OBUF                                      |    31|
+|11    |mb_design_axi_dma_0_0_bbox_1              |     1|
+|12    |mb_design_axi_emc_0_0_bbox_2              |     1|
+|13    |mb_design_axi_gpio_0_0_bbox_3             |     1|
+|14    |mb_design_axi_gpio_1_0_bbox_6             |     1|
+|15    |mb_design_axi_gpio_2_0_bbox_5             |     1|
+|16    |mb_design_axi_gpio_3_0_bbox_4             |     1|
+|17    |mb_design_axi_timer_0_0_bbox_7            |     1|
+|18    |mb_design_axi_uartlite_0_0_bbox_8         |     1|
+|19    |mb_design_axis_data_fifo_0_0_bbox_9       |     1|
+|20    |mb_design_axis_data_fifo_1_0_bbox_10      |     1|
+|21    |mb_design_clk_wiz_1_0_bbox_11             |     1|
+|22    |mb_design_dlmb_bram_if_cntlr_1_bbox_26    |     1|
+|23    |mb_design_dlmb_v10_1_bbox_27              |     1|
+|24    |mb_design_fit_timer_0_0_bbox_12           |     1|
+|25    |mb_design_ilmb_bram_if_cntlr_1_bbox_28    |     1|
+|26    |mb_design_ilmb_v10_1_bbox_29              |     1|
+|27    |mb_design_lmb_bram_1_bbox_30              |     1|
+|28    |mb_design_mdm_1_0_bbox_13                 |     1|
+|29    |mb_design_microblaze_0_1_bbox_14          |     1|
+|30    |mb_design_microblaze_0_axi_intc_0_bbox_15 |     1|
+|31    |mb_design_rst_clk_wiz_1_100M_0_bbox_31    |     1|
+|32    |mb_design_xbar_0_bbox_25                  |     1|
+|33    |IBUF                                      |    24|
+|34    |IOBUF                                     |    48|
+|35    |OBUF                                      |    31|
 +------+------------------------------------------+------+
 
 Report Instance Areas: 
 +------+------------------------------+-------------------------------------+------+
 |      |Instance                      |Module                               |Cells |
 +------+------------------------------+-------------------------------------+------+
-|1     |top                           |                                     |  5306|
-|2     |  mb_design_i                 |mb_design                            |  5203|
-|3     |    microblaze_0_axi_periph   |mb_design_microblaze_0_axi_periph_0  |  3406|
+|1     |top                           |                                     |  4986|
+|2     |  mb_design_i                 |mb_design                            |  4883|
+|3     |    microblaze_0_axi_periph   |mb_design_microblaze_0_axi_periph_0  |  3253|
 |4     |      m00_couplers            |m00_couplers_imp_7XQVZK              |   153|
 |5     |      m01_couplers            |m01_couplers_imp_1KGGRVS             |   153|
 |6     |      m02_couplers            |m02_couplers_imp_SWOCXT              |   153|
@@ -719,35 +713,34 @@ Report Instance Areas:
 |9     |      m05_couplers            |m05_couplers_imp_9GBDFU              |   153|
 |10    |      m06_couplers            |m06_couplers_imp_ZVBXPF              |   153|
 |11    |      m08_couplers            |m08_couplers_imp_5W1MNP              |   153|
-|12    |      m09_couplers            |m09_couplers_imp_1I2A0TP             |   153|
-|13    |      s00_couplers            |s00_couplers_imp_10TEBL8             |   205|
-|14    |    microblaze_0_xlconcat     |mb_design_microblaze_0_xlconcat_0    |     0|
-|15    |    microblaze_0_local_memory |microblaze_0_local_memory_imp_UIMIJC |   496|
+|12    |      s00_couplers            |s00_couplers_imp_10TEBL8             |   205|
+|13    |    microblaze_0_xlconcat     |mb_design_microblaze_0_xlconcat_0    |     0|
+|14    |    microblaze_0_local_memory |microblaze_0_local_memory_imp_UIMIJC |   496|
 +------+------------------------------+-------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1049.840 ; gain = 413.395
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1040.539 ; gain = 405.309
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 28 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:35 . Memory (MB): peak = 1049.840 ; gain = 324.266
-Synthesis Optimization Complete : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1049.840 ; gain = 413.395
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:36 . Memory (MB): peak = 1040.539 ; gain = 322.906
+Synthesis Optimization Complete : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1040.539 ; gain = 405.309
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.149 . Memory (MB): peak = 1049.840 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.149 . Memory (MB): peak = 1040.539 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 48 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1060.727 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1058.203 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 48 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 48 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-176 Infos, 105 Warnings, 0 Critical Warnings and 0 Errors encountered.
+175 Infos, 105 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 1060.727 ; gain = 739.059
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1060.727 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1058.203 ; gain = 737.258
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1058.203 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/mb_design_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file mb_design_wrapper_utilization_synth.rpt -pb mb_design_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat Jul 11 23:36:26 2020...
+INFO: [Common 17-206] Exiting Vivado at Sun Jul 12 19:13:24 2020...

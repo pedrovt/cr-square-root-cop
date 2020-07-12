@@ -35,6 +35,7 @@ set_property board_part digilentinc.com:nexys4:part0:1.1 [current_project]
 set_property ip_repo_paths {
   c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0
   c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0
+  c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0
 } [current_project]
 update_ip_catalog
 set_property ip_output_repo c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.cache/ip [current_project]

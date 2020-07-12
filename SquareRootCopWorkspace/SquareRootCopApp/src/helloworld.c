@@ -61,8 +61,7 @@ typedef int bool;
 
 #define N				4095
 
-#define DMA_INPUT_REMAINER_DEVICE_ID	XPAR_AXIDMA_0_DEVICE_ID
-#define DMA_SQRT_DEVICE_ID				XPAR_AXIDMA_1_DEVICE_ID
+#define DMA_DEVICE_ID	XPAR_AXIDMA_0_DEVICE_ID
 
 
 /*********************** DMA Configuration Function **************************/
@@ -171,13 +170,13 @@ unsigned int StopAndGetPerformanceTimer()
 
 int main()
 {
-	int status1, status2;
-	XAxiDma dma1InstDefs, dma2InstDefs;
+	int status;
+	XAxiDma dmaInstDefs;
 
 	int srcData[N], dstData[N];
 	unsigned int timeElapsed;
 
-	xil_printf("\r\nSquare Root Demo Program - Entering main()...");
+	xil_printf("\r\nDMA with Reverse Endianess Demo Program - Entering main()...");
 	init_platform();
 
 	xil_printf("\r\nFilling memory with pseudo-random data...");
@@ -194,7 +193,7 @@ int main()
 	xil_printf("\n\r");
 
 	// Software only
-	/*RestartPerformanceTimer();
+	RestartPerformanceTimer();
 	ReverseEndianessSw(dstData, srcData, N);
 	timeElapsed = StopAndGetPerformanceTimer();
 	xil_printf("\n\rSoftware only reverse endianess time: %d microseconds",
@@ -202,58 +201,38 @@ int main()
 	PrintDataArray(dstData, min(8, N));
 	xil_printf("\n\rChecking result: %s\n\r",
 			   CheckReversedEndianess(srcData, dstData, N) ? "OK" : "Error");
-	*/
+
 	xil_printf("\r\nConfiguring DMA...");
-	status1 = DMAConfig(DMA_INPUT_REMAINER_DEVICE_ID, &dma1InstDefs);
-	status2 = DMAConfig(DMA_SQRT_DEVICE_ID, &dma2InstDefs);
-	if (status1 != XST_SUCCESS)
+	status = DMAConfig(DMA_DEVICE_ID, &dmaInstDefs);
+	if (status != XST_SUCCESS)
 	{
-		xil_printf("\r\nConfiguration failed on DMAC1.");
-		return XST_FAILURE;
-	}
-	if (status2 != XST_SUCCESS)
-	{
-		xil_printf("\r\nConfiguration failed on DMAC2.");
+		xil_printf("\r\nConfiguration failed.");
 		return XST_FAILURE;
 	}
 	xil_printf("\r\nDMA running...");
 
-
 	// DMA and Hardware assisted
 	RestartPerformanceTimer();
-	//status1 = XAxiDma_SimpleTransfer(&dma1InstDefs,(UINTPTR) dstRemData, N * sizeof(int),	// Retrieve remainer
-	//								XAXIDMA_DEVICE_TO_DMA);
-	status1 = XAxiDma_SimpleTransfer(&dma1InstDefs,(UINTPTR) srcData, N * sizeof(int),		// Send di
-									XAXIDMA_DMA_TO_DEVICE);
-	status2 = XAxiDma_SimpleTransfer(&dma2InstDefs,(UINTPTR) dstData, N * sizeof(int),		// Retrieve sqrt
+	status = XAxiDma_SimpleTransfer(&dmaInstDefs,(UINTPTR) dstData, N * sizeof(int),
 									XAXIDMA_DEVICE_TO_DMA);
-	if (status1 != XST_SUCCESS)
+	status = XAxiDma_SimpleTransfer(&dmaInstDefs,(UINTPTR) srcData, N * sizeof(int),
+									XAXIDMA_DMA_TO_DEVICE);
+	if (status != XST_SUCCESS)
 	{
-		xil_printf("\r\nDMA transfer 1 failed.");
+		xil_printf("\r\nDMA transfer failed.");
 		return XST_FAILURE;
 	}
-	if (status2 != XST_SUCCESS)
-	{
-		xil_printf("\r\nDMA transfer 2 failed.");
-		return XST_FAILURE;
-	}
-	while (//(XAxiDma_Busy(&dma1InstDefs, XAXIDMA_DEVICE_TO_DMA)) || // sending data to coprocessor
-		   (XAxiDma_Busy(&dma1InstDefs, XAXIDMA_DMA_TO_DEVICE))) //|| // receiving remainer from coprocessor
-		   //(XAxiDma_Busy(&dma2InstDefs, XAXIDMA_DEVICE_TO_DMA)))   // receiving sqrt from coprocessor
-
+	while ((XAxiDma_Busy(&dmaInstDefs, XAXIDMA_DEVICE_TO_DMA)) ||
+		   (XAxiDma_Busy(&dmaInstDefs, XAXIDMA_DMA_TO_DEVICE)))
 	{
 		/* Wait */
 	}
 	timeElapsed = StopAndGetPerformanceTimer();
-	xil_printf("\nHardware assisted square root time: %d microseconds",
+	xil_printf("\n\rDMA Hardware assisted reverse endianess time: %d microseconds",
 			   timeElapsed / (XPAR_CPU_M_AXI_DP_FREQ_HZ / 1000000));
-	//xil_printf("REMAINER");
-	//PrintDataArray(dstRemData, min(8, N));
-	xil_printf("SQRT");
 	PrintDataArray(dstData, min(8, N));
-	/*xil_printf("\n\rChecking result: %s\n\r",
+	xil_printf("\n\rChecking result: %s\n\r",
 			   CheckReversedEndianess(srcData, dstData, N) ? "OK" : "Error");
-	*/
 
 	cleanup_platform();
 	return XST_SUCCESS;

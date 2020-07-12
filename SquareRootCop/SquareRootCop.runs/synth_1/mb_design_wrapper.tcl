@@ -33,6 +33,7 @@ set_property board_part digilentinc.com:nexys4:part0:1.1 [current_project]
 set_property ip_repo_paths {
   c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0
   c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0
+  c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0
 } [current_project]
 update_ip_catalog
 set_property ip_output_repo c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.cache/ip [current_project]
@@ -86,10 +87,8 @@ set_property used_in_implementation false [get_files -all c:/Users/Pedro/Dropbox
 set_property used_in_implementation false [get_files -all c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0_clocks.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_axis_data_fifo_0_0/mb_design_axis_data_fifo_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_axi_dma_1_0/mb_design_axi_dma_1_0.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_axi_dma_1_0/mb_design_axi_dma_1_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_axi_dma_1_0/mb_design_axi_dma_1_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_9/mb_design_auto_pc_9_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_axis_data_fifo_1_0/mb_design_axis_data_fifo_1_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_8/mb_design_auto_pc_8_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_0/mb_design_auto_pc_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_1/mb_design_auto_pc_1_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_2/mb_design_auto_pc_2_ooc.xdc]
@@ -98,7 +97,6 @@ set_property used_in_implementation false [get_files -all c:/Users/Pedro/Dropbox
 set_property used_in_implementation false [get_files -all c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_5/mb_design_auto_pc_5_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_6/mb_design_auto_pc_6_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_7/mb_design_auto_pc_7_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_8/mb_design_auto_pc_8_ooc.xdc]
 set_property used_in_implementation false [get_files -all C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/mb_design_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/ip/mb_design_microblaze_0_1/data/mb_bootloop_le.elf]
 

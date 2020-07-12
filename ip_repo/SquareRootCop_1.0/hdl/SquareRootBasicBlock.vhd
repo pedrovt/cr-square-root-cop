@@ -25,7 +25,7 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity SquareRootBasicBlock is
     generic (
-        WORD_SIZE   : integer 
+        WORD_SIZE   : integer := 32 
     );
     port (
         di : in  std_logic_vector(WORD_SIZE-1 downto 0);
