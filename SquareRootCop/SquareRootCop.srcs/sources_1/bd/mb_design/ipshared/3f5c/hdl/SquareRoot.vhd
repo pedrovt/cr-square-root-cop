@@ -28,9 +28,11 @@ entity SquareRoot is
     );
     port (
         CLK             : in  std_logic;
+        NEW_VALUE       : in  std_logic;
         DATA_IN         : in  std_logic_vector(DATA_WIDTH-1 downto 0);
-        SQRT            : out std_logic_vector(DATA_WIDTH-1 downto 0);
         IS_SQUARE_NUM   : out std_logic;
+        DONE            : out std_logic;
+        SQRT            : out std_logic_vector(DATA_WIDTH-1 downto 0);
         REMAINER        : out std_logic_vector(DATA_WIDTH-1 downto 0)
     );
 end SquareRoot;
@@ -57,17 +59,21 @@ architecture Structural of SquareRoot is
         );
         port (
             clk, nSet, nRst : in  std_logic;
+            validIn         : in  std_logic;
             D0, D1, D2      : in  std_logic_vector(WORD_SIZE-1 downto 0);
+            validOut        : out std_logic;
             Q0, Q1, Q2      : out std_logic_vector(WORD_SIZE-1 downto 0)
         );
 	end component;
 
 	constant N_ITER : integer := DATA_WIDTH / 2;
---	type TSquareRootData is array (0 to (N_ITER-1)) of std_logic_vector(DATA_WIDTH-1 downto 0);
 	type TSquareRootData is array (0 to 2*(N_ITER-1)) of std_logic_vector(DATA_WIDTH-1 downto 0);
+	type TValid is array (0 to N_ITER-1) of std_logic;
 	signal d_array, r_array, q_array: TSquareRootData;
+    signal valid_array: TValid;
 	
 	signal s_remainer, s_sqrt, s_aux: std_logic_vector(DATA_WIDTH-1 downto 0);
+    signal s_valid: std_logic;
 begin
 
 s_aux <= (others => '0');
@@ -76,6 +82,7 @@ s_aux <= (others => '0');
 d_array(0) <= DATA_IN;
 r_array(0) <= (others => '0');
 q_array(0) <= (others => '0');
+valid_array(0) <= NEW_VALUE;
 
 gen_sqrt_blocks: for I in 0 to N_ITER-1 generate      -- + DATA_WIDTH REM 2;
     NORMAL_ITER: if I<N_ITER-1 generate
@@ -96,15 +103,17 @@ gen_sqrt_blocks: for I in 0 to N_ITER-1 generate      -- + DATA_WIDTH REM 2;
                 WORD_SIZE   => DATA_WIDTH
             )
             port map (
-                clk  => clk,
-                nSet => '1',
-                nRst => '1',
-                D0   => d_array(2*I+1),
-                D1   => r_array(2*I+1),
-                D2   => q_array(2*I+1),
-                Q0   => d_array(2*(I+1)),
-                Q1   => r_array(2*(I+1)),
-                Q2   => q_array(2*(I+1))
+                clk      => clk,
+                nSet     => '1',
+                nRst     => '1',
+                validIn  => valid_array(I),
+                D0       => d_array(2*I+1),
+                D1       => r_array(2*I+1),
+                D2       => q_array(2*I+1),
+                validOut => valid_array(I+1),
+                Q0       => d_array(2*(I+1)),
+                Q1       => r_array(2*(I+1)),
+                Q2       => q_array(2*(I+1)) 
             );
     end generate NORMAL_ITER;
     
@@ -126,6 +135,7 @@ gen_sqrt_blocks: for I in 0 to N_ITER-1 generate      -- + DATA_WIDTH REM 2;
     SQRT          <= s_sqrt;
     REMAINER      <= s_remainer;
     IS_SQUARE_NUM <= '1' when s_remainer = s_aux else '0';
+    DONE          <= valid_array(N_ITER-1);
    
 end generate gen_sqrt_blocks;
 
@@ -173,7 +183,7 @@ end Behavioral;
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity FlipFlopD is
+entity RegisterNBits is
     generic (
         WORD_SIZE: integer
     );
@@ -182,9 +192,9 @@ entity FlipFlopD is
         D               : in  std_logic_vector(WORD_SIZE-1 downto 0);
         Q, nQ           : out std_logic_vector(WORD_SIZE-1 downto 0)
     );
-end FlipFlopD;
+end RegisterNBits;
 
-architecture Structural of FlipFlopD is
+architecture Structural of RegisterNBits is
 
     component flipFlopDPET
         port (
@@ -222,14 +232,24 @@ entity RegisterBank is
     );
     port (
         clk, nSet, nRst : in  std_logic;
+        validIn         : in  std_logic;
         D0, D1, D2      : in  std_logic_vector(WORD_SIZE-1 downto 0);
+        validOut        : out std_logic;
         Q0, Q1, Q2      : out std_logic_vector(WORD_SIZE-1 downto 0)
     );
 end RegisterBank;
 
 architecture Structural of RegisterBank is
 
-    component FlipFlopD is
+    component flipFlopDPET
+        port (
+            clk, D      : in  std_logic;
+            nSet, nRst  : in  std_logic;
+            Q, nQ       : out std_logic
+        );
+    end component;
+
+    component RegisterNBits is
         generic (
             WORD_SIZE       : integer
         );
@@ -242,16 +262,26 @@ architecture Structural of RegisterBank is
 
 begin
 
-    ff0: FlipFlopD
+    reg0: RegisterNBits
         generic map (WORD_SIZE)
         port map (clk, nSet, nRst, D0, Q0, open);
 
-    ff1: FlipFlopD
+    reg1: RegisterNBits
         generic map (WORD_SIZE)
         port map (clk, nSet, nRst, D1, Q1, open);
 
-    ff2: FlipFlopD
+    reg2: RegisterNBits
         generic map (WORD_SIZE)
         port map (clk, nSet, nRst, D2, Q2, open);
+    
+    valid : flipFlopDPET
+        port map (
+            clk     => clk,
+            D       => validIn,
+            nSet    => nSet,
+            nRst    => nRst,
+            Q       => validOut,
+            nQ      => open
+        );
 
 end Structural;

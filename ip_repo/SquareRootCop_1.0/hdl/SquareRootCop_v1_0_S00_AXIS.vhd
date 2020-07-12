@@ -43,6 +43,7 @@ architecture arch_imp of SquareRootCop_v1_0_S00_AXIS is
 	
 	signal s_ready     : std_logic;
     signal s_dataValid : std_logic;
+    signal s_done, s_new_value : std_logic;
     signal s_data_in, s_sqrt, s_remainer : std_logic_vector(C_S_AXIS_TDATA_WIDTH-1 downto 0);
     
     component SquareRoot is
@@ -51,9 +52,11 @@ architecture arch_imp of SquareRootCop_v1_0_S00_AXIS is
         );
         port (
             CLK             : in  std_logic;
+            NEW_VALUE       : in  std_logic;
             DATA_IN         : in  std_logic_vector(DATA_WIDTH-1 downto 0);
-            SQRT            : out std_logic_vector(DATA_WIDTH-1 downto 0);
             IS_SQUARE_NUM   : out std_logic;
+            DONE            : out std_logic;
+            SQRT            : out std_logic_vector(DATA_WIDTH-1 downto 0);
             REMAINER        : out std_logic_vector(DATA_WIDTH-1 downto 0)
         );
     end component;
@@ -66,9 +69,11 @@ begin
         )
         port map (
             CLK             => S_AXIS_ACLK,
+            NEW_VALUE       => s_new_value,
             DATA_IN         => s_data_in,
-            SQRT            => s_sqrt,
             IS_SQUARE_NUM   => open,        -- currently ignored
+            DONE            => s_done,
+            SQRT            => s_sqrt,
             REMAINER        => s_remainer
         );
         
@@ -78,13 +83,15 @@ begin
 	begin
         if (rising_edge (S_AXIS_ACLK)) then
 	        if (S_AXIS_ARESETN = '0') then
-	           s_dataValid  <= '0';
+               s_dataValid  <= '0';
+               s_new_value  <= '0';
 	           data         <= (others => '0');
        
             elsif (S_AXIS_TVALID = '1') then
 	           if (s_ready = '1') then
-                    s_dataValid <= '1';
+                    s_dataValid <= s_done;
                     s_data_in   <= S_AXIS_TDATA;
+                    s_new_value <= '1';
                     
                     if (S_AXIS_TSTRB = "1111") then
                         data((C_S_AXIS_TDATA_WIDTH/2) - 1 downto 0) <= s_sqrt((C_S_AXIS_TDATA_WIDTH/2) - 1 downto 0);

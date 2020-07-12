@@ -1,8 +1,5 @@
 Nothing to build in platform 'SquareRootCop'
 
-22:01:56 **** Incremental Build of configuration Debug for project SquareRootCopApp ****
+23:53:21 **** Incremental Build of configuration Debug for project SquareRootCopApp ****
 make all 
 make: Nothing to be done for 'all'.
-22:01:58 **** Build of configuration Debug for project SquareRootCopApp_system ****
-make all 
-Skipping SD card image generation. Reason: The system project only has applications for microblaze processors.
