@@ -237,9 +237,9 @@ int main()
 		xil_printf("\r\nDMA transfer 2 failed.");
 		return XST_FAILURE;
 	}
-	while (//(XAxiDma_Busy(&dma1InstDefs, XAXIDMA_DEVICE_TO_DMA)) || // sending data to coprocessor
-		   (XAxiDma_Busy(&dma1InstDefs, XAXIDMA_DMA_TO_DEVICE))) //|| // receiving remainer from coprocessor
-		   //(XAxiDma_Busy(&dma2InstDefs, XAXIDMA_DEVICE_TO_DMA)))   // receiving sqrt from coprocessor
+	while ((XAxiDma_Busy(&dma1InstDefs, XAXIDMA_DEVICE_TO_DMA)) || // sending data to coprocessor
+		   (XAxiDma_Busy(&dma1InstDefs, XAXIDMA_DMA_TO_DEVICE)) || // receiving remainer from coprocessor
+		   (XAxiDma_Busy(&dma2InstDefs, XAXIDMA_DEVICE_TO_DMA)))   // receiving sqrt from coprocessor
 
 	{
 		/* Wait */

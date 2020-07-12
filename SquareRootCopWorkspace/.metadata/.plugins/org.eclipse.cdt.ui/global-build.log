@@ -1,6 +1,6 @@
 Nothing to build in platform 'SquareRootCop'
 
-00:25:36 **** Incremental Build of configuration Debug for project SquareRootCopApp ****
+17:04:36 **** Incremental Build of configuration Debug for project SquareRootCopApp ****
 make all 
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
@@ -15,6 +15,6 @@ Finished building target: SquareRootCopApp.elf
 Invoking: MicroBlaze Print Size
 mb-size SquareRootCopApp.elf  |tee "SquareRootCopApp.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  15744	   1976	  49248	  66968	  10598	SquareRootCopApp.elf
+  15688	   1976	  49248	  66912	  10560	SquareRootCopApp.elf
 Finished building: SquareRootCopApp.elf.size
  
