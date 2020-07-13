@@ -1096,3 +1096,178 @@ con
 ----------------End of Script----------------
 
 01:37:51 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Project\CR-Project\SquareRootCopWorkspace\.sdk\launch_scripts\single_application_debug\debugger_squarerootcopapp-default.tcl'
+01:40:05 INFO  : Checking for BSP changes to sync application flags for project 'SquareRootCopApp'...
+01:40:09 INFO  : Disconnected from the channel tcfchan#20.
+01:40:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:40:10 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+01:40:10 INFO  : 'jtag frequency' command is executed.
+01:40:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+01:40:12 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit"
+01:40:13 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+01:40:13 INFO  : Context for processor 'microblaze_0' is selected.
+01:40:13 INFO  : System reset is completed.
+01:40:16 INFO  : 'after 3000' command is executed.
+01:40:16 INFO  : Context for processor 'microblaze_0' is selected.
+01:40:16 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf' is downloaded to processor 'microblaze_0'.
+01:40:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf
+----------------End of Script----------------
+
+01:40:16 INFO  : Memory regions updated for context MicroBlaze #0
+01:40:16 INFO  : Memory regions updated for context MicroBlaze #0
+01:40:16 INFO  : Context for processor 'microblaze_0' is selected.
+01:40:16 INFO  : 'con' command is executed.
+01:40:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+01:40:16 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Project\CR-Project\SquareRootCopWorkspace\.sdk\launch_scripts\single_application_debug\debugger_squarerootcopapp-default.tcl'
+01:42:58 INFO  : Checking for BSP changes to sync application flags for project 'SquareRootCopApp'...
+01:43:47 INFO  : Checking for BSP changes to sync application flags for project 'SquareRootCopApp'...
+01:43:52 INFO  : Disconnected from the channel tcfchan#21.
+01:43:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:43:53 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+01:43:53 INFO  : 'jtag frequency' command is executed.
+01:43:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+01:43:56 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit"
+01:43:56 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+01:43:56 INFO  : Context for processor 'microblaze_0' is selected.
+01:43:56 INFO  : System reset is completed.
+01:43:59 INFO  : 'after 3000' command is executed.
+01:43:59 INFO  : Context for processor 'microblaze_0' is selected.
+01:43:59 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf' is downloaded to processor 'microblaze_0'.
+01:43:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf
+----------------End of Script----------------
+
+01:43:59 INFO  : Memory regions updated for context MicroBlaze #0
+01:43:59 INFO  : Memory regions updated for context MicroBlaze #0
+01:43:59 INFO  : Context for processor 'microblaze_0' is selected.
+01:43:59 INFO  : 'con' command is executed.
+01:43:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+01:43:59 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Project\CR-Project\SquareRootCopWorkspace\.sdk\launch_scripts\single_application_debug\debugger_squarerootcopapp-default.tcl'
+01:44:15 INFO  : Disconnected from the channel tcfchan#22.
+01:44:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:44:16 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+01:44:16 INFO  : 'jtag frequency' command is executed.
+01:44:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+01:44:18 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit"
+01:44:18 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+01:44:18 INFO  : Context for processor 'microblaze_0' is selected.
+01:44:18 INFO  : System reset is completed.
+01:44:21 INFO  : 'after 3000' command is executed.
+01:44:21 INFO  : Context for processor 'microblaze_0' is selected.
+01:44:22 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf' is downloaded to processor 'microblaze_0'.
+01:44:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf
+----------------End of Script----------------
+
+01:44:22 INFO  : Memory regions updated for context MicroBlaze #0
+01:44:22 INFO  : Memory regions updated for context MicroBlaze #0
+01:44:22 INFO  : Context for processor 'microblaze_0' is selected.
+01:44:22 INFO  : 'con' command is executed.
+01:44:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+01:44:22 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Project\CR-Project\SquareRootCopWorkspace\.sdk\launch_scripts\single_application_debug\debugger_squarerootcopapp-default.tcl'
+01:48:37 INFO  : Disconnected from the channel tcfchan#23.
+01:48:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:48:39 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+01:48:39 INFO  : 'jtag frequency' command is executed.
+01:48:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+01:48:41 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit"
+01:48:41 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+01:48:41 INFO  : Context for processor 'microblaze_0' is selected.
+01:48:41 INFO  : System reset is completed.
+01:48:43 INFO  : Checking for BSP changes to sync application flags for project 'SquareRootCopApp'...
+01:48:44 INFO  : 'after 3000' command is executed.
+01:48:44 INFO  : Context for processor 'microblaze_0' is selected.
+01:48:44 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf' is downloaded to processor 'microblaze_0'.
+01:48:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf
+----------------End of Script----------------
+
+01:48:45 INFO  : Memory regions updated for context MicroBlaze #0
+01:48:45 INFO  : Memory regions updated for context MicroBlaze #0
+01:48:45 INFO  : Context for processor 'microblaze_0' is selected.
+01:48:45 INFO  : 'con' command is executed.
+01:48:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+01:48:45 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Project\CR-Project\SquareRootCopWorkspace\.sdk\launch_scripts\single_application_debug\debugger_squarerootcopapp-default.tcl'
+01:48:52 INFO  : Disconnected from the channel tcfchan#24.
+01:48:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:48:54 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+01:48:54 INFO  : 'jtag frequency' command is executed.
+01:48:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+01:48:56 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit"
+01:48:56 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+01:48:56 INFO  : Context for processor 'microblaze_0' is selected.
+01:48:56 INFO  : System reset is completed.
+01:48:59 INFO  : 'after 3000' command is executed.
+01:48:59 INFO  : Context for processor 'microblaze_0' is selected.
+01:48:59 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf' is downloaded to processor 'microblaze_0'.
+01:48:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf
+----------------End of Script----------------
+
+01:48:59 INFO  : Memory regions updated for context MicroBlaze #0
+01:48:59 INFO  : Memory regions updated for context MicroBlaze #0
+01:49:00 INFO  : Context for processor 'microblaze_0' is selected.
+01:49:00 INFO  : 'con' command is executed.
+01:49:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+01:49:00 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Project\CR-Project\SquareRootCopWorkspace\.sdk\launch_scripts\single_application_debug\debugger_squarerootcopapp-default.tcl'
+02:00:53 INFO  : Disconnected from the channel tcfchan#25.

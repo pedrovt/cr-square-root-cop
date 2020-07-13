@@ -170,10 +170,10 @@ bool CheckSquareRoot(int* pDst, int* pSrc, unsigned int size)
 		int r = *p - (int)(pow(q,2));
 
 		if (r >> word_size/2 > 0) {
-			r = 0x0000FFFF;
+			r = mask2;
 		}
 		else {
-			r = r & 0x0000FFFF;
+			r = r & mask2;
 		}
 		r = r << word_size/2;
 
@@ -235,7 +235,7 @@ int main()
 	int srcData[N], dstData[N];
 	unsigned int timeElapsed;
 
-	xil_printf("\r\nSquare Root Program - Paulo Vasconcelos, Pedro Teixeira 2020...");
+	xil_printf("\r\nSqaure Root with DMA Demo Program - Entering main()...");
 	init_platform();
 
 	xil_printf("\r\nFilling memory with pseudo-random data...");
@@ -287,7 +287,7 @@ int main()
 		/* Wait */
 	}
 	timeElapsed = StopAndGetPerformanceTimer();
-	xil_printf("\n\rHardware assisted square root time: %d microseconds",
+	xil_printf("\n\rDMA Hardware assisted reverse endianess time: %d microseconds",
 			   timeElapsed / (XPAR_CPU_M_AXI_DP_FREQ_HZ / 1000000));
 	PrintDataArray(dstData, min(8, N));
 	xil_printf("\n\rChecking result: %s\n\r",

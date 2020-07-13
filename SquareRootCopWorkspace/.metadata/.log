@@ -7590,3 +7590,946 @@ java.io.FileNotFoundException: /icons/elcl16/watchpoint_co.gif
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:05.574
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/hw/SquareRootCop.xsa C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss ], Thread: Worker-32: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:05.590
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/hw/SquareRootCop.xsa C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-32: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:05.598
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/hw/SquareRootCop.xsa C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss], Thread: Worker-32: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:05.610
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/hw/SquareRootCop.xsa C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-32: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-13 01:40:05.621
+!MESSAGE Generating MD5 hash for file: C:\Users\Pedro\Dropbox\UA\CR\Project\CR-Project\SquareRootCopWorkspace\SquareRootCop\export\SquareRootCop\sw\SquareRootCop\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:05.628
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss], Thread: Worker-32: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:05.642
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-32: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:09.274
+!MESSAGE XSCT Command: [disconnect tcfchan#20], Thread: Thread-1737
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:09.289
+!MESSAGE XSCT command with result: [disconnect tcfchan#20], Result: [null, ]. Thread: Thread-1737
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.282
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.298
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#21]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.305
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.322
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.328
+!MESSAGE XSCT Command: [version -server], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.336
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.343
+!MESSAGE XSCT Command: [version], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.351
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.359
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.373
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.378
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.406
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.412
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.426
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.432
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.458
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.465
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.479
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.485
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.511
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.517
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.530
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.536
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.565
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.571
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274664038A" && level == 0}], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.599
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274664038A" && level == 0}], Result: [null, ]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.605
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.611
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.640
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.653
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.659
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.691
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.697
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.738
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:10.743
+!MESSAGE XSCT Command: [fpga -file C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:12.958
+!MESSAGE XSCT command with result: [fpga -file C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:13.020
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:13.030
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:13.038
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:13.066
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:13.075
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:13.088
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:13.094
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:16.116
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:16.122
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:16.148
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:16.154
+!MESSAGE XSCT Command: [dow C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:16.381
+!MESSAGE XSCT command with result: [dow C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf], Result: [null, ]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:16.475
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:16.531
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:16.538
+!MESSAGE XSCT Command: [con], Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:40:16.555
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-33: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-13 01:40:16.564
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '18'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:42:58.625
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/hw/SquareRootCop.xsa C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss ], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:42:58.641
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/hw/SquareRootCop.xsa C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:42:58.652
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/hw/SquareRootCop.xsa C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:42:58.673
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/hw/SquareRootCop.xsa C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-13 01:42:58.685
+!MESSAGE Generating MD5 hash for file: C:\Users\Pedro\Dropbox\UA\CR\Project\CR-Project\SquareRootCopWorkspace\SquareRootCop\export\SquareRootCop\sw\SquareRootCop\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:42:58.703
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:42:58.719
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:47.250
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/hw/SquareRootCop.xsa C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss ], Thread: Worker-34: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:47.267
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/hw/SquareRootCop.xsa C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-34: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:47.282
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/hw/SquareRootCop.xsa C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss], Thread: Worker-34: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:47.304
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/hw/SquareRootCop.xsa C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-34: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-13 01:43:47.324
+!MESSAGE Generating MD5 hash for file: C:\Users\Pedro\Dropbox\UA\CR\Project\CR-Project\SquareRootCopWorkspace\SquareRootCop\export\SquareRootCop\sw\SquareRootCop\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:47.339
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss], Thread: Worker-34: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:47.357
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-34: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:52.364
+!MESSAGE XSCT Command: [disconnect tcfchan#21], Thread: Thread-1814
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:52.382
+!MESSAGE XSCT command with result: [disconnect tcfchan#21], Result: [null, ]. Thread: Thread-1814
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.385
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.396
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#22]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.404
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.422
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.427
+!MESSAGE XSCT Command: [version -server], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.446
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.452
+!MESSAGE XSCT Command: [version], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.459
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.465
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.479
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.487
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.525
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.531
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.547
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.555
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.584
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.592
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.606
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.614
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.644
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.650
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.665
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.671
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.701
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.707
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274664038A" && level == 0}], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.737
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274664038A" && level == 0}], Result: [null, ]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.742
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.751
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.814
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.829
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.836
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.867
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.875
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.909
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:53.916
+!MESSAGE XSCT Command: [fpga -file C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:56.158
+!MESSAGE XSCT command with result: [fpga -file C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:56.193
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:56.206
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:56.214
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:56.243
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:56.252
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:56.262
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:56.269
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:59.279
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:59.289
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:59.334
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:59.340
+!MESSAGE XSCT Command: [dow C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:59.543
+!MESSAGE XSCT command with result: [dow C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf], Result: [null, ]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:59.621
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:59.671
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:59.681
+!MESSAGE XSCT Command: [con], Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:43:59.694
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-35: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-13 01:43:59.705
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '19'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:14.992
+!MESSAGE XSCT Command: [disconnect tcfchan#22], Thread: Thread-1853
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:15.004
+!MESSAGE XSCT command with result: [disconnect tcfchan#22], Result: [null, ]. Thread: Thread-1853
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:15.998
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.014
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#23]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.026
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.051
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.059
+!MESSAGE XSCT Command: [version -server], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.068
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.077
+!MESSAGE XSCT Command: [version], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.087
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.096
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.115
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.126
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.171
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.179
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.197
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.206
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.259
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.265
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.288
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.295
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.326
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.334
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.354
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.360
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.392
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.401
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274664038A" && level == 0}], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.436
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274664038A" && level == 0}], Result: [null, ]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.442
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.451
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.483
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.499
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.505
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.536
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.542
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.579
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:16.588
+!MESSAGE XSCT Command: [fpga -file C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:18.791
+!MESSAGE XSCT command with result: [fpga -file C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:18.810
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:18.819
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:18.825
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:18.855
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:18.862
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:18.871
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:18.877
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:21.885
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:21.892
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:21.920
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:21.926
+!MESSAGE XSCT Command: [dow C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:22.106
+!MESSAGE XSCT command with result: [dow C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf], Result: [null, ]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:22.196
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:22.247
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:22.254
+!MESSAGE XSCT Command: [con], Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:44:22.267
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-31: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-13 01:44:22.278
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '20'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:37.764
+!MESSAGE XSCT Command: [disconnect tcfchan#23], Thread: Thread-1907
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:37.773
+!MESSAGE XSCT command with result: [disconnect tcfchan#23], Result: [null, ]. Thread: Thread-1907
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:38.770
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:38.789
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#24]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:38.798
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:38.816
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:38.822
+!MESSAGE XSCT Command: [version -server], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:38.832
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:38.838
+!MESSAGE XSCT Command: [version], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:38.844
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:38.851
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:38.865
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:38.871
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:38.899
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:38.905
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:38.919
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:38.926
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:38.953
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:38.959
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:38.971
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:38.977
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:39.005
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:39.014
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:39.028
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:39.034
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:39.069
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:39.074
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274664038A" && level == 0}], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:39.104
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274664038A" && level == 0}], Result: [null, ]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:39.112
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:39.120
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:39.172
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:39.190
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:39.197
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:39.224
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:39.232
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:39.266
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:39.274
+!MESSAGE XSCT Command: [fpga -file C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:41.484
+!MESSAGE XSCT command with result: [fpga -file C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:41.530
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:41.539
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:41.550
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:41.581
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:41.590
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:41.600
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:41.607
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:43.119
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/hw/SquareRootCop.xsa C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss ], Thread: Worker-31: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:44.619
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:44.627
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/hw/SquareRootCop.xsa C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-31: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:44.640
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:44.649
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/hw/SquareRootCop.xsa C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss], Thread: Worker-31: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:44.686
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:44.694
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/hw/SquareRootCop.xsa C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-31: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:44.701
+!MESSAGE XSCT Command: [dow C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-13 01:48:44.708
+!MESSAGE Generating MD5 hash for file: C:\Users\Pedro\Dropbox\UA\CR\Project\CR-Project\SquareRootCopWorkspace\SquareRootCop\export\SquareRootCop\sw\SquareRootCop\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:44.720
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss], Thread: Worker-31: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:44.917
+!MESSAGE XSCT command with result: [dow C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf], Result: [null, ]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:44.925
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-31: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:45.003
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:45.071
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:45.081
+!MESSAGE XSCT Command: [con], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:45.103
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-13 01:48:45.115
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '21'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:52.704
+!MESSAGE XSCT Command: [disconnect tcfchan#24], Thread: Thread-1948
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:52.722
+!MESSAGE XSCT command with result: [disconnect tcfchan#24], Result: [null, ]. Thread: Thread-1948
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:53.712
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:53.724
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#25]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:53.735
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:53.765
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:53.780
+!MESSAGE XSCT Command: [version -server], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:53.797
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:53.823
+!MESSAGE XSCT Command: [version], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:53.836
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:53.844
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:53.855
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:53.861
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:53.890
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:53.897
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:53.910
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:53.916
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:53.943
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:53.949
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:53.961
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:53.968
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:53.997
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:54.003
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:54.021
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:54.028
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:54.059
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:54.065
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274664038A" && level == 0}], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:54.099
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274664038A" && level == 0}], Result: [null, ]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:54.106
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:54.113
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:54.165
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:54.178
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:54.183
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:54.213
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:54.219
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:54.256
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:54.262
+!MESSAGE XSCT Command: [fpga -file C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:56.470
+!MESSAGE XSCT command with result: [fpga -file C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/_ide/bitstream/SquareRootCop.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:56.507
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:56.518
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:56.526
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:56.562
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:56.568
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:56.579
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:56.585
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:59.605
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:59.613
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:59.655
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:59.663
+!MESSAGE XSCT Command: [dow C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:59.867
+!MESSAGE XSCT command with result: [dow C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCopApp/Debug/SquareRootCopApp.elf], Result: [null, ]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:48:59.978
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:49:00.053
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:49:00.062
+!MESSAGE XSCT Command: [con], Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 01:49:00.089
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-37: Launching Debugger_SquareRootCopApp-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-13 01:49:00.099
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '22'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 02:00:53.199
+!MESSAGE XSCT Command: [disconnect tcfchan#25], Thread: Thread-1987
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-13 02:00:53.209
+!MESSAGE XSCT command with result: [disconnect tcfchan#25], Result: [null, ]. Thread: Thread-1987
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-13 02:00:53.352
+!MESSAGE Executing command: cmd /C C:\Xilinx\Vitis\2019.2\bin\wbtcv.bat -mode batch -source vitis_webtalk.tcl
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-13 02:00:53.418
+!MESSAGE Executed Webtalk command

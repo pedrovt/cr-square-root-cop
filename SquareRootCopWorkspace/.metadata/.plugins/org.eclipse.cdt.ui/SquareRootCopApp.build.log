@@ -1,4 +1,4 @@
-01:37:41 **** Incremental Build of configuration Debug for project SquareRootCopApp ****
+01:48:45 **** Incremental Build of configuration Debug for project SquareRootCopApp ****
 make all 
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
@@ -13,9 +13,9 @@ Finished building target: SquareRootCopApp.elf
 Invoking: MicroBlaze Print Size
 mb-size SquareRootCopApp.elf  |tee "SquareRootCopApp.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  32804	   1912	  49252	  83968	  14800	SquareRootCopApp.elf
+  32908	   1912	  49252	  84072	  14868	SquareRootCopApp.elf
 Finished building: SquareRootCopApp.elf.size
  
 
-01:37:42 Build Finished (took 1s.74ms)
+01:48:46 Build Finished (took 1s.223ms)
 

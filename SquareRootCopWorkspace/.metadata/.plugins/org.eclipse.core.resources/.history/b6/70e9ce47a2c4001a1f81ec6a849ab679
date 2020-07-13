@@ -235,7 +235,7 @@ int main()
 	int srcData[N], dstData[N];
 	unsigned int timeElapsed;
 
-	xil_printf("\r\nSquare Root Program - Paulo Vasconcelos, Pedro Teixeira 2020...");
+	xil_printf("\r\nSquare Root Program - Entering main()...");
 	init_platform();
 
 	xil_printf("\r\nFilling memory with pseudo-random data...");
