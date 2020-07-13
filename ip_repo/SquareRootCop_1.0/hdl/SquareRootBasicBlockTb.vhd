@@ -1,18 +1,19 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: University of Aveiro
+-- Engineer: Paulo Vasconcelos, Pedro Teixeira
 -- 
 -- Create Date: 07/03/2020 07:29:48 PM
 -- Design Name: 
 -- Module Name: SquareRootBasicBlockTb - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
+-- Project Name: SquareRootBasicBlockTb
+-- Target Devices: Nexsys 4
+-- Tool Versions: Vivado 2019.2
 -- Description: 
 -- 
 -- Dependencies: 
 -- 
--- Revision:
+-- Revision: 1
+-- Revision 1 - Final Version
 -- Revision 0.01 - File Created
 -- Additional Comments:
 -- 
@@ -110,9 +111,9 @@ begin
         s_ri <= x"0000";
         s_qi <= x"0000"; 
         wait for 10 ns;
-        assert (s_do = x"0490") report "Error on SQRT Value for word 0000" severity error;
-        assert (s_ro = x"0000") report "Error on SQRT Value for word 0000" severity error;
-        assert (s_qo = x"0000") report "Error on SQRT Value for word 0000" severity error;
+        assert (s_do = x"0490") report "Error on SQRT Value for word 0124" severity error;
+        assert (s_ro = x"0000") report "Error on SQRT Value for word 0124" severity error;
+        assert (s_qo = x"0000") report "Error on SQRT Value for word 0124" severity error;
         
         wait;
     end process;

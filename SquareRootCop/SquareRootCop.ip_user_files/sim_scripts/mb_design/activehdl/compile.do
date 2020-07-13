@@ -152,15 +152,15 @@ vcom -work xil_defaultlib -93 \
 "../../../bd/mb_design/ip/mb_design_axi_emc_0_0/sim/mb_design_axi_emc_0_0.vhd" \
 "../../../bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0_sim_netlist.vhdl" \
 "../../../bd/mb_design/ip/mb_design_axis_data_fifo_0_0/mb_design_axis_data_fifo_0_0_sim_netlist.vhdl" \
-"../../../bd/mb_design/ipshared/3f5c/hdl/SquareRoot.vhd" \
-"../../../bd/mb_design/ipshared/3f5c/hdl/SquareRootBasicBlock.vhd" \
-"../../../bd/mb_design/ipshared/3f5c/hdl/SquareRootCop_v1_0_M00_AXIS.vhd" \
+"../../../bd/mb_design/ipshared/ca7d/hdl/SquareRoot.vhd" \
+"../../../bd/mb_design/ipshared/ca7d/hdl/SquareRootBasicBlock.vhd" \
+"../../../bd/mb_design/ipshared/ca7d/hdl/SquareRootCop_v1_0_M00_AXIS.vhd" \
 
 vcom -work xil_defaultlib -2008 \
-"../../../bd/mb_design/ipshared/3f5c/hdl/SquareRootCop_v1_0_S00_AXIS.vhd" \
+"../../../bd/mb_design/ipshared/ca7d/hdl/SquareRootCop_v1_0_S00_AXIS.vhd" \
 
 vcom -work xil_defaultlib -93 \
-"../../../bd/mb_design/ipshared/3f5c/hdl/SquareRootCop_v1_0.vhd" \
+"../../../bd/mb_design/ipshared/ca7d/hdl/SquareRootCop_v1_0.vhd" \
 "../../../bd/mb_design/ip/mb_design_SquareRootCop_0_0/sim/mb_design_SquareRootCop_0_0.vhd" \
 "../../../bd/mb_design/ip/mb_design_axis_data_fifo_1_0/mb_design_axis_data_fifo_1_0_sim_netlist.vhdl" \
 "../../../bd/mb_design/ip/mb_design_auto_pc_8/mb_design_auto_pc_8_sim_netlist.vhdl" \

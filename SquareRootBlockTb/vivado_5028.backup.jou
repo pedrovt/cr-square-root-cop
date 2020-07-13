@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Jul 13 12:08:19 2020
+# Process ID: 5028
+# Current directory: C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5428 C:\Users\Pedro\Dropbox\UA\CR\Project\CR-Project\SquareRootBlockTb\SquareRootBlockTb.xpr
+# Log file: C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/vivado.log
+# Journal file: C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootBlockTb.xpr
+update_compile_order -fileset sources_1
+set_property -name {xsim.simulate.runtime} -value {1000ns} -objects [get_filesets sim_1]
+launch_simulation
+source SquareRootTb.tcl
+close_sim
+launch_simulation
+source SquareRootTb.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source SquareRootTb.tcl
+close_sim
+launch_simulation
+source SquareRootTb.tcl
+close_sim
+launch_simulation
+source SquareRootTb.tcl
+close_sim
+launch_simulation
+source SquareRootTb.tcl
+set_property -name {xsim.simulate.runtime} -value {2000ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source SquareRootTb.tcl
+relaunch_sim
+run all
+set_property -name {xsim.simulate.runtime} -value {1200ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source SquareRootTb.tcl
+save_wave_config {C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootBlockTb/SquareRootTb_behav.wcfg}
+close_sim
+launch_simulation
+source SquareRootTb.tcl
+close_sim
+launch_simulation
+source SquareRootTb.tcl
+close_sim
+launch_simulation
+source SquareRootTb.tcl
+close_sim
+launch_simulation
+source SquareRootTb.tcl
+close_sim
+launch_simulation
+source SquareRootTb.tcl
+close_sim

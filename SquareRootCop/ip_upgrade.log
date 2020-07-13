@@ -1,6 +1,27 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Mon Jul 13 16:33:03 2020
+| Host         : ASUS-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_design_SquareRootCop_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_design_SquareRootCop_0_0 (xilinx.com:user:SquareRootCop:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
 | Date         : Sun Jul 12 23:39:42 2020
 | Host         : ASUS-PC running 64-bit major release  (build 9200)
 | Command      : upgrade_ip

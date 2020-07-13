@@ -1,38 +1,13 @@
-/******************************************************************************
-*
-* Copyright (C) 2009 - 2014 Xilinx, Inc.  All rights reserved.
-*
-* Permission is hereby granted, free of charge, to any person obtaining a copy
-* of this software and associated documentation files (the "Software"), to deal
-* in the Software without restriction, including without limitation the rights
-* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-* copies of the Software, and to permit persons to whom the Software is
-* furnished to do so, subject to the following conditions:
-*
-* The above copyright notice and this permission notice shall be included in
-* all copies or substantial portions of the Software.
-*
-* Use of the Software is limited solely to applications:
-* (a) running on a Xilinx device, or
-* (b) that interact with a Xilinx device through a bus or interconnect.
-*
-* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
-* XILINX  BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-* WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF
-* OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-* SOFTWARE.
-*
-* Except as contained in this notice, the name of the Xilinx shall not be used
-* in advertising or otherwise to promote the sale, use or other dealings in
-* this Software without prior written authorization from Xilinx.
-*
-******************************************************************************/
-
 /*
- * helloworld.c: simple test application
+ * SquareRootCop.c: test of the square root processor
  *
+ * Authors:
+ * Paulo Vasconcelos
+ * Pedro Teixeira
+ * Arnaldo Oliveira
+ *
+ * Copyright (C) 2009 - 2014 Xilinx, Inc.  All rights reserved.
+ * Copyrihgt (C) 2020 Paulo Vasconcelos, Pedro Teixeira
  *
  * This application configures UART 16550 to baud rate 9600.
  * PS7 UART (Zynq) is not initialized by this application, since
@@ -65,6 +40,7 @@ typedef int bool;
 
 #define DMA_DEVICE_ID	XPAR_AXIDMA_0_DEVICE_ID
 
+#define SEED_VALUE		243248
 
 /*********************** DMA Configuration Function **************************/
 
@@ -150,10 +126,10 @@ void SquareRootSw(int* pDst, int* pSrc, unsigned int size)
 			r = r & mask2;
 		}
 		r = r << word_size/2;
-																						
+
 		//*pDst = (r & 0xFFFF0000) | (q & 0x0000FFFF);
 		*pDst = (r & mask1) | (q & mask2);
-		
+
     }
 }
 
@@ -181,7 +157,7 @@ bool CheckSquareRoot(int* pDst, int* pSrc, unsigned int size)
 		if (*pDst!=res) {
 			return FALSE;
 		}
-		
+
 	}
 
 	return TRUE;
@@ -189,14 +165,42 @@ bool CheckSquareRoot(int* pDst, int* pSrc, unsigned int size)
 
 /*****************************  Helper Functions *****************************/
 
-void PrintDataArray(int* pData, unsigned int size)
+void PrintDataArray(int* pData, unsigned int size, unsigned char printResults)
 {
 	int* p;
+	int word_size = 32;
+	int bottomHalfMask = 0;
+	int j = 0;
+	for (j = 0; j < word_size/2; j++) {
+		bottomHalfMask = bottomHalfMask << 1 | 0x1;
+	}
 
+	/* Raw Computed Output */
 	xil_printf("\n\r");
 	for (p = pData; p < pData + size; p++)
 	{
 		xil_printf("%08x  ", *p);
+	}
+	if (printResults) {
+		/* Square Root (Quotient) Value */
+		xil_printf("\n\n\rSquare Root (Quotient) Value\n\r");
+		for (p = pData; p < pData + size; p++)
+		{
+			xil_printf("%08x  ", (*p) & bottomHalfMask);
+		}
+		/* (Pseudo-)Remainer Value */
+		xil_printf("\n\rRemainer Value\n\r");
+		for (p = pData; p < pData + size; p++)
+		{
+			int tempRem = ((*p)>>(word_size/2)) & bottomHalfMask;
+			if (tempRem == bottomHalfMask)
+			{
+				xil_printf("OF-MACRO  ");
+			}
+			else {
+				xil_printf("%08x  ", tempRem);
+			}
+		}
 	}
 }
 
@@ -235,40 +239,44 @@ int main()
 	int srcData[N], dstData[N];
 	unsigned int timeElapsed;
 
-	xil_printf("\r\nSquare Root Program - Paulo Vasconcelos, Pedro Teixeira 2020...");
+	xil_printf("\r\nSquare Root Program\n\rPaulo Vasconcelos, Pedro Teixeira 2020\n");
 	init_platform();
 
-	xil_printf("\r\nFilling memory with pseudo-random data...");
+	xil_printf("\r\nFilling memory with pseudo-random data. Seed is %d.", SEED_VALUE);
 	RestartPerformanceTimer();
-	srand(0);
+	srand(SEED_VALUE);
 	for (int i = 0; i < N; i++)
 	{
 		srcData[i] = rand();
 	}
+
+	//srcData[N-1] = TEST_VALUE;
+
 	timeElapsed = StopAndGetPerformanceTimer();
-	xil_printf("\n\rMemory initialization time: %d microseconds\n\r",
+	xil_printf("\n\rMemory initialization time: %d microseconds",
 			   timeElapsed / (XPAR_CPU_M_AXI_DP_FREQ_HZ / 1000000));
-	PrintDataArray(srcData, min(8, N));
+	PrintDataArray(srcData, min(8, N), FALSE);
 	xil_printf("\n\r");
 
 	// Software only
+	xil_printf("\r\n----------------------------------------------------------------------\n\rSoftware only square root\n");
 	RestartPerformanceTimer();
 	SquareRootSw(dstData, srcData, N);
 	timeElapsed = StopAndGetPerformanceTimer();
-	xil_printf("\n\rSoftware only square root time: %d microseconds",
+	xil_printf("\n\rExecution time: %d microseconds",
 			   timeElapsed / (XPAR_CPU_M_AXI_DP_FREQ_HZ / 1000000));
-	PrintDataArray(dstData, min(8, N));
-	xil_printf("\n\rChecking result: %s\n\r",
+	PrintDataArray(dstData, min(8, N), TRUE);
+	xil_printf("\n\n\rChecking result: %s\n\r",
 			   CheckSquareRoot(dstData, srcData, N) ? "OK" : "Error");
 
-	xil_printf("\r\nConfiguring DMA...");
+	xil_printf("\r\n----------------------------------------------------------------------\n\rHardware assisted square root\n\n\rConfiguring DMA...");
 	status = DMAConfig(DMA_DEVICE_ID, &dmaInstDefs);
 	if (status != XST_SUCCESS)
 	{
 		xil_printf("\r\nConfiguration failed.");
 		return XST_FAILURE;
 	}
-	xil_printf("\r\nDMA running...");
+	xil_printf("\r\nDMA running...\n");
 
 	// DMA and Hardware assisted
 	RestartPerformanceTimer();
@@ -287,29 +295,12 @@ int main()
 		/* Wait */
 	}
 	timeElapsed = StopAndGetPerformanceTimer();
-	xil_printf("\n\rHardware assisted square root time: %d microseconds",
+	xil_printf("\n\rExecution time: %d microseconds",
 			   timeElapsed / (XPAR_CPU_M_AXI_DP_FREQ_HZ / 1000000));
-	PrintDataArray(dstData, min(8, N));
-	xil_printf("\n\rChecking result: %s\n\r",
+	PrintDataArray(dstData, min(8, N), TRUE);
+	xil_printf("\n\n\rChecking result: %s\n\r",
 			   CheckSquareRoot(dstData, srcData, N) ? "OK" : "Error");
 
-	// User interaction
-	/*
-	while(1)
-    {
-    	ch = XUartLite_RecvByte(XPAR_AXI_UARTLITE_0_BASEADDR);
-		
-
-    	
-    	else if ((ch == 'g') || (ch == 'G'))
-		{
-			sel = GREEN_IDX;
-		}
-
-
-    	xil_printf("\r(R,G,B)=(%03d,%03d,%03d)", val[RED_IDX], val[GREEN_IDX], val[BLUE_IDX]);
-    }
-	*/
 	cleanup_platform();
 	return XST_SUCCESS;
 }

@@ -1,4 +1,4 @@
-01:48:45 **** Incremental Build of configuration Debug for project SquareRootCopApp ****
+17:16:56 **** Incremental Build of configuration Debug for project SquareRootCopApp ****
 make all 
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
@@ -7,15 +7,15 @@ Finished building: ../src/helloworld.c
  
 Building target: SquareRootCopApp.elf
 Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "SquareRootCopApp.elf"  ./src/helloworld.o ./src/platform.o   
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCopWorkspace/SquareRootCop/export/SquareRootCop/sw/SquareRootCop/standalone_domain/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "SquareRootCopApp.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 Finished building target: SquareRootCopApp.elf
  
 Invoking: MicroBlaze Print Size
 mb-size SquareRootCopApp.elf  |tee "SquareRootCopApp.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  32908	   1912	  49252	  84072	  14868	SquareRootCopApp.elf
+  33552	   1912	  49248	  84712	  14ae8	SquareRootCopApp.elf
 Finished building: SquareRootCopApp.elf.size
  
 
-01:48:46 Build Finished (took 1s.223ms)
+17:16:57 Build Finished (took 950ms)
 

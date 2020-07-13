@@ -70,21 +70,21 @@ set rc [catch {
   set_property board_part digilentinc.com:nexys4:part0:1.1 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.cache/wt [current_project]
-  set_property parent.project_path C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.xpr [current_project]
+  set_property webtalk.parent_dir C:/Users/Pedro/Documents/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.cache/wt [current_project]
+  set_property parent.project_path C:/Users/Pedro/Documents/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.xpr [current_project]
   set_property ip_repo_paths {
-  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0
-  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0
-  C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0
+  C:/Users/Pedro/Documents/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0
+  C:/Users/Pedro/Documents/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0
+  C:/Users/Pedro/Documents/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0
 } [current_project]
   update_ip_catalog
-  set_property ip_output_repo C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.cache/ip [current_project]
+  set_property ip_output_repo C:/Users/Pedro/Documents/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
-  add_files -quiet C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/mb_design_wrapper.dcp
+  add_files -quiet C:/Users/Pedro/Documents/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1/mb_design_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -limit 0
   set_param project.isImplRun true
-  add_files C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/mb_design.bd
+  add_files C:/Users/Pedro/Documents/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.srcs/sources_1/bd/mb_design/mb_design.bd
   set_param project.isImplRun false
   set_param project.isImplRun true
   link_design -top mb_design_wrapper -part xc7a100tcsg324-1

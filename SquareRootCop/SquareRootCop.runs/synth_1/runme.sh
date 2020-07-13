@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1'
+HD_PWD='C:/Users/Pedro/Documents/UA/CR/Project/CR-Project/SquareRootCop/SquareRootCop.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

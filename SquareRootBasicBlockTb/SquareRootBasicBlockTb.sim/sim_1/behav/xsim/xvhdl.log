@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0/hdl/SquareRootBasicBlock.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SquareRootBasicBlock'
+INFO: [VRFC 10-3107] analyzing entity 'comparatorLessThan'
+INFO: [VRFC 10-3107] analyzing entity 'mux2NtoN'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Pedro/Dropbox/UA/CR/Project/CR-Project/ip_repo/SquareRootCop_1.0/hdl/SquareRootBasicBlockTb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SquareRootBasicBlockTb'

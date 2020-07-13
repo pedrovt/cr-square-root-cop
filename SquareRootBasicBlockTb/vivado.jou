@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Jul 13 16:28:44 2020
+# Process ID: 14896
+# Current directory: C:/Users/Pedro/Documents/UA/CR/Project/CR-Project/SquareRootBasicBlockTb
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16456 C:\Users\Pedro\Documents\UA\CR\Project\CR-Project\SquareRootBasicBlockTb\SquareRootBasicBlockTb.xpr
+# Log file: C:/Users/Pedro/Documents/UA/CR/Project/CR-Project/SquareRootBasicBlockTb/vivado.log
+# Journal file: C:/Users/Pedro/Documents/UA/CR/Project/CR-Project/SquareRootBasicBlockTb\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Pedro/Documents/UA/CR/Project/CR-Project/SquareRootBasicBlockTb/SquareRootBasicBlockTb.xpr
+update_compile_order -fileset sources_1
