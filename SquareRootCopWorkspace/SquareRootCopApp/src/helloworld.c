@@ -33,6 +33,7 @@
 /*
  * helloworld.c: simple test application
  *
+ *
  * This application configures UART 16550 to baud rate 9600.
  * PS7 UART (Zynq) is not initialized by this application, since
  * bootrom/bsp configures it to baud rate 115200
@@ -47,6 +48,7 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#include <math.h>
 #include "platform.h"
 #include "xparameters.h"
 #include "xaxidma.h"
@@ -99,30 +101,77 @@ int DMAConfig(u16 dmaDeviceId, XAxiDma* pDMAInstDefs)
 	return XST_SUCCESS;
 }
 
-/*********************** Reverse Endianess Functions *************************/
+/*********************** Square Root Functions *************************/
 
-void ReverseEndianessSw(int* pDst, int* pSrc, unsigned int size)
+void SquareRootSw(int* pDst, int* pSrc, unsigned int size)
+{
+	int* p;
+
+	char condition;
+	int j, dtemp, rtemp, qtemp, r, q;
+	int word_size = 32;
+	int fullmask = 0;
+	for (j = 0; j < word_size; j++) {
+		fullmask = fullmask << 1 | 0x1;
+	}
+
+	for (p = pSrc; p < pSrc + size; p++, pDst++) {
+		dtemp = *p;
+		r = 0;
+		q = 0;
+		rtemp = 0;
+		qtemp = 0;
+        for (j = 0; j < word_size/2; j++) {
+            rtemp = ((r<<2) & (fullmask ^ 0x3)) | ((dtemp>>(word_size-2)) & 0x3);
+            qtemp = ((q<<2) & (fullmask ^ 0x3)) | 0x1;
+            condition = rtemp < qtemp;
+
+            dtemp = (dtemp<<2) & fullmask;
+            if(condition) {
+                r = rtemp;
+                q = q<<1;
+            }
+            else {
+                r = rtemp - qtemp;
+                q = (q<<1) | 0x1;
+            }
+        }
+
+		int mask1 = fullmask, mask2 = 0;
+		for (j = 0; j < word_size/2; j++) {
+			mask1 = mask1 << 1 | 0;
+			mask2 = mask2 << 1 | 0x1;
+		}
+
+		if (r >> word_size/2 > 0) {
+			r = mask2;
+		}
+		else {
+			r = r & mask2;
+		}
+		r = r << word_size/2;
+																						
+		//*pDst = (r & 0xFFFF0000) | (q & 0x0000FFFF);
+		*pDst = (r & mask1) | (q & mask2);
+		
+    }
+}
+
+// pDst -> result (sqrt estimation + remainer) of the software/hardware
+// pSrc -> original values
+bool CheckSquareRoot(int* pDst, int* pSrc, unsigned int size)
 {
 	int* p;
 
 	for (p = pSrc; p < pSrc + size; p++, pDst++)
 	{
-		*pDst = ((((*p) << 24) & 0xFF000000) | (((*p) <<  8) & 0x00FF0000) |
-				 (((*p) >>  8) & 0x0000FF00) | (((*p) >> 24) & 0x000000FF));
-	}
-}
-
-bool CheckReversedEndianess(int* pData1, int* pData2, unsigned int size)
-{
-	int* p;
-
-	for (p = pData1; p < pData1 + size; p++, pData2++)
-	{
-		if (*pData2 != ((((*p) << 24) & 0xFF000000) | (((*p) <<  8) & 0x00FF0000) |
-						(((*p) >>  8) & 0x0000FF00) | (((*p) >> 24) & 0x000000FF)))
-		{
+		int q = floor(sqrt(*p));
+		int r = *p - (int)(pow(q,2));
+		int res = (r & 0xFFFF0000) | (q & 0x0000FFFF);
+		if (*pDst!=res) {
 			return FALSE;
 		}
+		
 	}
 
 	return TRUE;
@@ -176,7 +225,7 @@ int main()
 	int srcData[N], dstData[N];
 	unsigned int timeElapsed;
 
-	xil_printf("\r\nDMA with Reverse Endianess Demo Program - Entering main()...");
+	xil_printf("\r\nSqaure Root with DMA Demo Program - Entering main()...");
 	init_platform();
 
 	xil_printf("\r\nFilling memory with pseudo-random data...");
@@ -194,13 +243,13 @@ int main()
 
 	// Software only
 	RestartPerformanceTimer();
-	ReverseEndianessSw(dstData, srcData, N);
+	SquareRootSw(dstData, srcData, N);
 	timeElapsed = StopAndGetPerformanceTimer();
-	xil_printf("\n\rSoftware only reverse endianess time: %d microseconds",
+	xil_printf("\n\rSoftware only square root time: %d microseconds",
 			   timeElapsed / (XPAR_CPU_M_AXI_DP_FREQ_HZ / 1000000));
 	PrintDataArray(dstData, min(8, N));
 	xil_printf("\n\rChecking result: %s\n\r",
-			   CheckReversedEndianess(srcData, dstData, N) ? "OK" : "Error");
+			   CheckSquareRoot(dstData, srcData, N) ? "OK" : "Error");
 
 	xil_printf("\r\nConfiguring DMA...");
 	status = DMAConfig(DMA_DEVICE_ID, &dmaInstDefs);
@@ -232,8 +281,25 @@ int main()
 			   timeElapsed / (XPAR_CPU_M_AXI_DP_FREQ_HZ / 1000000));
 	PrintDataArray(dstData, min(8, N));
 	xil_printf("\n\rChecking result: %s\n\r",
-			   CheckReversedEndianess(srcData, dstData, N) ? "OK" : "Error");
+			   CheckSquareRoot(dstData, srcData, N) ? "OK" : "Error");
 
+	// User interaction
+	/*
+	while(1)
+    {
+    	ch = XUartLite_RecvByte(XPAR_AXI_UARTLITE_0_BASEADDR);
+		
+
+    	
+    	else if ((ch == 'g') || (ch == 'G'))
+		{
+			sel = GREEN_IDX;
+		}
+
+
+    	xil_printf("\r(R,G,B)=(%03d,%03d,%03d)", val[RED_IDX], val[GREEN_IDX], val[BLUE_IDX]);
+    }
+	*/
 	cleanup_platform();
 	return XST_SUCCESS;
 }
